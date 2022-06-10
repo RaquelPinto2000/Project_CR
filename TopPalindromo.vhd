@@ -34,13 +34,15 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity TopPalindromo is
   Port (clk: in std_logic;
         btnR : in std_logic; 
-        led: out std_logic_vector(0 downto 0));
+        led: out std_logic_vector(5 downto 0));
+        --counter: out std_logic_vector(4 downto 0));
 end TopPalindromo;
 
 architecture Behavioral of TopPalindromo is
     signal s_btnR: std_logic; 
     signal s_led : std_logic;
     signal s_enCounter:std_logic;
+    signal s_counter:std_logic_vector(4 downto 0);
 begin
 
 DebounceUnit_R: entity work.DebounceUnit(Behavioral)
@@ -58,15 +60,14 @@ PulseGenerator_Counter: entity work.PulseGenerator_counter(Behavioral)  -- 1hz
               pulse=> s_enCounter);
 
 palindromo_check: entity work.PalindromoCheck(Behavioral)
-     port map (clk => clk,
-               reset => s_btnR,
-               enable => s_enCounter,
-               --dataIn=>"00101001110011011011001110010100", -- e
-               dataIn=>"00101001110011010011001110010100", -- nao e
+     port map (--dataIn=>"00101001110011011011001110010100", -- e
+               --dataIn=>"11010101111010011001011110101011", -- e
+               --dataIn=>"00101001110011010011001110010100", -- nao e
                --dataIn=>"00101001110011011011001110010101", -- nao e
                --dataIn=>"00101011110011011011001110010100", -- nao e
-               --dataIn=>"00101001110011011011000110010100", -- nao e
+               dataIn=>"00101001110011011011000110010100", -- nao e
                dataOut=>s_led);
                
 led(0) <= s_led;
+
 end Behavioral;

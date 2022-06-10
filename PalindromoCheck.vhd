@@ -32,41 +32,18 @@ use IEEE.NUMERIC_STD.ALL;
 --use UNISIM.VComponents.all;
 
 entity PalindromoCheck is
-  Port (clk: in std_logic;
-        reset: in std_logic;
-        enable : in std_logic; -- pulso de 2hz
-        dataIn : in std_logic_vector(31 downto 0);
+  Port (dataIn : in std_logic_vector(31 downto 0);
         dataOut : out std_logic);
 end PalindromoCheck;
 
 architecture Behavioral of PalindromoCheck is
-    signal s_counter : natural := 0;    --para percorrer o vetor
-    signal verify : std_logic;
-    signal flag :std_logic:='0';
+    signal s_dataIn_reverse: std_logic_vector(31 downto 0);
 begin
- -- flag<='1';
-  process(clk)
+    process(dataIn)
     begin
-        if(rising_edge(clk)) then
-           if(reset = '1' or s_counter =15) then
-                s_counter <= 0;
-           --     verify <='1';
-                flag<='0';
-           else
-                if( enable ='1') then
-                   if(dataIn(s_counter) = dataIn (31-s_counter) and flag/='1')then
-                       -- verify <='1';
-                        s_counter <= (s_counter +1);
-                       -- flag<='0';
-                        --flag<='1';
-                   else
-                       -- verify <='0';
-                        flag<='1'; -- ja nao pode ser palindromo
-                   end if;
-                end if;
-           end if; 
-        end if;
-    end process;
-     dataOut<= '0' when flag='1' else
-                    '1';
+        for i in 0 to dataIn'length-1 loop
+            s_dataIn_reverse(i) <= dataIn(31-i);
+        end loop;
+    end process; 
+    dataOut <= '1' when s_dataIn_reverse = dataIn else '0'; 
 end Behavioral;
