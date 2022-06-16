@@ -16,10 +16,10 @@ vhdl xil_defaultlib  \
 "../../../bd/mb_design/ip/mb_design_fit_timer_0_0/sim/mb_design_fit_timer_0_0.vhd" \
 "../../../bd/mb_design/ip/mb_design_axi_emc_0_0/sim/mb_design_axi_emc_0_0.vhd" \
 "../../../bd/mb_design/ip/mb_design_axi_dma_0_0/sim/mb_design_axi_dma_0_0.vhd" \
-"../../../bd/mb_design/ipshared/f462/hdl/CheckPalindrome_v1_0_S00_AXI.vhd" \
-"../../../bd/mb_design/ipshared/f462/hdl/CheckPalindrome_v1_0_S00_AXIS.vhd" \
-"../../../bd/mb_design/ipshared/f462/src/PalindromoCheck.vhd" \
-"../../../bd/mb_design/ipshared/f462/hdl/CheckPalindrome_v1_0.vhd" \
+"../../../bd/mb_design/ipshared/55cb/hdl/CheckPalindrome_v1_0_S00_AXI.vhd" \
+"../../../bd/mb_design/ipshared/55cb/hdl/CheckPalindrome_v1_0_S00_AXIS.vhd" \
+"../../../bd/mb_design/ipshared/55cb/src/PalindromoCheck.vhd" \
+"../../../bd/mb_design/ipshared/55cb/hdl/CheckPalindrome_v1_0.vhd" \
 "../../../bd/mb_design/ip/mb_design_CheckPalindrome_1_0/sim/mb_design_CheckPalindrome_1_0.vhd" \
 "../../../bd/mb_design/sim/mb_design.vhd" \
 

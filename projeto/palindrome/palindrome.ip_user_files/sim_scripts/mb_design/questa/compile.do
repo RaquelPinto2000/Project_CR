@@ -236,10 +236,10 @@ vlog -work xil_defaultlib  "+incdir+../../../../palindrome.gen/sources_1/bd/mb_d
 "../../../bd/mb_design/ip/mb_design_axis_data_fifo_0_0/sim/mb_design_axis_data_fifo_0_0.v" \
 
 vcom -work xil_defaultlib  -93 \
-"../../../bd/mb_design/ipshared/f462/hdl/CheckPalindrome_v1_0_S00_AXI.vhd" \
-"../../../bd/mb_design/ipshared/f462/hdl/CheckPalindrome_v1_0_S00_AXIS.vhd" \
-"../../../bd/mb_design/ipshared/f462/src/PalindromoCheck.vhd" \
-"../../../bd/mb_design/ipshared/f462/hdl/CheckPalindrome_v1_0.vhd" \
+"../../../bd/mb_design/ipshared/55cb/hdl/CheckPalindrome_v1_0_S00_AXI.vhd" \
+"../../../bd/mb_design/ipshared/55cb/hdl/CheckPalindrome_v1_0_S00_AXIS.vhd" \
+"../../../bd/mb_design/ipshared/55cb/src/PalindromoCheck.vhd" \
+"../../../bd/mb_design/ipshared/55cb/hdl/CheckPalindrome_v1_0.vhd" \
 "../../../bd/mb_design/ip/mb_design_CheckPalindrome_1_0/sim/mb_design_CheckPalindrome_1_0.vhd" \
 
 vlog -work axi_protocol_converter_v2_1_22  "+incdir+../../../../palindrome.gen/sources_1/bd/mb_design/ipshared/ec67/hdl" "+incdir+../../../../palindrome.gen/sources_1/bd/mb_design/ipshared/d0f7" "+incdir+../../../../palindrome.gen/sources_1/bd/mb_design/ipshared/8713/hdl" \

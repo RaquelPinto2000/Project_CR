@@ -106,117 +106,117 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==mb_design_a
 # IP: bd/mb_design/ip/mb_design_auto_pc_8/mb_design_auto_pc_8.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==mb_design_auto_pc_8 || ORIG_REF_NAME==mb_design_auto_pc_8} -quiet] -quiet
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_microblaze_0_0/mb_design_microblaze_0_0.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_microblaze_0_0/mb_design_microblaze_0_0.xdc
 set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==mb_design_microblaze_0_0 || ORIG_REF_NAME==mb_design_microblaze_0_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_microblaze_0_0/mb_design_microblaze_0_0_ooc_debug.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_microblaze_0_0/mb_design_microblaze_0_0_ooc_debug.xdc
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_lmb_bram_0/mb_design_lmb_bram_0_ooc.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_lmb_bram_0/mb_design_lmb_bram_0_ooc.xdc
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_microblaze_0_axi_intc_0/mb_design_microblaze_0_axi_intc_0.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_microblaze_0_axi_intc_0/mb_design_microblaze_0_axi_intc_0.xdc
 set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==mb_design_microblaze_0_axi_intc_0 || ORIG_REF_NAME==mb_design_microblaze_0_axi_intc_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_microblaze_0_axi_intc_0/mb_design_microblaze_0_axi_intc_0_clocks.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_microblaze_0_axi_intc_0/mb_design_microblaze_0_axi_intc_0_clocks.xdc
 #dup# set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==mb_design_microblaze_0_axi_intc_0 || ORIG_REF_NAME==mb_design_microblaze_0_axi_intc_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_microblaze_0_axi_intc_0/mb_design_microblaze_0_axi_intc_0_ooc.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_microblaze_0_axi_intc_0/mb_design_microblaze_0_axi_intc_0_ooc.xdc
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_mdm_1_0/mb_design_mdm_1_0.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_mdm_1_0/mb_design_mdm_1_0.xdc
 set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==mb_design_mdm_1_0 || ORIG_REF_NAME==mb_design_mdm_1_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_mdm_1_0/mb_design_mdm_1_0_ooc_trace.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_mdm_1_0/mb_design_mdm_1_0_ooc_trace.xdc
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_clk_wiz_1_0/mb_design_clk_wiz_1_0_board.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_clk_wiz_1_0/mb_design_clk_wiz_1_0_board.xdc
 set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==mb_design_clk_wiz_1_0 || ORIG_REF_NAME==mb_design_clk_wiz_1_0} -quiet] {/inst } ]/inst ] -quiet] -quiet
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_clk_wiz_1_0/mb_design_clk_wiz_1_0.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_clk_wiz_1_0/mb_design_clk_wiz_1_0.xdc
 #dup# set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==mb_design_clk_wiz_1_0 || ORIG_REF_NAME==mb_design_clk_wiz_1_0} -quiet] {/inst } ]/inst ] -quiet] -quiet
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_clk_wiz_1_0/mb_design_clk_wiz_1_0_ooc.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_clk_wiz_1_0/mb_design_clk_wiz_1_0_ooc.xdc
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_rst_clk_wiz_1_100M_0/mb_design_rst_clk_wiz_1_100M_0_board.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_rst_clk_wiz_1_100M_0/mb_design_rst_clk_wiz_1_100M_0_board.xdc
 set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==mb_design_rst_clk_wiz_1_100M_0 || ORIG_REF_NAME==mb_design_rst_clk_wiz_1_100M_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_rst_clk_wiz_1_100M_0/mb_design_rst_clk_wiz_1_100M_0.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_rst_clk_wiz_1_100M_0/mb_design_rst_clk_wiz_1_100M_0.xdc
 #dup# set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==mb_design_rst_clk_wiz_1_100M_0 || ORIG_REF_NAME==mb_design_rst_clk_wiz_1_100M_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_axi_gpio_0_0/mb_design_axi_gpio_0_0_board.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_axi_gpio_0_0/mb_design_axi_gpio_0_0_board.xdc
 set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==mb_design_axi_gpio_0_0 || ORIG_REF_NAME==mb_design_axi_gpio_0_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_axi_gpio_0_0/mb_design_axi_gpio_0_0_ooc.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_axi_gpio_0_0/mb_design_axi_gpio_0_0_ooc.xdc
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_axi_gpio_0_0/mb_design_axi_gpio_0_0.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_axi_gpio_0_0/mb_design_axi_gpio_0_0.xdc
 #dup# set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==mb_design_axi_gpio_0_0 || ORIG_REF_NAME==mb_design_axi_gpio_0_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_axi_gpio_1_0/mb_design_axi_gpio_1_0_board.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_axi_gpio_1_0/mb_design_axi_gpio_1_0_board.xdc
 set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==mb_design_axi_gpio_1_0 || ORIG_REF_NAME==mb_design_axi_gpio_1_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_axi_gpio_1_0/mb_design_axi_gpio_1_0_ooc.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_axi_gpio_1_0/mb_design_axi_gpio_1_0_ooc.xdc
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_axi_gpio_1_0/mb_design_axi_gpio_1_0.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_axi_gpio_1_0/mb_design_axi_gpio_1_0.xdc
 #dup# set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==mb_design_axi_gpio_1_0 || ORIG_REF_NAME==mb_design_axi_gpio_1_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_axi_gpio_2_0/mb_design_axi_gpio_2_0_board.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_axi_gpio_2_0/mb_design_axi_gpio_2_0_board.xdc
 set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==mb_design_axi_gpio_2_0 || ORIG_REF_NAME==mb_design_axi_gpio_2_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_axi_gpio_2_0/mb_design_axi_gpio_2_0_ooc.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_axi_gpio_2_0/mb_design_axi_gpio_2_0_ooc.xdc
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_axi_gpio_2_0/mb_design_axi_gpio_2_0.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_axi_gpio_2_0/mb_design_axi_gpio_2_0.xdc
 #dup# set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==mb_design_axi_gpio_2_0 || ORIG_REF_NAME==mb_design_axi_gpio_2_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_axi_gpio_3_0/mb_design_axi_gpio_3_0_board.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_axi_gpio_3_0/mb_design_axi_gpio_3_0_board.xdc
 set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==mb_design_axi_gpio_3_0 || ORIG_REF_NAME==mb_design_axi_gpio_3_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_axi_gpio_3_0/mb_design_axi_gpio_3_0_ooc.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_axi_gpio_3_0/mb_design_axi_gpio_3_0_ooc.xdc
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_axi_gpio_3_0/mb_design_axi_gpio_3_0.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_axi_gpio_3_0/mb_design_axi_gpio_3_0.xdc
 #dup# set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==mb_design_axi_gpio_3_0 || ORIG_REF_NAME==mb_design_axi_gpio_3_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_axi_uartlite_0_0/mb_design_axi_uartlite_0_0_board.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_axi_uartlite_0_0/mb_design_axi_uartlite_0_0_board.xdc
 set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==mb_design_axi_uartlite_0_0 || ORIG_REF_NAME==mb_design_axi_uartlite_0_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_axi_uartlite_0_0/mb_design_axi_uartlite_0_0_ooc.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_axi_uartlite_0_0/mb_design_axi_uartlite_0_0_ooc.xdc
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_axi_uartlite_0_0/mb_design_axi_uartlite_0_0.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_axi_uartlite_0_0/mb_design_axi_uartlite_0_0.xdc
 #dup# set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==mb_design_axi_uartlite_0_0 || ORIG_REF_NAME==mb_design_axi_uartlite_0_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_axi_timer_0_0/mb_design_axi_timer_0_0.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_axi_timer_0_0/mb_design_axi_timer_0_0.xdc
 set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==mb_design_axi_timer_0_0 || ORIG_REF_NAME==mb_design_axi_timer_0_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_axi_timer_0_0/mb_design_axi_timer_0_0_ooc.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_axi_timer_0_0/mb_design_axi_timer_0_0_ooc.xdc
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_axi_emc_0_0/mb_design_axi_emc_0_0_board.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_axi_emc_0_0/mb_design_axi_emc_0_0_board.xdc
 #dup# set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==mb_design_axi_emc_0_0 || ORIG_REF_NAME==mb_design_axi_emc_0_0} -quiet] -quiet
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_axi_emc_0_0/mb_design_axi_emc_0_0.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_axi_emc_0_0/mb_design_axi_emc_0_0.xdc
 #dup# set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==mb_design_axi_emc_0_0 || ORIG_REF_NAME==mb_design_axi_emc_0_0} -quiet] -quiet
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_axi_emc_0_0/mb_design_axi_emc_0_0_ooc.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_axi_emc_0_0/mb_design_axi_emc_0_0_ooc.xdc
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_axi_dma_0_0/mb_design_axi_dma_0_0.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_axi_dma_0_0/mb_design_axi_dma_0_0.xdc
 set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==mb_design_axi_dma_0_0 || ORIG_REF_NAME==mb_design_axi_dma_0_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_axi_dma_0_0/mb_design_axi_dma_0_0_clocks.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_axi_dma_0_0/mb_design_axi_dma_0_0_clocks.xdc
 #dup# set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==mb_design_axi_dma_0_0 || ORIG_REF_NAME==mb_design_axi_dma_0_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_auto_pc_9/mb_design_auto_pc_9_ooc.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_auto_pc_9/mb_design_auto_pc_9_ooc.xdc
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_auto_pc_0/mb_design_auto_pc_0_ooc.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_auto_pc_0/mb_design_auto_pc_0_ooc.xdc
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_auto_pc_1/mb_design_auto_pc_1_ooc.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_auto_pc_1/mb_design_auto_pc_1_ooc.xdc
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_auto_pc_2/mb_design_auto_pc_2_ooc.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_auto_pc_2/mb_design_auto_pc_2_ooc.xdc
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_auto_pc_3/mb_design_auto_pc_3_ooc.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_auto_pc_3/mb_design_auto_pc_3_ooc.xdc
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_auto_pc_4/mb_design_auto_pc_4_ooc.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_auto_pc_4/mb_design_auto_pc_4_ooc.xdc
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_auto_pc_5/mb_design_auto_pc_5_ooc.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_auto_pc_5/mb_design_auto_pc_5_ooc.xdc
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_auto_pc_6/mb_design_auto_pc_6_ooc.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_auto_pc_6/mb_design_auto_pc_6_ooc.xdc
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_auto_pc_7/mb_design_auto_pc_7_ooc.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_auto_pc_7/mb_design_auto_pc_7_ooc.xdc
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_auto_pc_8/mb_design_auto_pc_8_ooc.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_auto_pc_8/mb_design_auto_pc_8_ooc.xdc
 
-# XDC: c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/mb_design_ooc.xdc
+# XDC: c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/mb_design_ooc.xdc
