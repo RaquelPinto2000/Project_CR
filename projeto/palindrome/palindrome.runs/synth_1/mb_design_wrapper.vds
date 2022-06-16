@@ -1,0 +1,101 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Jun 16 15:48:41 2022
+# Process ID: 8052
+# Current directory: C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.runs/synth_1
+# Command line: vivado.exe -log mb_design_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mb_design_wrapper.tcl
+# Log file: C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.runs/synth_1/mb_design_wrapper.vds
+# Journal file: C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source mb_design_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/ip_repo/CheckPalindrome_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/ip_repo/CounterPalindrome_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/ip_repo/CheckPalindrome_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/ip_repo/CheckPalindrome_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/ip_repo/CheckCountPalindrome_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.cache/ip 
+Command: synth_design -top mb_design_wrapper -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 20592
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 999.922 ; gain = 0.000
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-2048] function clogb2 does not always return a value [c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/f462/hdl/CheckPalindrome_v1_0_S00_AXIS.vhd:55]
+INFO: [Synth 8-638] synthesizing module 'mb_design_wrapper' [c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/hdl/mb_design_wrapper.vhd:37]
+INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:36242' bound to instance 'cellular_ram_dq_iobuf_0' of component 'IOBUF' [c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/hdl/mb_design_wrapper.vhd:135]
+INFO: [Synth 8-6157] synthesizing module 'IOBUF' [C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:36242]
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IOBUF' (1#1) [C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:36242]
+INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:36242' bound to instance 'cellular_ram_dq_iobuf_1' of component 'IOBUF' [c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/hdl/mb_design_wrapper.vhd:142]
+INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:36242' bound to instance 'cellular_ram_dq_iobuf_10' of component 'IOBUF' [c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/hdl/mb_design_wrapper.vhd:149]
+INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:36242' bound to instance 'cellular_ram_dq_iobuf_11' of component 'IOBUF' [c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/hdl/mb_design_wrapper.vhd:156]
+INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:36242' bound to instance 'cellular_ram_dq_iobuf_12' of component 'IOBUF' [c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/hdl/mb_design_wrapper.vhd:163]
+INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:36242' bound to instance 'cellular_ram_dq_iobuf_13' of component 'IOBUF' [c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/hdl/mb_design_wrapper.vhd:170]
+INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:36242' bound to instance 'cellular_ram_dq_iobuf_14' of component 'IOBUF' [c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/hdl/mb_design_wrapper.vhd:177]
+INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:36242' bound to instance 'cellular_ram_dq_iobuf_15' of component 'IOBUF' [c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/hdl/mb_design_wrapper.vhd:184]
+INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:36242' bound to instance 'cellular_ram_dq_iobuf_2' of component 'IOBUF' [c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/hdl/mb_design_wrapper.vhd:191]
+INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:36242' bound to instance 'cellular_ram_dq_iobuf_3' of component 'IOBUF' [c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/hdl/mb_design_wrapper.vhd:198]
+INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:36242' bound to instance 'cellular_ram_dq_iobuf_4' of component 'IOBUF' [c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/hdl/mb_design_wrapper.vhd:205]
+INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:36242' bound to instance 'cellular_ram_dq_iobuf_5' of component 'IOBUF' [c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/hdl/mb_design_wrapper.vhd:212]
+INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:36242' bound to instance 'cellular_ram_dq_iobuf_6' of component 'IOBUF' [c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/hdl/mb_design_wrapper.vhd:219]
+INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:36242' bound to instance 'cellular_ram_dq_iobuf_7' of component 'IOBUF' [c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/hdl/mb_design_wrapper.vhd:226]
+INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:36242' bound to instance 'cellular_ram_dq_iobuf_8' of component 'IOBUF' [c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/hdl/mb_design_wrapper.vhd:233]
+INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:36242' bound to instance 'cellular_ram_dq_iobuf_9' of component 'IOBUF' [c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/hdl/mb_design_wrapper.vhd:240]
+INFO: [Synth 8-3491] module 'mb_design' declared at 'c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/synth/mb_design.vhd:7168' bound to instance 'mb_design_i' of component 'mb_design' [c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/hdl/mb_design_wrapper.vhd:247]
+INFO: [Synth 8-638] synthesizing module 'mb_design' [c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/synth/mb_design.vhd:7197]
+INFO: [Synth 8-3491] module 'mb_design_CheckPalindrome_1_0' declared at 'c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_CheckPalindrome_1_0/synth/mb_design_CheckPalindrome_1_0.vhd:56' bound to instance 'CheckPalindrome_1' of component 'mb_design_CheckPalindrome_1_0' [c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/synth/mb_design.vhd:8028]
+INFO: [Synth 8-638] synthesizing module 'mb_design_CheckPalindrome_1_0' [c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_CheckPalindrome_1_0/synth/mb_design_CheckPalindrome_1_0.vhd:89]
+	Parameter C_S00_AXIS_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'CheckPalindrome_v1_0' declared at 'c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/f462/hdl/CheckPalindrome_v1_0.vhd:5' bound to instance 'U0' of component 'CheckPalindrome_v1_0' [c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_CheckPalindrome_1_0/synth/mb_design_CheckPalindrome_1_0.vhd:173]
+INFO: [Synth 8-638] synthesizing module 'CheckPalindrome_v1_0' [c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/f462/hdl/CheckPalindrome_v1_0.vhd:61]
+	Parameter C_S00_AXIS_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter C_S_AXIS_TDATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'CheckPalindrome_v1_0_S00_AXIS' declared at 'c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/f462/hdl/CheckPalindrome_v1_0_S00_AXIS.vhd:5' bound to instance 'CheckPalindrome_v1_0_S00_AXIS_inst' of component 'CheckPalindrome_v1_0_S00_AXIS' [c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/f462/hdl/CheckPalindrome_v1_0.vhd:114]
+INFO: [Synth 8-638] synthesizing module 'CheckPalindrome_v1_0_S00_AXIS' [c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/f462/hdl/CheckPalindrome_v1_0_S00_AXIS.vhd:38]
+	Parameter C_S_AXIS_TDATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-226] default block is never used [c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/f462/hdl/CheckPalindrome_v1_0_S00_AXIS.vhd:102]
+INFO: [Synth 8-3491] module 'PalindromoCheck' declared at 'c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/f462/src/PalindromoCheck.vhd:34' bound to instance 'Palindrome_Check' of component 'PalindromoCheck' [c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/f462/hdl/CheckPalindrome_v1_0_S00_AXIS.vhd:183]
+INFO: [Synth 8-638] synthesizing module 'PalindromoCheck' [c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/f462/src/PalindromoCheck.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'PalindromoCheck' (2#1) [c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/f462/src/PalindromoCheck.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'CheckPalindrome_v1_0_S00_AXIS' (3#1) [c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/f462/hdl/CheckPalindrome_v1_0_S00_AXIS.vhd:38]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'CheckPalindrome_v1_0_S00_AXI' declared at 'c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/f462/hdl/CheckPalindrome_v1_0_S00_AXI.vhd:5' bound to instance 'CheckPalindrome_v1_0_S00_AXI_inst' of component 'CheckPalindrome_v1_0_S00_AXI' [c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/f462/hdl/CheckPalindrome_v1_0.vhd:130]
+INFO: [Synth 8-638] synthesizing module 'CheckPalindrome_v1_0_S00_AXI' [c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/f462/hdl/CheckPalindrome_v1_0_S00_AXI.vhd:86]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-226] default block is never used [c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/f462/hdl/CheckPalindrome_v1_0_S00_AXI.vhd:226]
+INFO: [Synth 8-226] default block is never used [c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/f462/hdl/CheckPalindrome_v1_0_S00_AXI.vhd:356]
+ERROR: [Synth 8-690] width mismatch in assignment; target has 32 bits, source has 1 bits [c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/f462/hdl/CheckPalindrome_v1_0_S00_AXI.vhd:364]
+WARNING: [Synth 8-614] signal 'result_palindrome' is read in the process but is not in the sensitivity list [c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/f462/hdl/CheckPalindrome_v1_0_S00_AXI.vhd:351]
+ERROR: [Synth 8-285] failed synthesizing module 'CheckPalindrome_v1_0_S00_AXI' [c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/f462/hdl/CheckPalindrome_v1_0_S00_AXI.vhd:86]
+ERROR: [Synth 8-285] failed synthesizing module 'CheckPalindrome_v1_0' [c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/f462/hdl/CheckPalindrome_v1_0.vhd:61]
+ERROR: [Synth 8-285] failed synthesizing module 'mb_design_CheckPalindrome_1_0' [c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_CheckPalindrome_1_0/synth/mb_design_CheckPalindrome_1_0.vhd:89]
+ERROR: [Synth 8-285] failed synthesizing module 'mb_design' [c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/synth/mb_design.vhd:7197]
+ERROR: [Synth 8-285] failed synthesizing module 'mb_design_wrapper' [c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/hdl/mb_design_wrapper.vhd:37]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:30 ; elapsed = 00:00:38 . Memory (MB): peak = 1363.359 ; gain = 363.438
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+48 Infos, 4 Warnings, 0 Critical Warnings and 7 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 16 15:49:34 2022...

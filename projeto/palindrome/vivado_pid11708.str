@@ -1,0 +1,172 @@
+/*
+
+Xilinx Vivado v2020.2 (64-bit) [Major: 2020, Minor: 2]
+SW Build: 3064766 on Wed Nov 18 09:12:45 MST 2020
+IP Build: 3064653 on Wed Nov 18 14:17:31 MST 2020
+
+Process ID (PID): 11708
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Thu Jun 16 14:37:36 BST 2022
+Time zone: 	Greenwich Mean Time (Europe/London)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+Scale size: 19
+
+Java version: 	11.0.2 64-bit
+Java home: 	C:/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2
+Java executable location: 	C:/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	RaquelP
+User home directory: C:/Users/Raquel
+User working directory: C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome
+User country: 	PT
+User language: 	pt
+User locale: 	pt_PT
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2020.2
+RDI_DATADIR: C:/Xilinx/Vivado/2020.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2020.2/bin
+
+Vivado preferences file location: C:/Users/Raquel/AppData/Roaming/Xilinx/Vivado/2020.2/vivado.xml
+Vivado preferences directory: C:/Users/Raquel/AppData/Roaming/Xilinx/Vivado/2020.2/
+Vivado layouts directory: C:/Users/Raquel/AppData/Roaming/Xilinx/Vivado/2020.2/data/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2020.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/vivado.log
+Vivado journal file location: 	C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/vivado.jou
+Engine tmp dir: 	C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/.Xil/Vivado-11708-DESKTOP-PEVSSVR
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_HLS: C:/Xilinx/Vitis_HLS/2020.2
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2020.2
+XILINX_SDK: C:/Xilinx/Vitis/2020.2
+XILINX_VITIS: C:/Xilinx/Vitis/2020.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2020.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2020.2
+
+
+GUI allocated memory:	128 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,015 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bz (cr):  Open Project : addNotify
+// Opening Vivado Project: C:\Academico\UA\4ano\2semestre\CR\Pratica\Projeto\projeto\palindrome\palindrome.xpr. Version: Vivado v2020.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,015 MB. GUI used memory: 56 MB. Current time: 6/16/22, 2:37:37 PM BST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 66 MB (+66937kb) [00:00:22]
+// [Engine Memory]: 1,015 MB (+912951kb) [00:00:22]
+// [GUI Memory]: 86 MB (+17474kb) [00:00:23]
+// [GUI Memory]: 106 MB (+16426kb) [00:00:23]
+// WARNING: HEventQueue.dispatchEvent() is taking  6001 ms.
+// Tcl Message: open_project C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/ip_repo/CounterPalindrome_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/ip_repo/CheckPalindrome_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/ip_repo/CheckCountPalindrome_1.0'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'. 
+// Project name: palindrome; location: C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome; part: xc7a100tcsg324-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:27 ; elapsed = 00:00:13 . Memory (MB): peak = 1000.387 ; gain = 0.000 
+dismissDialog("Open Project"); // bz
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 0); // D
+// [GUI Memory]: 123 MB (+11683kb) [00:00:34]
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 136 MB (+7193kb) [00:02:09]
+// Elapsed time: 97 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mb_design (mb_design.bd)]", 1, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mb_design (mb_design.bd), mb_design(STRUCTURE) (mb_design.vhd)]", 2, true, false, false, false, false, true); // D - Double Click - Node
+// bz (cr):  Open Block Design : addNotify
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: open_bd_design {C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.srcs/sources_1/bd/mb_design/mb_design.bd} 
+// Tcl Message: Reading block design file <C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/palindrome/palindrome.srcs/sources_1/bd/mb_design/mb_design.bd>... 
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_OPEN_DIAGRAM
+// WARNING: HEventQueue.dispatchEvent() is taking  5127 ms.
+// PAPropertyPanels.initPanels (mb_design.bd) elapsed time: 0.3s
+// WARNING: HEventQueue.dispatchEvent() is taking  2419 ms.
+// Elapsed time: 17 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:17 . Memory (MB): peak = 1000.387 ; gain = 0.000 
+dismissDialog("Open Block Design"); // bz
+// HMemoryUtils.trashcanNow. Engine heap size: 1,068 MB. GUI used memory: 90 MB. Current time: 6/16/22, 2:39:52 PM BST
+// [Engine Memory]: 1,068 MB (+2449kb) [00:02:34]
+// Elapsed time: 11 seconds
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // E
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "CheckC"); // OverlayTextField
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_SCRIPT_TASK
+// bz (cr):  Confirm Delete : addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1378 ms.
+// [GUI Memory]: 150 MB (+7672kb) [00:02:53]
+// Tcl Message: delete_bd_objs [get_bd_intf_nets axis_data_fifo_0_M_AXIS] [get_bd_intf_nets CheckPalindrome_0_M00_AXI] [get_bd_cells CheckPalindrome_0] 
+dismissDialog("Confirm Delete"); // bz
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: delete_bd_objs [get_bd_intf_nets microblaze_0_axi_periph_M09_AXI] [get_bd_cells CounterPalindrome_0] 
+// Elapsed time: 15 seconds
+expandTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[mb_design, External Interfaces]", 1); // a
+collapseTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[mb_design, External Interfaces]", 1); // a
+expandTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[mb_design, Interface Connections]", 2); // a
+collapseTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[mb_design, Interface Connections]", 2); // a
