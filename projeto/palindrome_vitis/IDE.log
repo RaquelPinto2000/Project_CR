@@ -1,0 +1,846 @@
+21:31:52 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\User\Dropbox\Project_CR\projeto\palindrome_vitis\temp_xsdb_launch_script.tcl
+21:31:53 INFO  : Registering command handlers for Vitis TCF services
+21:31:57 INFO  : XSCT server has started successfully.
+21:31:58 INFO  : Platform repository initialization has completed.
+21:32:01 INFO  : Successfully done setting XSCT server connection channel  
+21:32:01 INFO  : plnx-install-location is set to ''
+21:32:01 INFO  : Successfully done query RDI_DATADIR 
+21:32:01 INFO  : Successfully done setting workspace for the tool. 
+21:33:05 INFO  : Result from executing command 'getProjects': mb_design_palindrome
+21:33:05 INFO  : Result from executing command 'getPlatforms': 
+21:33:05 WARN  : An unexpected exception occurred in the module 'platform project logging'
+21:33:05 INFO  : Platform 'mb_design_palindrome' is added to custom repositories.
+21:33:08 INFO  : Platform 'mb_design_palindrome' is added to custom repositories.
+22:08:17 INFO  : Checking for BSP changes to sync application flags for project 'palindromeApp'...
+22:08:17 ERROR : Failed to openhw "C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+22:08:17 ERROR : Failed to update application flags from BSP for 'palindromeApp'. Reason: null
+java.lang.NullPointerException
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.<init>(SDxSwPlatform.java:305)
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.create(SDxSwPlatform.java:214)
+	at com.xilinx.sdx.sdk.core.util.SdkPlatformHelper.getSwPlatform(SdkPlatformHelper.java:61)
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.getSwPlatform(SdkMakefileGenerationListener.java:160)
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.syncAppFlags(SdkMakefileGenerationListener.java:78)
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.preMakefileGeneration(SdkMakefileGenerationListener.java:48)
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.notifyPreMakefileGenerationListeners(XilinxGnuMakefileGenerator.java:91)
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.regenerateMakefiles(XilinxGnuMakefileGenerator.java:75)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1006)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:513)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:515)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:412)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+22:08:18 ERROR : Failed to compute checksum of hardware specification file used by project 'palindromeApp'
+22:08:18 ERROR : Failed to openhw "C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+22:08:18 ERROR : Failed to openhw "C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+22:08:18 ERROR : Failed to openhw "C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+22:09:09 INFO  : Checking for BSP changes to sync application flags for project 'palindromeApp'...
+22:09:09 ERROR : Failed to openhw "C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+22:09:09 ERROR : Failed to update application flags from BSP for 'palindromeApp'. Reason: null
+java.lang.NullPointerException
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.<init>(SDxSwPlatform.java:305)
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.create(SDxSwPlatform.java:214)
+	at com.xilinx.sdx.sdk.core.util.SdkPlatformHelper.getSwPlatform(SdkPlatformHelper.java:61)
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.getSwPlatform(SdkMakefileGenerationListener.java:160)
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.syncAppFlags(SdkMakefileGenerationListener.java:78)
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.preMakefileGeneration(SdkMakefileGenerationListener.java:48)
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.notifyPreMakefileGenerationListeners(XilinxGnuMakefileGenerator.java:91)
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.generateMakefiles(XilinxGnuMakefileGenerator.java:40)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1008)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:510)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:515)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:412)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+22:09:10 ERROR : Failed to compute checksum of hardware specification file used by project 'palindromeApp'
+22:09:10 ERROR : Failed to openhw "C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+22:09:10 ERROR : Failed to openhw "C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+22:09:10 ERROR : Failed to openhw "C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+22:09:39 INFO  : Checking for BSP changes to sync application flags for project 'palindromeApp'...
+22:09:39 ERROR : Failed to openhw "C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+22:09:39 ERROR : Failed to update application flags from BSP for 'palindromeApp'. Reason: null
+java.lang.NullPointerException
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.<init>(SDxSwPlatform.java:305)
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.create(SDxSwPlatform.java:214)
+	at com.xilinx.sdx.sdk.core.util.SdkPlatformHelper.getSwPlatform(SdkPlatformHelper.java:61)
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.getSwPlatform(SdkMakefileGenerationListener.java:160)
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.syncAppFlags(SdkMakefileGenerationListener.java:78)
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.preMakefileGeneration(SdkMakefileGenerationListener.java:48)
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.notifyPreMakefileGenerationListeners(XilinxGnuMakefileGenerator.java:91)
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.generateMakefiles(XilinxGnuMakefileGenerator.java:40)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1008)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:510)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:515)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:412)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+22:09:40 ERROR : Failed to compute checksum of hardware specification file used by project 'palindromeApp'
+22:09:40 ERROR : Failed to openhw "C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+22:09:40 ERROR : Failed to openhw "C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+22:09:40 ERROR : Failed to openhw "C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+22:10:18 INFO  : Checking for BSP changes to sync application flags for project 'palindromeApp'...
+22:10:18 ERROR : Failed to openhw "C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+22:10:18 ERROR : Failed to update application flags from BSP for 'palindromeApp'. Reason: null
+java.lang.NullPointerException
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.<init>(SDxSwPlatform.java:305)
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.create(SDxSwPlatform.java:214)
+	at com.xilinx.sdx.sdk.core.util.SdkPlatformHelper.getSwPlatform(SdkPlatformHelper.java:61)
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.getSwPlatform(SdkMakefileGenerationListener.java:160)
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.syncAppFlags(SdkMakefileGenerationListener.java:78)
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.preMakefileGeneration(SdkMakefileGenerationListener.java:48)
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.notifyPreMakefileGenerationListeners(XilinxGnuMakefileGenerator.java:91)
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.regenerateMakefiles(XilinxGnuMakefileGenerator.java:75)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1006)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:513)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:515)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:412)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+22:10:19 ERROR : Failed to compute checksum of hardware specification file used by project 'palindromeApp'
+22:10:19 ERROR : Failed to openhw "C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+22:10:19 ERROR : Failed to openhw "C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+22:10:19 ERROR : Failed to openhw "C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+22:15:42 INFO  : Result from executing command 'getProjects': mb_design_palindrome
+22:15:42 INFO  : Result from executing command 'getPlatforms': mb_design_palindrome|C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/mb_design_palindrome.xpfm
+22:16:09 INFO  : Result from executing command 'getProjects': mb_design_palindrome
+22:16:09 INFO  : Result from executing command 'getPlatforms': mb_design_palindrome|C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/mb_design_palindrome.xpfm
+22:16:09 INFO  : Checking for BSP changes to sync application flags for project 'palindromeApp'...
+22:18:03 INFO  : Result from executing command 'getProjects': mb_design_palindrome
+22:18:03 INFO  : Result from executing command 'getPlatforms': mb_design_palindrome|C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/mb_design_palindrome.xpfm
+22:18:03 INFO  : Checking for BSP changes to sync application flags for project 'palindromeApp'...
+22:19:55 INFO  : Bit file 'C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/_ide/bitstream/download.bit' is generated.
+22:19:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:19:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504951A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504951A-13631093-0"}' command is executed.
+22:20:00 INFO  : Device configured successfully with "C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/_ide/bitstream/download.bit"
+22:20:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:20:36 INFO  : Jtag cable 'Digilent Nexys4 210274504951A' is selected.
+22:20:36 INFO  : 'jtag frequency' command is executed.
+22:20:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504951A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504951A-13631093-0"}' command is executed.
+22:20:38 ERROR : 'fpga -file C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/_ide/bitstream/download.bit' is cancelled.
+22:20:38 ERROR : Exception occured while running Program Device.
+java.lang.RuntimeException: 'fpga -file C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/_ide/bitstream/download.bit' is cancelled.
+22:20:38 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+22:20:38 ERROR : 'fpga -file C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/_ide/bitstream/download.bit' is cancelled.
+22:21:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:21:01 INFO  : Jtag cable 'Digilent Nexys4 210274504951A' is selected.
+22:21:01 INFO  : 'jtag frequency' command is executed.
+22:21:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504951A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504951A-13631093-0"}' command is executed.
+22:21:04 INFO  : Device configured successfully with "C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/_ide/bitstream/download.bit"
+22:21:04 INFO  : Context for processor 'microblaze_0' is selected.
+22:21:04 INFO  : Hardware design and registers information is loaded from 'C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa'.
+22:21:04 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:21:04 INFO  : Context for processor 'microblaze_0' is selected.
+22:21:04 INFO  : System reset is completed.
+22:21:07 INFO  : 'after 3000' command is executed.
+22:21:07 INFO  : Context for processor 'microblaze_0' is selected.
+22:21:07 INFO  : The application 'C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/Debug/palindromeApp.elf' is downloaded to processor 'microblaze_0'.
+22:21:07 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504951A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504951A-13631093-0"}
+fpga -file C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/Debug/palindromeApp.elf
+----------------End of Script----------------
+
+22:21:07 INFO  : Context for processor 'microblaze_0' is selected.
+22:21:07 INFO  : 'con' command is executed.
+22:21:07 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:21:07 INFO  : Launch script is exported to file 'C:\Users\User\Dropbox\Project_CR\projeto\palindrome_vitis\palindromeApp_system\_ide\scripts\systemdebugger_palindromeapp_system_standalone.tcl'
+22:22:38 INFO  : Checking for BSP changes to sync application flags for project 'palindromeApp'...
+22:22:49 INFO  : Disconnected from the channel tcfchan#19.
+22:22:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:22:49 INFO  : Jtag cable 'Digilent Nexys4 210274504951A' is selected.
+22:22:49 INFO  : 'jtag frequency' command is executed.
+22:22:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504951A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504951A-13631093-0"}' command is executed.
+22:22:51 INFO  : Device configured successfully with "C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/_ide/bitstream/download.bit"
+22:22:51 INFO  : Context for processor 'microblaze_0' is selected.
+22:22:51 INFO  : Hardware design and registers information is loaded from 'C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa'.
+22:22:51 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:22:51 INFO  : Context for processor 'microblaze_0' is selected.
+22:22:51 INFO  : System reset is completed.
+22:22:54 INFO  : 'after 3000' command is executed.
+22:22:54 INFO  : Context for processor 'microblaze_0' is selected.
+22:22:54 INFO  : The application 'C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/Debug/palindromeApp.elf' is downloaded to processor 'microblaze_0'.
+22:22:54 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504951A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504951A-13631093-0"}
+fpga -file C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/Debug/palindromeApp.elf
+----------------End of Script----------------
+
+22:22:55 INFO  : Context for processor 'microblaze_0' is selected.
+22:22:55 INFO  : 'con' command is executed.
+22:22:55 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:22:55 INFO  : Launch script is exported to file 'C:\Users\User\Dropbox\Project_CR\projeto\palindrome_vitis\palindromeApp_system\_ide\scripts\systemdebugger_palindromeapp_system_standalone.tcl'
+22:23:27 INFO  : Checking for BSP changes to sync application flags for project 'palindromeApp'...
+22:23:54 INFO  : Disconnected from the channel tcfchan#20.
+22:23:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:23:54 INFO  : Jtag cable 'Digilent Nexys4 210274504951A' is selected.
+22:23:54 INFO  : 'jtag frequency' command is executed.
+22:23:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504951A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504951A-13631093-0"}' command is executed.
+22:23:56 INFO  : Device configured successfully with "C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/_ide/bitstream/download.bit"
+22:23:56 INFO  : Context for processor 'microblaze_0' is selected.
+22:23:56 INFO  : Hardware design and registers information is loaded from 'C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa'.
+22:23:56 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:23:56 INFO  : Context for processor 'microblaze_0' is selected.
+22:23:56 INFO  : System reset is completed.
+22:24:00 INFO  : 'after 3000' command is executed.
+22:24:00 INFO  : Context for processor 'microblaze_0' is selected.
+22:24:00 INFO  : The application 'C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/Debug/palindromeApp.elf' is downloaded to processor 'microblaze_0'.
+22:24:00 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504951A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504951A-13631093-0"}
+fpga -file C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/Debug/palindromeApp.elf
+----------------End of Script----------------
+
+22:24:00 INFO  : Context for processor 'microblaze_0' is selected.
+22:24:00 INFO  : 'con' command is executed.
+22:24:00 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:24:00 INFO  : Launch script is exported to file 'C:\Users\User\Dropbox\Project_CR\projeto\palindrome_vitis\palindromeApp_system\_ide\scripts\systemdebugger_palindromeapp_system_standalone.tcl'
+22:35:07 INFO  : Checking for BSP changes to sync application flags for project 'palindromeApp'...
+22:35:43 INFO  : Checking for BSP changes to sync application flags for project 'palindromeApp'...
+22:37:00 INFO  : Checking for BSP changes to sync application flags for project 'palindromeApp'...
+22:37:14 INFO  : Disconnected from the channel tcfchan#21.
+22:37:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:37:14 INFO  : Jtag cable 'Digilent Nexys4 210274504951A' is selected.
+22:37:14 INFO  : 'jtag frequency' command is executed.
+22:37:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504951A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504951A-13631093-0"}' command is executed.
+22:37:17 INFO  : Device configured successfully with "C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/_ide/bitstream/download.bit"
+22:37:17 INFO  : Context for processor 'microblaze_0' is selected.
+22:37:17 INFO  : Hardware design and registers information is loaded from 'C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa'.
+22:37:17 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:37:17 INFO  : Context for processor 'microblaze_0' is selected.
+22:37:17 INFO  : System reset is completed.
+22:37:20 INFO  : 'after 3000' command is executed.
+22:37:20 INFO  : Context for processor 'microblaze_0' is selected.
+22:37:20 INFO  : The application 'C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/Debug/palindromeApp.elf' is downloaded to processor 'microblaze_0'.
+22:37:20 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504951A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504951A-13631093-0"}
+fpga -file C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/Debug/palindromeApp.elf
+----------------End of Script----------------
+
+22:37:20 INFO  : Context for processor 'microblaze_0' is selected.
+22:37:20 INFO  : 'con' command is executed.
+22:37:20 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:37:20 INFO  : Launch script is exported to file 'C:\Users\User\Dropbox\Project_CR\projeto\palindrome_vitis\palindromeApp_system\_ide\scripts\systemdebugger_palindromeapp_system_standalone.tcl'
+22:41:40 INFO  : Checking for BSP changes to sync application flags for project 'palindromeApp'...
+22:41:49 INFO  : Disconnected from the channel tcfchan#22.
+22:41:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:41:49 INFO  : Jtag cable 'Digilent Nexys4 210274504951A' is selected.
+22:41:49 INFO  : 'jtag frequency' command is executed.
+22:41:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504951A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504951A-13631093-0"}' command is executed.
+22:41:52 INFO  : Device configured successfully with "C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/_ide/bitstream/download.bit"
+22:41:52 INFO  : Context for processor 'microblaze_0' is selected.
+22:41:52 INFO  : Hardware design and registers information is loaded from 'C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa'.
+22:41:52 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:41:52 INFO  : Context for processor 'microblaze_0' is selected.
+22:41:52 INFO  : System reset is completed.
+22:41:55 INFO  : 'after 3000' command is executed.
+22:41:55 INFO  : Context for processor 'microblaze_0' is selected.
+22:41:55 INFO  : The application 'C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/Debug/palindromeApp.elf' is downloaded to processor 'microblaze_0'.
+22:41:55 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504951A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504951A-13631093-0"}
+fpga -file C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/Debug/palindromeApp.elf
+----------------End of Script----------------
+
+22:41:55 INFO  : Context for processor 'microblaze_0' is selected.
+22:41:55 INFO  : 'con' command is executed.
+22:41:55 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:41:55 INFO  : Launch script is exported to file 'C:\Users\User\Dropbox\Project_CR\projeto\palindrome_vitis\palindromeApp_system\_ide\scripts\systemdebugger_palindromeapp_system_standalone.tcl'
+22:46:57 INFO  : Checking for BSP changes to sync application flags for project 'palindromeApp'...
+22:49:54 INFO  : Checking for BSP changes to sync application flags for project 'palindromeApp'...
+22:50:21 INFO  : Checking for BSP changes to sync application flags for project 'palindromeApp'...
+22:50:40 INFO  : Disconnected from the channel tcfchan#23.
+22:50:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:50:40 INFO  : Jtag cable 'Digilent Nexys4 210274504951A' is selected.
+22:50:40 INFO  : 'jtag frequency' command is executed.
+22:50:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504951A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504951A-13631093-0"}' command is executed.
+22:50:42 INFO  : Device configured successfully with "C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/_ide/bitstream/download.bit"
+22:50:43 INFO  : Context for processor 'microblaze_0' is selected.
+22:50:43 INFO  : Hardware design and registers information is loaded from 'C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa'.
+22:50:43 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:50:43 INFO  : Context for processor 'microblaze_0' is selected.
+22:50:43 INFO  : System reset is completed.
+22:50:46 INFO  : 'after 3000' command is executed.
+22:50:46 INFO  : Context for processor 'microblaze_0' is selected.
+22:50:46 INFO  : The application 'C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/Debug/palindromeApp.elf' is downloaded to processor 'microblaze_0'.
+22:50:46 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504951A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504951A-13631093-0"}
+fpga -file C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/Debug/palindromeApp.elf
+----------------End of Script----------------
+
+22:50:46 INFO  : Context for processor 'microblaze_0' is selected.
+22:50:46 INFO  : 'con' command is executed.
+22:50:46 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:50:46 INFO  : Launch script is exported to file 'C:\Users\User\Dropbox\Project_CR\projeto\palindrome_vitis\palindromeApp_system\_ide\scripts\systemdebugger_palindromeapp_system_standalone.tcl'
+22:53:09 INFO  : Checking for BSP changes to sync application flags for project 'palindromeApp'...
+22:53:26 INFO  : Checking for BSP changes to sync application flags for project 'palindromeApp'...
+22:53:33 INFO  : Disconnected from the channel tcfchan#24.
+22:53:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:53:33 INFO  : Jtag cable 'Digilent Nexys4 210274504951A' is selected.
+22:53:33 INFO  : 'jtag frequency' command is executed.
+22:53:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504951A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504951A-13631093-0"}' command is executed.
+22:53:36 INFO  : Device configured successfully with "C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/_ide/bitstream/download.bit"
+22:53:36 INFO  : Context for processor 'microblaze_0' is selected.
+22:53:36 INFO  : Hardware design and registers information is loaded from 'C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa'.
+22:53:36 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:53:36 INFO  : Context for processor 'microblaze_0' is selected.
+22:53:36 INFO  : System reset is completed.
+22:53:39 INFO  : 'after 3000' command is executed.
+22:53:39 INFO  : Context for processor 'microblaze_0' is selected.
+22:53:39 INFO  : The application 'C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/Debug/palindromeApp.elf' is downloaded to processor 'microblaze_0'.
+22:53:39 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504951A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504951A-13631093-0"}
+fpga -file C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/Debug/palindromeApp.elf
+----------------End of Script----------------
+
+22:53:39 INFO  : Context for processor 'microblaze_0' is selected.
+22:53:39 INFO  : 'con' command is executed.
+22:53:39 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:53:39 INFO  : Launch script is exported to file 'C:\Users\User\Dropbox\Project_CR\projeto\palindrome_vitis\palindromeApp_system\_ide\scripts\systemdebugger_palindromeapp_system_standalone.tcl'
+22:58:46 INFO  : Checking for BSP changes to sync application flags for project 'palindromeApp'...
+22:59:01 INFO  : Checking for BSP changes to sync application flags for project 'palindromeApp'...
+22:59:08 INFO  : Disconnected from the channel tcfchan#25.
+22:59:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:59:08 INFO  : Jtag cable 'Digilent Nexys4 210274504951A' is selected.
+22:59:08 INFO  : 'jtag frequency' command is executed.
+22:59:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504951A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504951A-13631093-0"}' command is executed.
+22:59:10 INFO  : Device configured successfully with "C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/_ide/bitstream/download.bit"
+22:59:10 INFO  : Context for processor 'microblaze_0' is selected.
+22:59:10 INFO  : Hardware design and registers information is loaded from 'C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa'.
+22:59:10 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:59:10 INFO  : Context for processor 'microblaze_0' is selected.
+22:59:10 INFO  : System reset is completed.
+22:59:13 INFO  : 'after 3000' command is executed.
+22:59:13 INFO  : Context for processor 'microblaze_0' is selected.
+22:59:13 INFO  : The application 'C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/Debug/palindromeApp.elf' is downloaded to processor 'microblaze_0'.
+22:59:13 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504951A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504951A-13631093-0"}
+fpga -file C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/Debug/palindromeApp.elf
+----------------End of Script----------------
+
+22:59:14 INFO  : Context for processor 'microblaze_0' is selected.
+22:59:14 INFO  : 'con' command is executed.
+22:59:14 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:59:14 INFO  : Launch script is exported to file 'C:\Users\User\Dropbox\Project_CR\projeto\palindrome_vitis\palindromeApp_system\_ide\scripts\systemdebugger_palindromeapp_system_standalone.tcl'
+23:03:30 INFO  : Checking for BSP changes to sync application flags for project 'palindromeApp'...
+23:04:27 INFO  : Checking for BSP changes to sync application flags for project 'palindromeApp'...
+23:04:35 INFO  : Disconnected from the channel tcfchan#26.
+23:04:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:04:35 INFO  : Jtag cable 'Digilent Nexys4 210274504951A' is selected.
+23:04:35 INFO  : 'jtag frequency' command is executed.
+23:04:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504951A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504951A-13631093-0"}' command is executed.
+23:04:37 INFO  : Device configured successfully with "C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/_ide/bitstream/download.bit"
+23:04:37 INFO  : Context for processor 'microblaze_0' is selected.
+23:04:37 INFO  : Hardware design and registers information is loaded from 'C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa'.
+23:04:37 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+23:04:37 INFO  : Context for processor 'microblaze_0' is selected.
+23:04:37 INFO  : System reset is completed.
+23:04:40 INFO  : 'after 3000' command is executed.
+23:04:40 INFO  : Context for processor 'microblaze_0' is selected.
+23:04:40 INFO  : The application 'C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/Debug/palindromeApp.elf' is downloaded to processor 'microblaze_0'.
+23:04:40 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504951A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504951A-13631093-0"}
+fpga -file C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/Debug/palindromeApp.elf
+----------------End of Script----------------
+
+23:04:41 INFO  : Context for processor 'microblaze_0' is selected.
+23:04:41 INFO  : 'con' command is executed.
+23:04:41 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+23:04:41 INFO  : Launch script is exported to file 'C:\Users\User\Dropbox\Project_CR\projeto\palindrome_vitis\palindromeApp_system\_ide\scripts\systemdebugger_palindromeapp_system_standalone.tcl'
+23:06:10 INFO  : Disconnected from the channel tcfchan#27.
+23:06:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:06:10 INFO  : Jtag cable 'Digilent Nexys4 210274504951A' is selected.
+23:06:10 INFO  : 'jtag frequency' command is executed.
+23:06:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504951A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504951A-13631093-0"}' command is executed.
+23:06:13 INFO  : Device configured successfully with "C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/_ide/bitstream/download.bit"
+23:06:13 INFO  : Context for processor 'microblaze_0' is selected.
+23:06:13 INFO  : Hardware design and registers information is loaded from 'C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa'.
+23:06:13 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+23:06:13 INFO  : Context for processor 'microblaze_0' is selected.
+23:06:13 INFO  : System reset is completed.
+23:06:16 INFO  : 'after 3000' command is executed.
+23:06:16 INFO  : Context for processor 'microblaze_0' is selected.
+23:06:16 INFO  : The application 'C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/Debug/palindromeApp.elf' is downloaded to processor 'microblaze_0'.
+23:06:16 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504951A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504951A-13631093-0"}
+fpga -file C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/Debug/palindromeApp.elf
+----------------End of Script----------------
+
+23:06:16 INFO  : Context for processor 'microblaze_0' is selected.
+23:06:16 INFO  : 'con' command is executed.
+23:06:16 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+23:06:16 INFO  : Launch script is exported to file 'C:\Users\User\Dropbox\Project_CR\projeto\palindrome_vitis\palindromeApp_system\_ide\scripts\systemdebugger_palindromeapp_system_standalone.tcl'
+23:06:25 INFO  : Checking for BSP changes to sync application flags for project 'palindromeApp'...
+23:07:52 INFO  : Checking for BSP changes to sync application flags for project 'palindromeApp'...
+23:08:22 INFO  : Disconnected from the channel tcfchan#28.
+23:08:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:08:22 INFO  : Jtag cable 'Digilent Nexys4 210274504951A' is selected.
+23:08:22 INFO  : 'jtag frequency' command is executed.
+23:08:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504951A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504951A-13631093-0"}' command is executed.
+23:08:25 INFO  : Device configured successfully with "C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/_ide/bitstream/download.bit"
+23:08:25 INFO  : Context for processor 'microblaze_0' is selected.
+23:08:25 INFO  : Hardware design and registers information is loaded from 'C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa'.
+23:08:25 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+23:08:25 INFO  : Context for processor 'microblaze_0' is selected.
+23:08:25 INFO  : System reset is completed.
+23:08:28 INFO  : 'after 3000' command is executed.
+23:08:28 INFO  : Context for processor 'microblaze_0' is selected.
+23:08:28 INFO  : The application 'C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/Debug/palindromeApp.elf' is downloaded to processor 'microblaze_0'.
+23:08:28 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504951A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504951A-13631093-0"}
+fpga -file C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/Debug/palindromeApp.elf
+----------------End of Script----------------
+
+23:08:28 INFO  : Context for processor 'microblaze_0' is selected.
+23:08:28 INFO  : 'con' command is executed.
+23:08:28 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+23:08:28 INFO  : Launch script is exported to file 'C:\Users\User\Dropbox\Project_CR\projeto\palindrome_vitis\palindromeApp_system\_ide\scripts\systemdebugger_palindromeapp_system_standalone.tcl'
+23:09:58 INFO  : Checking for BSP changes to sync application flags for project 'palindromeApp'...
+23:10:12 INFO  : Disconnected from the channel tcfchan#29.
+23:10:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:10:12 INFO  : Jtag cable 'Digilent Nexys4 210274504951A' is selected.
+23:10:12 INFO  : 'jtag frequency' command is executed.
+23:10:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504951A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504951A-13631093-0"}' command is executed.
+23:10:14 INFO  : Device configured successfully with "C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/_ide/bitstream/download.bit"
+23:10:14 INFO  : Context for processor 'microblaze_0' is selected.
+23:10:14 INFO  : Hardware design and registers information is loaded from 'C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa'.
+23:10:14 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+23:10:14 INFO  : Context for processor 'microblaze_0' is selected.
+23:10:14 INFO  : System reset is completed.
+23:10:17 INFO  : 'after 3000' command is executed.
+23:10:17 INFO  : Context for processor 'microblaze_0' is selected.
+23:10:18 INFO  : The application 'C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/Debug/palindromeApp.elf' is downloaded to processor 'microblaze_0'.
+23:10:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504951A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504951A-13631093-0"}
+fpga -file C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/Debug/palindromeApp.elf
+----------------End of Script----------------
+
+23:10:18 INFO  : Context for processor 'microblaze_0' is selected.
+23:10:18 INFO  : 'con' command is executed.
+23:10:18 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+23:10:18 INFO  : Launch script is exported to file 'C:\Users\User\Dropbox\Project_CR\projeto\palindrome_vitis\palindromeApp_system\_ide\scripts\systemdebugger_palindromeapp_system_standalone.tcl'
+23:10:29 INFO  : Checking for BSP changes to sync application flags for project 'palindromeApp'...
+23:10:37 INFO  : Disconnected from the channel tcfchan#30.
+23:10:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:10:37 INFO  : Jtag cable 'Digilent Nexys4 210274504951A' is selected.
+23:10:37 INFO  : 'jtag frequency' command is executed.
+23:10:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504951A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504951A-13631093-0"}' command is executed.
+23:10:39 INFO  : Device configured successfully with "C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/_ide/bitstream/download.bit"
+23:10:39 INFO  : Context for processor 'microblaze_0' is selected.
+23:10:39 INFO  : Hardware design and registers information is loaded from 'C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa'.
+23:10:39 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+23:10:40 INFO  : Context for processor 'microblaze_0' is selected.
+23:10:40 INFO  : System reset is completed.
+23:10:43 INFO  : 'after 3000' command is executed.
+23:10:43 INFO  : Context for processor 'microblaze_0' is selected.
+23:10:43 INFO  : The application 'C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/Debug/palindromeApp.elf' is downloaded to processor 'microblaze_0'.
+23:10:43 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504951A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504951A-13631093-0"}
+fpga -file C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/Debug/palindromeApp.elf
+----------------End of Script----------------
+
+23:10:43 INFO  : Context for processor 'microblaze_0' is selected.
+23:10:43 INFO  : 'con' command is executed.
+23:10:43 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+23:10:43 INFO  : Launch script is exported to file 'C:\Users\User\Dropbox\Project_CR\projeto\palindrome_vitis\palindromeApp_system\_ide\scripts\systemdebugger_palindromeapp_system_standalone.tcl'
+23:12:15 INFO  : Checking for BSP changes to sync application flags for project 'palindromeApp'...
+23:12:22 INFO  : Disconnected from the channel tcfchan#31.
+23:12:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:12:23 INFO  : Jtag cable 'Digilent Nexys4 210274504951A' is selected.
+23:12:23 INFO  : 'jtag frequency' command is executed.
+23:12:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504951A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504951A-13631093-0"}' command is executed.
+23:12:25 INFO  : Device configured successfully with "C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/_ide/bitstream/download.bit"
+23:12:25 INFO  : Context for processor 'microblaze_0' is selected.
+23:12:25 INFO  : Hardware design and registers information is loaded from 'C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa'.
+23:12:25 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+23:12:25 INFO  : Context for processor 'microblaze_0' is selected.
+23:12:25 INFO  : System reset is completed.
+23:12:28 INFO  : 'after 3000' command is executed.
+23:12:28 INFO  : Context for processor 'microblaze_0' is selected.
+23:12:28 INFO  : The application 'C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/Debug/palindromeApp.elf' is downloaded to processor 'microblaze_0'.
+23:12:28 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504951A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504951A-13631093-0"}
+fpga -file C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/Debug/palindromeApp.elf
+----------------End of Script----------------
+
+23:12:28 INFO  : Context for processor 'microblaze_0' is selected.
+23:12:28 INFO  : 'con' command is executed.
+23:12:28 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+23:12:28 INFO  : Launch script is exported to file 'C:\Users\User\Dropbox\Project_CR\projeto\palindrome_vitis\palindromeApp_system\_ide\scripts\systemdebugger_palindromeapp_system_standalone.tcl'
+23:15:04 INFO  : Checking for BSP changes to sync application flags for project 'palindromeApp'...
+23:15:11 INFO  : Disconnected from the channel tcfchan#32.
+23:15:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:15:11 INFO  : Jtag cable 'Digilent Nexys4 210274504951A' is selected.
+23:15:11 INFO  : 'jtag frequency' command is executed.
+23:15:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504951A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504951A-13631093-0"}' command is executed.
+23:15:14 INFO  : Device configured successfully with "C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/_ide/bitstream/download.bit"
+23:15:14 INFO  : Context for processor 'microblaze_0' is selected.
+23:15:14 INFO  : Hardware design and registers information is loaded from 'C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa'.
+23:15:14 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+23:15:14 INFO  : Context for processor 'microblaze_0' is selected.
+23:15:14 INFO  : System reset is completed.
+23:15:17 INFO  : 'after 3000' command is executed.
+23:15:17 INFO  : Context for processor 'microblaze_0' is selected.
+23:15:17 INFO  : The application 'C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/Debug/palindromeApp.elf' is downloaded to processor 'microblaze_0'.
+23:15:17 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504951A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504951A-13631093-0"}
+fpga -file C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/Debug/palindromeApp.elf
+----------------End of Script----------------
+
+23:15:17 INFO  : Context for processor 'microblaze_0' is selected.
+23:15:17 INFO  : 'con' command is executed.
+23:15:17 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+23:15:17 INFO  : Launch script is exported to file 'C:\Users\User\Dropbox\Project_CR\projeto\palindrome_vitis\palindromeApp_system\_ide\scripts\systemdebugger_palindromeapp_system_standalone.tcl'
+23:16:33 INFO  : Checking for BSP changes to sync application flags for project 'palindromeApp'...
+23:16:42 INFO  : Disconnected from the channel tcfchan#33.
+23:16:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:16:42 INFO  : Jtag cable 'Digilent Nexys4 210274504951A' is selected.
+23:16:42 INFO  : 'jtag frequency' command is executed.
+23:16:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504951A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504951A-13631093-0"}' command is executed.
+23:16:45 INFO  : Device configured successfully with "C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/_ide/bitstream/download.bit"
+23:16:45 INFO  : Context for processor 'microblaze_0' is selected.
+23:16:45 INFO  : Hardware design and registers information is loaded from 'C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa'.
+23:16:45 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+23:16:45 INFO  : Context for processor 'microblaze_0' is selected.
+23:16:45 INFO  : System reset is completed.
+23:16:48 INFO  : 'after 3000' command is executed.
+23:16:48 INFO  : Context for processor 'microblaze_0' is selected.
+23:16:48 INFO  : The application 'C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/Debug/palindromeApp.elf' is downloaded to processor 'microblaze_0'.
+23:16:48 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504951A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504951A-13631093-0"}
+fpga -file C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/Debug/palindromeApp.elf
+----------------End of Script----------------
+
+23:16:48 INFO  : Context for processor 'microblaze_0' is selected.
+23:16:48 INFO  : 'con' command is executed.
+23:16:48 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+23:16:48 INFO  : Launch script is exported to file 'C:\Users\User\Dropbox\Project_CR\projeto\palindrome_vitis\palindromeApp_system\_ide\scripts\systemdebugger_palindromeapp_system_standalone.tcl'
+23:18:54 INFO  : Checking for BSP changes to sync application flags for project 'palindromeApp'...
+23:19:13 INFO  : Checking for BSP changes to sync application flags for project 'palindromeApp'...
+23:19:18 INFO  : Disconnected from the channel tcfchan#34.
+23:19:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:19:19 INFO  : Jtag cable 'Digilent Nexys4 210274504951A' is selected.
+23:19:19 INFO  : 'jtag frequency' command is executed.
+23:19:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504951A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504951A-13631093-0"}' command is executed.
+23:19:21 INFO  : Device configured successfully with "C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/_ide/bitstream/download.bit"
+23:19:21 INFO  : Context for processor 'microblaze_0' is selected.
+23:19:21 INFO  : Hardware design and registers information is loaded from 'C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa'.
+23:19:21 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+23:19:21 INFO  : Context for processor 'microblaze_0' is selected.
+23:19:21 INFO  : System reset is completed.
+23:19:24 INFO  : 'after 3000' command is executed.
+23:19:24 INFO  : Context for processor 'microblaze_0' is selected.
+23:19:24 INFO  : The application 'C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/Debug/palindromeApp.elf' is downloaded to processor 'microblaze_0'.
+23:19:24 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504951A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504951A-13631093-0"}
+fpga -file C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/hw/mb_design_palindrome.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/palindromeApp/Debug/palindromeApp.elf
+----------------End of Script----------------
+
+23:19:24 INFO  : Context for processor 'microblaze_0' is selected.
+23:19:24 INFO  : 'con' command is executed.
+23:19:24 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+23:19:24 INFO  : Launch script is exported to file 'C:\Users\User\Dropbox\Project_CR\projeto\palindrome_vitis\palindromeApp_system\_ide\scripts\systemdebugger_palindromeapp_system_standalone.tcl'
+23:20:02 INFO  : Checking for BSP changes to sync application flags for project 'palindromeApp'...
+23:20:45 INFO  : Disconnected from the channel tcfchan#35.

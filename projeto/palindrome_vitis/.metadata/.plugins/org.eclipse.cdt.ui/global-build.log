@@ -1,0 +1,31 @@
+Nothing to build in platform 'mb_design_palindrome'
+
+23:20:02 **** Incremental Build of configuration Debug for project palindromeApp ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IC:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/sw/mb_design_palindrome/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'decToBinary':
+../src/helloworld.c:158:22: warning: assignment to 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  158 |         binaryNum[i] = n % 2;
+      |                      ^
+../src/helloworld.c:163:12: warning: returning 'int **' from a function with incompatible return type 'int *' [-Wincompatible-pointer-types]
+  163 |     return binaryNum;
+      |            ^~~~~~~~~
+../src/helloworld.c:163:12: warning: function returns address of local variable [-Wreturn-local-addr]
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: palindromeApp.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/sw/mb_design_palindrome/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "palindromeApp.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: palindromeApp.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size palindromeApp.elf  |tee "palindromeApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  16896	   1468	   3172	  21536	   5420	palindromeApp.elf
+'Finished building: palindromeApp.elf.size'
+' '
+23:20:04 **** Incremental Build of configuration Debug for project palindromeApp_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
