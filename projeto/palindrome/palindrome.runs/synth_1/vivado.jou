@@ -2,11 +2,11 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Thu Jun 16 16:29:24 2022
-# Process ID: 9744
-# Current directory: C:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.runs/synth_1
+# Start of session at: Fri Jun 17 23:35:56 2022
+# Process ID: 12764
+# Current directory: C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.runs/synth_1
 # Command line: vivado.exe -log mb_design_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mb_design_wrapper.tcl
-# Log file: C:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.runs/synth_1/mb_design_wrapper.vds
-# Journal file: C:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.runs/synth_1\vivado.jou
+# Log file: C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.runs/synth_1/mb_design_wrapper.vds
+# Journal file: C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
 source mb_design_wrapper.tcl -notrace

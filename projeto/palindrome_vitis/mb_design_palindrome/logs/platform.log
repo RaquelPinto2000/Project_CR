@@ -4265,3 +4265,351 @@ TRACE::2022-06-17.16:48:30::SCWMssOS::Checking the sw design at  C:/Users/Raquel
 TRACE::2022-06-17.16:48:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
 
 TRACE::2022-06-17.16:48:30::SCWMssOS::Sw design exists and opened at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.22:26:42::SCWPlatform::Trying to open the hw design at C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:42::SCWPlatform::DSA given C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:42::SCWPlatform::DSA absoulate path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:45::SCWPlatform::DSA directory C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw
+TRACE::2022-06-17.22:26:45::SCWPlatform:: Platform Path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:45::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2022-06-17.22:26:45::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-06-17.22:26:45::SCWPlatform::Opened new HwDB with name mb_design_wrapper_0
+TRACE::2022-06-17.22:26:45::SCWReader::Active system found as  mb_design_palindrome
+TRACE::2022-06-17.22:26:45::SCWReader::Handling sysconfig mb_design_palindrome
+TRACE::2022-06-17.22:26:45::SCWDomain::checking for install qemu data   : 
+TRACE::2022-06-17.22:26:45::SCWPlatform::Trying to open the hw design at C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:45::SCWPlatform::DSA given C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:45::SCWPlatform::DSA absoulate path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:45::SCWPlatform::DSA directory C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw
+TRACE::2022-06-17.22:26:45::SCWPlatform:: Platform Path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:45::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2022-06-17.22:26:45::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2022-06-17.22:26:45::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2022-06-17.22:26:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-06-17.22:26:45::SCWPlatform::Trying to open the hw design at C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:45::SCWPlatform::DSA given C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:45::SCWPlatform::DSA absoulate path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:45::SCWPlatform::DSA directory C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw
+TRACE::2022-06-17.22:26:45::SCWPlatform:: Platform Path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:45::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2022-06-17.22:26:45::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2022-06-17.22:26:45::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2022-06-17.22:26:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-06-17.22:26:45::SCWPlatform::Trying to open the hw design at C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:45::SCWPlatform::DSA given C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:45::SCWPlatform::DSA absoulate path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:45::SCWPlatform::DSA directory C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw
+TRACE::2022-06-17.22:26:45::SCWPlatform:: Platform Path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:45::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2022-06-17.22:26:45::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2022-06-17.22:26:45::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2022-06-17.22:26:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-06-17.22:26:45::SCWPlatform::Trying to open the hw design at C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:45::SCWPlatform::DSA given C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:45::SCWPlatform::DSA absoulate path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:45::SCWPlatform::DSA directory C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw
+TRACE::2022-06-17.22:26:45::SCWPlatform:: Platform Path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:45::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2022-06-17.22:26:45::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2022-06-17.22:26:45::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2022-06-17.22:26:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-06-17.22:26:45::SCWMssOS::Checking the sw design at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.22:26:45::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-06-17.22:26:45::SCWMssOS::No sw design opened at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.22:26:45::SCWMssOS::mss exists loading the mss file  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.22:26:45::SCWMssOS::Opened the sw design from mss  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.22:26:45::SCWMssOS::Adding the swdes entry C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2022-06-17.22:26:45::SCWMssOS::updating the scw layer about changes
+TRACE::2022-06-17.22:26:45::SCWMssOS::Opened the sw design.  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.22:26:45::SCWMssOS::Saving the mss changes C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.22:26:45::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-06-17.22:26:45::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-06-17.22:26:45::SCWMssOS::Commit changes completed.
+TRACE::2022-06-17.22:26:45::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2022-06-17.22:26:45::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2022-06-17.22:26:45::SCWPlatform::Trying to open the hw design at C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:45::SCWPlatform::DSA given C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:45::SCWPlatform::DSA absoulate path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:45::SCWPlatform::DSA directory C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw
+TRACE::2022-06-17.22:26:45::SCWPlatform:: Platform Path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:45::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2022-06-17.22:26:45::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2022-06-17.22:26:45::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2022-06-17.22:26:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-06-17.22:26:45::SCWMssOS::Checking the sw design at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.22:26:45::SCWMssOS::DEBUG:  swdes dump  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-06-17.22:26:45::SCWMssOS::Sw design exists and opened at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.22:26:45::SCWReader::No isolation master present  
+TRACE::2022-06-17.22:26:57::SCWPlatform::Clearing the existing platform
+TRACE::2022-06-17.22:26:57::SCWSystem::Clearing the existing sysconfig
+TRACE::2022-06-17.22:26:57::SCWMssOS::Removing the swdes entry for  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.22:26:57::SCWSystem::Clearing the domains completed.
+TRACE::2022-06-17.22:26:57::SCWPlatform::Clearing the opened hw db.
+TRACE::2022-06-17.22:26:57::SCWPlatform::DSA given C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:57::SCWPlatform::DSA absoulate path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:57::SCWPlatform:: Platform location is C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw
+TRACE::2022-06-17.22:26:57::SCWPlatform:: Platform Path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:57::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2022-06-17.22:26:57::SCWPlatform::Removing the HwDB with name C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:57::SCWPlatform::Trying to open the hw design at C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:57::SCWPlatform::DSA given C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:57::SCWPlatform::DSA absoulate path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:57::SCWPlatform::DSA directory C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw
+TRACE::2022-06-17.22:26:57::SCWPlatform:: Platform Path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:57::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2022-06-17.22:26:57::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-06-17.22:26:57::SCWPlatform::Opened new HwDB with name mb_design_wrapper_1
+TRACE::2022-06-17.22:26:57::SCWReader::Active system found as  mb_design_palindrome
+TRACE::2022-06-17.22:26:57::SCWReader::Handling sysconfig mb_design_palindrome
+TRACE::2022-06-17.22:26:57::SCWDomain::checking for install qemu data   : 
+TRACE::2022-06-17.22:26:57::SCWPlatform::Trying to open the hw design at C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:57::SCWPlatform::DSA given C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:57::SCWPlatform::DSA absoulate path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:57::SCWPlatform::DSA directory C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw
+TRACE::2022-06-17.22:26:57::SCWPlatform:: Platform Path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:57::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2022-06-17.22:26:57::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_1
+TRACE::2022-06-17.22:26:57::SCWPlatform::Opened existing hwdb mb_design_wrapper_1
+TRACE::2022-06-17.22:26:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-06-17.22:26:57::SCWPlatform::Trying to open the hw design at C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:57::SCWPlatform::DSA given C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:57::SCWPlatform::DSA absoulate path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:57::SCWPlatform::DSA directory C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw
+TRACE::2022-06-17.22:26:57::SCWPlatform:: Platform Path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:57::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2022-06-17.22:26:57::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_1
+TRACE::2022-06-17.22:26:57::SCWPlatform::Opened existing hwdb mb_design_wrapper_1
+TRACE::2022-06-17.22:26:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-06-17.22:26:57::SCWPlatform::Trying to open the hw design at C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:57::SCWPlatform::DSA given C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:57::SCWPlatform::DSA absoulate path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:57::SCWPlatform::DSA directory C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw
+TRACE::2022-06-17.22:26:57::SCWPlatform:: Platform Path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:57::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2022-06-17.22:26:57::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_1
+TRACE::2022-06-17.22:26:57::SCWPlatform::Opened existing hwdb mb_design_wrapper_1
+TRACE::2022-06-17.22:26:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-06-17.22:26:57::SCWPlatform::Trying to open the hw design at C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:57::SCWPlatform::DSA given C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:57::SCWPlatform::DSA absoulate path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:57::SCWPlatform::DSA directory C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw
+TRACE::2022-06-17.22:26:57::SCWPlatform:: Platform Path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:57::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2022-06-17.22:26:57::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_1
+TRACE::2022-06-17.22:26:57::SCWPlatform::Opened existing hwdb mb_design_wrapper_1
+TRACE::2022-06-17.22:26:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-06-17.22:26:57::SCWMssOS::Checking the sw design at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.22:26:57::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-06-17.22:26:57::SCWMssOS::No sw design opened at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.22:26:57::SCWMssOS::mss exists loading the mss file  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.22:26:57::SCWMssOS::Opened the sw design from mss  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.22:26:57::SCWMssOS::Adding the swdes entry C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2022-06-17.22:26:57::SCWMssOS::updating the scw layer about changes
+TRACE::2022-06-17.22:26:57::SCWMssOS::Opened the sw design.  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.22:26:57::SCWMssOS::Saving the mss changes C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.22:26:57::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-06-17.22:26:57::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-06-17.22:26:57::SCWMssOS::Commit changes completed.
+TRACE::2022-06-17.22:26:57::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2022-06-17.22:26:57::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2022-06-17.22:26:57::SCWPlatform::Trying to open the hw design at C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:57::SCWPlatform::DSA given C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:57::SCWPlatform::DSA absoulate path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:57::SCWPlatform::DSA directory C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw
+TRACE::2022-06-17.22:26:57::SCWPlatform:: Platform Path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:57::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2022-06-17.22:26:57::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_1
+TRACE::2022-06-17.22:26:57::SCWPlatform::Opened existing hwdb mb_design_wrapper_1
+TRACE::2022-06-17.22:26:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-06-17.22:26:57::SCWMssOS::Checking the sw design at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.22:26:57::SCWMssOS::DEBUG:  swdes dump  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-06-17.22:26:57::SCWMssOS::Sw design exists and opened at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.22:26:57::SCWReader::No isolation master present  
+TRACE::2022-06-17.22:26:58::SCWPlatform::Trying to open the hw design at C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:58::SCWPlatform::DSA given C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:58::SCWPlatform::DSA absoulate path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:58::SCWPlatform::DSA directory C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw
+TRACE::2022-06-17.22:26:58::SCWPlatform:: Platform Path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:58::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2022-06-17.22:26:58::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_1
+TRACE::2022-06-17.22:26:58::SCWPlatform::Opened existing hwdb mb_design_wrapper_1
+TRACE::2022-06-17.22:26:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-06-17.22:26:58::SCWMssOS::Checking the sw design at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.22:26:58::SCWMssOS::DEBUG:  swdes dump  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-06-17.22:26:58::SCWMssOS::Sw design exists and opened at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.22:26:59::SCWMssOS::In reload Mss file.
+TRACE::2022-06-17.22:26:59::SCWPlatform::Trying to open the hw design at C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:59::SCWPlatform::DSA given C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:59::SCWPlatform::DSA absoulate path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:59::SCWPlatform::DSA directory C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw
+TRACE::2022-06-17.22:26:59::SCWPlatform:: Platform Path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:59::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2022-06-17.22:26:59::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_1
+TRACE::2022-06-17.22:26:59::SCWPlatform::Opened existing hwdb mb_design_wrapper_1
+TRACE::2022-06-17.22:26:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-06-17.22:26:59::SCWMssOS::Checking the sw design at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.22:26:59::SCWMssOS::DEBUG:  swdes dump  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+KEYINFO::2022-06-17.22:26:59::SCWMssOS::Could not open the swdb for system
+KEYINFO::2022-06-17.22:26:59::SCWMssOS::Could not open the sw design at  system
+ERROR: [Hsi 55-1558] Software Design system is not found
+
+TRACE::2022-06-17.22:26:59::SCWMssOS::Cleared the swdb table entry
+TRACE::2022-06-17.22:26:59::SCWMssOS::No sw design opened at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.22:26:59::SCWMssOS::mss exists loading the mss file  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.22:26:59::SCWMssOS::Opened the sw design from mss  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.22:26:59::SCWMssOS::Adding the swdes entry C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2022-06-17.22:26:59::SCWMssOS::updating the scw layer about changes
+TRACE::2022-06-17.22:26:59::SCWMssOS::Opened the sw design.  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.22:26:59::SCWMssOS::Saving the mss changes C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.22:26:59::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-06-17.22:26:59::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-06-17.22:26:59::SCWMssOS::Commit changes completed.
+TRACE::2022-06-17.22:26:59::SCWPlatform::Trying to open the hw design at C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:59::SCWPlatform::DSA given C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:59::SCWPlatform::DSA absoulate path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:59::SCWPlatform::DSA directory C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw
+TRACE::2022-06-17.22:26:59::SCWPlatform:: Platform Path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:26:59::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2022-06-17.22:26:59::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_1
+TRACE::2022-06-17.22:26:59::SCWPlatform::Opened existing hwdb mb_design_wrapper_1
+TRACE::2022-06-17.22:26:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-06-17.22:26:59::SCWMssOS::Checking the sw design at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.22:26:59::SCWMssOS::DEBUG:  swdes dump  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-06-17.22:26:59::SCWMssOS::Sw design exists and opened at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.22:26:59::SCWMssOS::Removing the swdes entry for  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+LOG::2022-06-17.22:30:05::SCWPlatform::Started generating the artifacts platform mb_design_palindrome
+TRACE::2022-06-17.22:30:05::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-06-17.22:30:05::SCWPlatform::Started generating the artifacts for system configuration mb_design_palindrome
+LOG::2022-06-17.22:30:05::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2022-06-17.22:30:05::SCWSystem::Not a boot domain 
+LOG::2022-06-17.22:30:05::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2022-06-17.22:30:05::SCWDomain::Generating domain artifcats
+TRACE::2022-06-17.22:30:05::SCWMssOS::Generating standalone artifcats
+TRACE::2022-06-17.22:30:05::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-06-17.22:30:05::SCWPlatform::Trying to open the hw design at C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:30:05::SCWPlatform::DSA given C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:30:05::SCWPlatform::DSA absoulate path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:30:05::SCWPlatform::DSA directory C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw
+TRACE::2022-06-17.22:30:05::SCWPlatform:: Platform Path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:30:05::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2022-06-17.22:30:05::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_1
+TRACE::2022-06-17.22:30:05::SCWPlatform::Opened existing hwdb mb_design_wrapper_1
+TRACE::2022-06-17.22:30:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-06-17.22:30:05::SCWMssOS::Checking the sw design at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.22:30:05::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-06-17.22:30:05::SCWMssOS::No sw design opened at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.22:30:05::SCWMssOS::mss exists loading the mss file  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.22:30:05::SCWMssOS::Opened the sw design from mss  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.22:30:05::SCWMssOS::Adding the swdes entry C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2022-06-17.22:30:05::SCWMssOS::updating the scw layer about changes
+TRACE::2022-06-17.22:30:05::SCWMssOS::Opened the sw design.  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.22:30:05::SCWMssOS::Completed writing the mss file at C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2022-06-17.22:30:05::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.22:30:05::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-06-17.22:30:05::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-06-17.22:30:05::SCWDomain::Skipping the build for domain :  standalone_microblaze_0
+TRACE::2022-06-17.22:30:05::SCWMssOS::skipping the bsp build ... 
+TRACE::2022-06-17.22:30:05::SCWMssOS::Copying to export directory.
+TRACE::2022-06-17.22:30:05::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-06-17.22:30:05::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-06-17.22:30:05::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2022-06-17.22:30:05::SCWSystem::Completed Processing the sysconfig mb_design_palindrome
+LOG::2022-06-17.22:30:05::SCWPlatform::Completed generating the artifacts for system configuration mb_design_palindrome
+TRACE::2022-06-17.22:30:05::SCWPlatform::Started preparing the platform 
+TRACE::2022-06-17.22:30:05::SCWSystem::Writing the bif file for system config mb_design_palindrome
+TRACE::2022-06-17.22:30:05::SCWSystem::dir created 
+TRACE::2022-06-17.22:30:05::SCWSystem::Writing the bif 
+TRACE::2022-06-17.22:30:05::SCWPlatform::Started writing the spfm file 
+TRACE::2022-06-17.22:30:05::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-06-17.22:30:05::SCWPlatform::Completed generating the platform
+TRACE::2022-06-17.22:30:05::SCWMssOS::Saving the mss changes C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.22:30:05::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-06-17.22:30:05::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-06-17.22:30:05::SCWMssOS::Commit changes completed.
+TRACE::2022-06-17.22:30:05::SCWPlatform::Trying to open the hw design at C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:30:05::SCWPlatform::DSA given C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:30:05::SCWPlatform::DSA absoulate path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:30:05::SCWPlatform::DSA directory C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw
+TRACE::2022-06-17.22:30:05::SCWPlatform:: Platform Path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:30:05::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2022-06-17.22:30:05::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_1
+TRACE::2022-06-17.22:30:05::SCWPlatform::Opened existing hwdb mb_design_wrapper_1
+TRACE::2022-06-17.22:30:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-06-17.22:30:05::SCWMssOS::Checking the sw design at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.22:30:05::SCWMssOS::DEBUG:  swdes dump  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-06-17.22:30:05::SCWMssOS::Sw design exists and opened at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.22:30:05::SCWWriter::formatted JSON is {
+	"platformName":	"mb_design_palindrome",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mb_design_palindrome",
+	"platHandOff":	"C:/Users/User/Dropbox/Project_CR/projeto/palindrome/mb_design_palindrome.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mb_design_palindrome.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mb_design_palindrome",
+	"systems":	[{
+			"systemName":	"mb_design_palindrome",
+			"systemDesc":	"mb_design_palindrome",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mb_design_palindrome",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"fb7ed2e4d128746253e13d4e26013f65",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-06-17.22:30:05::SCWPlatform::updated the xpfm file.
+TRACE::2022-06-17.22:30:05::SCWPlatform::Trying to open the hw design at C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:30:05::SCWPlatform::DSA given C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:30:05::SCWPlatform::DSA absoulate path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:30:05::SCWPlatform::DSA directory C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw
+TRACE::2022-06-17.22:30:05::SCWPlatform:: Platform Path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.22:30:05::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2022-06-17.22:30:05::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_1
+TRACE::2022-06-17.22:30:05::SCWPlatform::Opened existing hwdb mb_design_wrapper_1
+TRACE::2022-06-17.22:30:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-06-17.22:30:05::SCWMssOS::Checking the sw design at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.22:30:05::SCWMssOS::DEBUG:  swdes dump  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-06-17.22:30:05::SCWMssOS::Sw design exists and opened at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss

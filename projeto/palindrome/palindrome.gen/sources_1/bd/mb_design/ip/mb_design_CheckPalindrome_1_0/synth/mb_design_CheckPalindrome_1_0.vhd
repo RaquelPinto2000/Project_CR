@@ -47,7 +47,7 @@
 -- DO NOT MODIFY THIS FILE.
 
 -- IP VLNV: xilinx.com:user:CheckPalindrome:1.0
--- IP Revision: 7
+-- IP Revision: 8
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
@@ -131,7 +131,7 @@ ARCHITECTURE mb_design_CheckPalindrome_1_0_arch OF mb_design_CheckPalindrome_1_0
   ATTRIBUTE CHECK_LICENSE_TYPE : STRING;
   ATTRIBUTE CHECK_LICENSE_TYPE OF mb_design_CheckPalindrome_1_0_arch : ARCHITECTURE IS "mb_design_CheckPalindrome_1_0,CheckPalindrome_v1_0,{}";
   ATTRIBUTE CORE_GENERATION_INFO : STRING;
-  ATTRIBUTE CORE_GENERATION_INFO OF mb_design_CheckPalindrome_1_0_arch: ARCHITECTURE IS "mb_design_CheckPalindrome_1_0,CheckPalindrome_v1_0,{x_ipProduct=Vivado 2020.2,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=CheckPalindrome,x_ipVersion=1.0,x_ipCoreRevision=7,x_ipLanguage=VHDL,x_ipSimLanguage=VHDL,C_S00_AXIS_TDATA_WIDTH=32,C_S00_AXI_DATA_WIDTH=32,C_S00_AXI_ADDR_WIDTH=4}";
+  ATTRIBUTE CORE_GENERATION_INFO OF mb_design_CheckPalindrome_1_0_arch: ARCHITECTURE IS "mb_design_CheckPalindrome_1_0,CheckPalindrome_v1_0,{x_ipProduct=Vivado 2020.2,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=CheckPalindrome,x_ipVersion=1.0,x_ipCoreRevision=8,x_ipLanguage=VHDL,x_ipSimLanguage=VHDL,C_S00_AXIS_TDATA_WIDTH=32,C_S00_AXI_DATA_WIDTH=32,C_S00_AXI_ADDR_WIDTH=4}";
   ATTRIBUTE X_INTERFACE_INFO : STRING;
   ATTRIBUTE X_INTERFACE_PARAMETER : STRING;
   ATTRIBUTE X_INTERFACE_INFO OF s00_axi_rready: SIGNAL IS "xilinx.com:interface:aximm:1.0 S00_AXI RREADY";

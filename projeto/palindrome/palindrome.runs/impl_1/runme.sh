@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.runs/impl_1'
+HD_PWD='C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

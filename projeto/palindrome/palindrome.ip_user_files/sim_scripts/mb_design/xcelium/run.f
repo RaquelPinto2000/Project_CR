@@ -163,10 +163,10 @@
   "../../../bd/mb_design/ip/mb_design_axis_data_fifo_0_0/sim/mb_design_axis_data_fifo_0_0.v" \
 -endlib
 -makelib xcelium_lib/xil_defaultlib \
-  "../../../bd/mb_design/ipshared/55cb/hdl/CheckPalindrome_v1_0_S00_AXI.vhd" \
-  "../../../bd/mb_design/ipshared/55cb/hdl/CheckPalindrome_v1_0_S00_AXIS.vhd" \
-  "../../../bd/mb_design/ipshared/55cb/src/PalindromoCheck.vhd" \
-  "../../../bd/mb_design/ipshared/55cb/hdl/CheckPalindrome_v1_0.vhd" \
+  "../../../bd/mb_design/ipshared/6bf9/hdl/CheckPalindrome_v1_0_S00_AXI.vhd" \
+  "../../../bd/mb_design/ipshared/6bf9/hdl/CheckPalindrome_v1_0_S00_AXIS.vhd" \
+  "../../../bd/mb_design/ipshared/6bf9/src/PalindromoCheck.vhd" \
+  "../../../bd/mb_design/ipshared/6bf9/hdl/CheckPalindrome_v1_0.vhd" \
   "../../../bd/mb_design/ip/mb_design_CheckPalindrome_1_0/sim/mb_design_CheckPalindrome_1_0.vhd" \
 -endlib
 -makelib xcelium_lib/axi_protocol_converter_v2_1_22 \

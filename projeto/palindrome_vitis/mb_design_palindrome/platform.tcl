@@ -35,3 +35,6 @@ platform clean
 platform generate
 platform clean
 platform generate
+platform active {mb_design_palindrome}
+bsp reload
+platform generate -domains 

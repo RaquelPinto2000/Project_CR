@@ -1,0 +1,565 @@
+/*
+
+Xilinx Vivado v2020.2 (64-bit) [Major: 2020, Minor: 2]
+SW Build: 3064766 on Wed Nov 18 09:12:45 MST 2020
+IP Build: 3064653 on Wed Nov 18 14:17:31 MST 2020
+
+Process ID (PID): 16164
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Sun Jun 12 10:12:06 BST 2022
+Time zone: 	Greenwich Mean Time (Europe/London)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+Scale size: 19
+
+Java version: 	11.0.2 64-bit
+Java home: 	C:/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2
+Java executable location: 	C:/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	RaquelP
+User home directory: C:/Users/Raquel
+User working directory: C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos
+User country: 	PT
+User language: 	pt
+User locale: 	pt_PT
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2020.2
+RDI_DATADIR: C:/Xilinx/Vivado/2020.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2020.2/bin
+
+Vivado preferences file location: C:/Users/Raquel/AppData/Roaming/Xilinx/Vivado/2020.2/vivado.xml
+Vivado preferences directory: C:/Users/Raquel/AppData/Roaming/Xilinx/Vivado/2020.2/
+Vivado layouts directory: C:/Users/Raquel/AppData/Roaming/Xilinx/Vivado/2020.2/data/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2020.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/vivado.log
+Vivado journal file location: 	C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/vivado.jou
+Engine tmp dir: 	C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/.Xil/Vivado-16164-DESKTOP-PEVSSVR
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_HLS: C:/Xilinx/Vitis_HLS/2020.2
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2020.2
+XILINX_SDK: C:/Xilinx/Vitis/2020.2
+XILINX_VITIS: C:/Xilinx/Vitis/2020.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2020.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2020.2
+
+
+GUI allocated memory:	136 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,015 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bz (cr):  Open Project : addNotify
+// Opening Vivado Project: C:\Academico\UA\4ano\2semestre\CR\Pratica\Projeto\palindromos\palindromos.xpr. Version: Vivado v2020.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// Tcl Message: open_project C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.xpr 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 119 MB (+122559kb) [00:00:12]
+// [Engine Memory]: 1,015 MB (+912673kb) [00:00:12]
+// WARNING: HEventQueue.dispatchEvent() is taking  4814 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,015 MB. GUI used memory: 60 MB. Current time: 6/12/22, 10:12:06 AM BST
+// Tcl Message: open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:06 . Memory (MB): peak = 999.879 ; gain = 0.000 
+// Project name: palindromos; location: C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos; part: xc7a100tcsg324-1
+dismissDialog("Open Project"); // bz
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// [GUI Memory]: 130 MB (+5314kb) [00:00:21]
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 11 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopPalindromo(Behavioral) (TopPalindromo.vhd)]", 1); // D
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // E
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cr): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+// F (c): Create Source File: addNotify
+// Elapsed time: 16 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "Counter_bit"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 25 seconds
+dismissDialog("Add Sources"); // c
+// Tcl Message: close [ open C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.srcs/sources_1/new/Counter_bit.vhd w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// bz (cr):  Add Sources  : addNotify
+// Tcl Message: add_files C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.srcs/sources_1/new/Counter_bit.vhd 
+// I (cr): Define Module: addNotify
+dismissDialog("Add Sources"); // bz
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Yes"); // JButton
+dismissDialog("Define Module"); // I
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Counter_bit(Behavioral) (Counter_bit.vhd)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, coiso(Behavioral) (coiso.vhd)]", 6, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, git(Behavioral) (git.vhd)]", 7, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Counter_bit(Behavioral) (Counter_bit.vhd)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopPalindromo(Behavioral) (TopPalindromo.vhd), DebounceUnit_R : DebounceUnit(Behavioral) (DebounceUnit.vhd)]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopPalindromo(Behavioral) (TopPalindromo.vhd), PulseGenerator_Counter : PulseGenerator_counter(Behavioral) (PulseGenerator_counter.vhd)]", 3, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopPalindromo(Behavioral) (TopPalindromo.vhd), DebounceUnit_R : DebounceUnit(Behavioral) (DebounceUnit.vhd)]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopPalindromo(Behavioral) (TopPalindromo.vhd), PulseGenerator_Counter : PulseGenerator_counter(Behavioral) (PulseGenerator_counter.vhd)]", 3, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopPalindromo(Behavioral) (TopPalindromo.vhd), DebounceUnit_R : DebounceUnit(Behavioral) (DebounceUnit.vhd)]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopPalindromo(Behavioral) (TopPalindromo.vhd), PulseGenerator_Counter : PulseGenerator_counter(Behavioral) (PulseGenerator_counter.vhd)]", 3, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopPalindromo(Behavioral) (TopPalindromo.vhd), DebounceUnit_R : DebounceUnit(Behavioral) (DebounceUnit.vhd)]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopPalindromo(Behavioral) (TopPalindromo.vhd), PulseGenerator_Counter : PulseGenerator_counter(Behavioral) (PulseGenerator_counter.vhd)]", 3, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopPalindromo(Behavioral) (TopPalindromo.vhd), DebounceUnit_R : DebounceUnit(Behavioral) (DebounceUnit.vhd)]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopPalindromo(Behavioral) (TopPalindromo.vhd), PulseGenerator_Counter : PulseGenerator_counter(Behavioral) (PulseGenerator_counter.vhd)]", 3, false); // D
+// [GUI Memory]: 139 MB (+2378kb) [00:01:20]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopPalindromo(Behavioral) (TopPalindromo.vhd)]", 1, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopPalindromo(Behavioral) (TopPalindromo.vhd)]", 1, true, false, false, false, false, true); // D - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, git(Behavioral) (git.vhd)]", 4, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Counter_bit(Behavioral) (Counter_bit.vhd)]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Counter_bit(Behavioral) (Counter_bit.vhd)]", 2, false, false, false, false, false, true); // D - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopPalindromo.vhd", 1); // m
+selectCodeEditor("TopPalindromo.vhd", 39, 74); // bP
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // E
+selectCodeEditor("TopPalindromo.vhd", 327, 246); // bP
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // E
+selectCodeEditor("TopPalindromo.vhd", 156, 296); // bP
+// Elapsed time: 16 seconds
+selectCodeEditor("TopPalindromo.vhd", 486, 93); // bP
+selectCodeEditor("TopPalindromo.vhd", 486, 93, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "TopPalindromo.vhd", 'c'); // bP
+selectCodeEditor("TopPalindromo.vhd", 320, 306); // bP
+typeControlKey((HResource) null, "TopPalindromo.vhd", 'v'); // bP
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Counter_bit.vhd", 2); // m
+selectCodeEditor("Counter_bit.vhd", 22, 156); // bP
+selectCodeEditor("Counter_bit.vhd", 77, 151); // bP
+selectCodeEditor("Counter_bit.vhd", 16, 158); // bP
+selectCodeEditor("Counter_bit.vhd", 93, 154); // bP
+// Elapsed time: 30 seconds
+selectCodeEditor("Counter_bit.vhd", 211, 104); // bP
+selectCodeEditor("Counter_bit.vhd", 281, 176); // bP
+selectCodeEditor("Counter_bit.vhd", 298, 180); // bP
+selectCodeEditor("Counter_bit.vhd", 288, 179); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 118 seconds
+selectCodeEditor("Counter_bit.vhd", 139, 240); // bP
+typeControlKey((HResource) null, "Counter_bit.vhd", 'v'); // bP
+selectCodeEditor("Counter_bit.vhd", 46, 260); // bP
+selectCodeEditor("Counter_bit.vhd", 272, 259); // bP
+selectCodeEditor("Counter_bit.vhd", 272, 259, false, false, false, false, true); // bP - Double Click
+// Elapsed time: 34 seconds
+selectCodeEditor("Counter_bit.vhd", 161, 282); // bP
+typeControlKey((HResource) null, "Counter_bit.vhd", 'v'); // bP
+selectCodeEditor("Counter_bit.vhd", 290, 222); // bP
+// Elapsed time: 13 seconds
+selectCodeEditor("Counter_bit.vhd", 90, 203); // bP
+selectCodeEditor("Counter_bit.vhd", 136, 201); // bP
+selectCodeEditor("Counter_bit.vhd", 221, 202); // bP
+selectCodeEditor("Counter_bit.vhd", 82, 240); // bP
+selectCodeEditor("Counter_bit.vhd", 278, 191); // bP
+typeControlKey((HResource) null, "Counter_bit.vhd", 'v'); // bP
+selectCodeEditor("Counter_bit.vhd", 78, 237); // bP
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("Counter_bit.vhd", 285, 242); // bP
+selectCodeEditor("Counter_bit.vhd", 261, 198); // bP
+typeControlKey((HResource) null, "Counter_bit.vhd", 'v'); // bP
+// Elapsed time: 11 seconds
+selectCodeEditor("Counter_bit.vhd", 268, 224); // bP
+selectCodeEditor("Counter_bit.vhd", 268, 224, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Counter_bit.vhd", 88, 309); // bP
+// Elapsed time: 12 seconds
+typeControlKey((HResource) null, "Counter_bit.vhd", 'v'); // bP
+selectCodeEditor("Counter_bit.vhd", 214, 117); // bP
+selectCodeEditor("Counter_bit.vhd", 457, 157); // bP
+selectCodeEditor("Counter_bit.vhd", 457, 157, false, false, false, false, true); // bP - Double Click
+// Elapsed time: 50 seconds
+selectCodeEditor("Counter_bit.vhd", 134, 182); // bP
+selectCodeEditor("Counter_bit.vhd", 222, 197); // bP
+selectCodeEditor("Counter_bit.vhd", 222, 197, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Counter_bit.vhd", 205, 180); // bP
+selectCodeEditor("Counter_bit.vhd", 142, 216); // bP
+selectCodeEditor("Counter_bit.vhd", 313, 281); // bP
+selectCodeEditor("Counter_bit.vhd", 167, 280); // bP
+typeControlKey((HResource) null, "Counter_bit.vhd", 'v'); // bP
+selectCodeEditor("Counter_bit.vhd", 16, 282); // bP
+selectCodeEditor("Counter_bit.vhd", 64, 309); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Counter_bit.vhd", 245, 269); // bP
+selectCodeEditor("Counter_bit.vhd", 100, 156); // bP
+typeControlKey((HResource) null, "Counter_bit.vhd", 'c'); // bP
+typeControlKey((HResource) null, "Counter_bit.vhd", 'v'); // bP
+selectCodeEditor("Counter_bit.vhd", 188, 247); // bP
+selectCodeEditor("Counter_bit.vhd", 188, 247, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Counter_bit.vhd", 242, 344); // bP
+typeControlKey((HResource) null, "Counter_bit.vhd", 'v'); // bP
+selectCodeEditor("Counter_bit.vhd", 187, 151); // bP
+selectCodeEditor("Counter_bit.vhd", 187, 151, false, false, false, false, true); // bP - Double Click
+// Elapsed time: 61 seconds
+selectCodeEditor("Counter_bit.vhd", 129, 302); // bP
+// Elapsed time: 10 seconds
+selectCodeEditor("Counter_bit.vhd", 301, 263); // bP
+selectCodeEditor("Counter_bit.vhd", 301, 263, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Counter_bit.vhd", 298, 305); // bP
+selectCodeEditor("Counter_bit.vhd", 298, 305, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Counter_bit.vhd", 235, 240); // bP
+selectCodeEditor("Counter_bit.vhd", 279, 239); // bP
+selectCodeEditor("Counter_bit.vhd", 338, 264); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 11 seconds
+selectCodeEditor("Counter_bit.vhd", 168, 240); // bP
+selectCodeEditor("Counter_bit.vhd", 627, 286); // bP
+// Elapsed time: 10 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopPalindromo(Behavioral) (TopPalindromo.vhd)]", 1); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopPalindromo(Behavioral) (TopPalindromo.vhd), palindromo_check : PalindromoCheck(Behavioral) (PalindromoCheck.vhd)]", 4, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopPalindromo(Behavioral) (TopPalindromo.vhd), palindromo_check : PalindromoCheck(Behavioral) (PalindromoCheck.vhd)]", 4, false, false, false, false, false, true); // D - Double Click
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, coiso(Behavioral) (coiso.vhd)]", 6, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, coiso(Behavioral) (coiso.vhd)]", 6, false, false, false, false, false, true); // D - Double Click
+selectCodeEditor("coiso.vhd", 268, 68); // bP
+typeControlKey((HResource) null, "coiso.vhd", 'c'); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Counter_bit.vhd", 2); // m
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+selectCodeEditor("Counter_bit.vhd", 271, 307); // bP
+typeControlKey((HResource) null, "Counter_bit.vhd", 'v'); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 19 seconds
+selectCodeEditor("Counter_bit.vhd", 180, 304); // bP
+// Elapsed time: 19 seconds
+selectCodeEditor("Counter_bit.vhd", 258, 158); // bP
+// Elapsed time: 14 seconds
+selectCodeEditor("Counter_bit.vhd", 76, 310); // bP
+selectCodeEditor("Counter_bit.vhd", 136, 152); // bP
+selectCodeEditor("Counter_bit.vhd", 136, 152, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "Counter_bit.vhd", 'c'); // bP
+selectCodeEditor("Counter_bit.vhd", 69, 313); // bP
+selectCodeEditor("Counter_bit.vhd", 69, 313, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "Counter_bit.vhd", 'v'); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopPalindromo.vhd", 1); // m
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, coiso(Behavioral) (coiso.vhd)]", 6, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, coiso(Behavioral) (coiso.vhd)]", 6, false, false, false, false, false, true); // D - Double Click
+selectCodeEditor("coiso.vhd", 188, 178); // bP
+typeControlKey((HResource) null, "coiso.vhd", 'c'); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Counter_bit.vhd", 2); // m
+typeControlKey((HResource) null, "Counter_bit.vhd", 'v'); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "coiso.vhd", 3); // m
+selectCodeEditor("coiso.vhd", 234, 56); // bP
+typeControlKey((HResource) null, "coiso.vhd", 'c'); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Counter_bit.vhd", 2); // m
+selectCodeEditor("Counter_bit.vhd", 121, 242); // bP
+typeControlKey((HResource) null, "Counter_bit.vhd", 'v'); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Counter_bit.vhd", 485, 213); // bP
+selectCodeEditor("Counter_bit.vhd", 252, 257); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopPalindromo.vhd", 1); // m
+// k (cr): Text Changed: addNotify
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+selectButton(RDIResource.ConfirmSaveTextEditsDialog_CANCEL, "Cancel"); // a
+dismissDialog("Text Changed"); // k
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Counter_bit.vhd", 2); // m
+selectCodeEditor("Counter_bit.vhd", 83, 158); // bP
+typeControlKey((HResource) null, "Counter_bit.vhd", 'c'); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopPalindromo.vhd", 1); // m
+typeControlKey((HResource) null, "TopPalindromo.vhd", 'v'); // bP
+selectCodeEditor("TopPalindromo.vhd", 160, 224); // bP
+// Elapsed time: 19 seconds
+selectCodeEditor("TopPalindromo.vhd", 132, 177); // bP
+selectCodeEditor("TopPalindromo.vhd", 132, 177, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "TopPalindromo.vhd", 'c'); // bP
+selectCodeEditor("TopPalindromo.vhd", 257, 158); // bP
+typeControlKey((HResource) null, "TopPalindromo.vhd", 'v'); // bP
+// Elapsed time: 12 seconds
+selectCodeEditor("TopPalindromo.vhd", 293, 201); // bP
+selectCodeEditor("TopPalindromo.vhd", 293, 201, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "TopPalindromo.vhd", 'c'); // bP
+selectCodeEditor("TopPalindromo.vhd", 87, 304); // bP
+typeControlKey((HResource) null, "TopPalindromo.vhd", 'v'); // bP
+typeControlKey((HResource) null, "TopPalindromo.vhd", 'v'); // bP
+selectCodeEditor("TopPalindromo.vhd", 213, 323); // bP
+typeControlKey((HResource) null, "TopPalindromo.vhd", 'c'); // bP
+typeControlKey((HResource) null, "TopPalindromo.vhd", 'v'); // bP
+selectCodeEditor("TopPalindromo.vhd", 38, 327); // bP
+selectCodeEditor("TopPalindromo.vhd", 219, 341); // bP
+selectCodeEditor("TopPalindromo.vhd", 2, 326); // bP
+typeControlKey((HResource) null, "TopPalindromo.vhd", 'c'); // bP
+typeControlKey((HResource) null, "TopPalindromo.vhd", 'v'); // bP
+selectCodeEditor("TopPalindromo.vhd", 185, 303); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("TopPalindromo.vhd", 70, 241); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectCodeEditor("TopPalindromo.vhd", 247, 177); // bP
+selectCodeEditor("TopPalindromo.vhd", 24, 111); // bP
+selectCodeEditor("TopPalindromo.vhd", 371, 196); // bP
+selectCodeEditor("TopPalindromo.vhd", 21, 112); // bP
+typeControlKey((HResource) null, "TopPalindromo.vhd", 'c'); // bP
+// Elapsed time: 118 seconds
+selectCodeEditor("TopPalindromo.vhd", 406, 247); // bP
+selectCodeEditor("TopPalindromo.vhd", 295, 197); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 47 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Counter_bit.vhd", 2); // m
+selectCodeEditor("Counter_bit.vhd", 351, 185); // bP
+selectCodeEditor("Counter_bit.vhd", 37, 66); // bP
+selectCodeEditor("Counter_bit.vhd", 426, 160); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopPalindromo.vhd", 1); // m
+selectCodeEditor("TopPalindromo.vhd", 434, 281); // bP
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // E
+selectCodeEditor("TopPalindromo.vhd", 234, 276); // bP
+selectCodeEditor("TopPalindromo.vhd", 324, 123); // bP
+selectCodeEditor("TopPalindromo.vhd", 390, 139); // bP
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // E
+selectCodeEditor("TopPalindromo.vhd", 375, 117); // bP
+selectCodeEditor("TopPalindromo.vhd", 440, 157); // bP
+// Elapsed time: 13 seconds
+selectCodeEditor("TopPalindromo.vhd", 302, 178); // bP
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // E
+selectCodeEditor("TopPalindromo.vhd", 275, 197); // bP
+selectCodeEditor("TopPalindromo.vhd", 239, 186); // bP
+selectCodeEditor("TopPalindromo.vhd", 239, 186, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("TopPalindromo.vhd", 263, 182); // bP
+selectCodeEditor("TopPalindromo.vhd", 264, 182); // bP
+selectCodeEditor("TopPalindromo.vhd", 264, 182, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "TopPalindromo.vhd", 'c'); // bP
+selectCodeEditor("TopPalindromo.vhd", 315, 216); // bP
+typeControlKey((HResource) null, "TopPalindromo.vhd", 'v'); // bP
+selectCodeEditor("TopPalindromo.vhd", 260, 325); // bP
+typeControlKey((HResource) null, "TopPalindromo.vhd", 'v'); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectCodeEditor("TopPalindromo.vhd", 18, 263); // bP
+selectCodeEditor("TopPalindromo.vhd", 128, 258); // bP
+selectCodeEditor("TopPalindromo.vhd", 8, 244); // bP
+selectCodeEditor("TopPalindromo.vhd", 290, 151); // bP
+selectCodeEditor("TopPalindromo.vhd", 261, 296); // bP
+selectCodeEditor("TopPalindromo.vhd", 131, 185); // bP
+selectCodeEditor("TopPalindromo.vhd", 366, 75); // bP
+selectCodeEditor("TopPalindromo.vhd", 292, 105); // bP
+selectCodeEditor("TopPalindromo.vhd", 300, 90); // bP
+selectCodeEditor("TopPalindromo.vhd", 304, 85); // bP
+selectCodeEditor("TopPalindromo.vhd", 304, 85, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("TopPalindromo.vhd", 208, 77); // bP
+selectCodeEditor("TopPalindromo.vhd", 359, 74); // bP
+selectCodeEditor("TopPalindromo.vhd", 176, 77); // bP
+selectCodeEditor("TopPalindromo.vhd", 230, 75); // bP
+selectCodeEditor("TopPalindromo.vhd", 226, 283); // bP
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // E
+selectCodeEditor("TopPalindromo.vhd", 273, 141); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopPalindromo(Behavioral) (TopPalindromo.vhd)]", 1); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 4); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys4_Master.xdc]", 6, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys4_Master.xdc]", 6, false, false, false, false, false, true); // D - Double Click
+selectCodeEditor("Nexys4_Master.xdc", 3, 34); // bP
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // E
+selectCodeEditor("Nexys4_Master.xdc", 439, 204); // bP
+// Elapsed time: 15 seconds
+selectCodeEditor("Nexys4_Master.xdc", 492, 129); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "coiso.vhd", 3); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Counter_bit.vhd", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "coiso.vhd", 3); // m
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Counter_bit.vhd", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopPalindromo.vhd", 1); // m
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (cr): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// bz (cr):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Run Synthesis"); // A
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// bz (cr):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Sun Jun 12 10:30:57 2022] Launched synth_1... Run output will be captured here: C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bz
+// TclEventType: RUN_STATUS_CHANGE
+// [GUI Memory]: 147 MB (+1172kb) [00:19:17]
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // m
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ag (cr): Synthesis Completed: addNotify
+// Elapsed time: 82 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Synthesis Completed"); // ag
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 9, true, false, false, false, true, false); // u - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_SETTINGS, "Simulation Settings..."); // ak
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_SETTINGS
+// d (cr): Settings: addNotify
+// Elapsed time: 46 seconds
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, Synthesis]", 3, false); // B
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, Elaboration]", 2, false); // B
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, Simulation]", 1, false); // B
+// Elapsed time: 23 seconds
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, Simulation]", 1, false); // B
+selectTab(PAResourceOtoP.ProjectSettingsSimulationPanel_TABBED_PANE, PAResourceOtoP.ProjectSettingsSimulationPanel_SIMULATION, "Simulation", 2); // i
+// Elapsed time: 33 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Settings"); // d
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 9); // u
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 9); // u
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 9); // u
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 9); // u
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // ac
+selectMenu(PAResourceItoN.MainMenuMgr_SETTINGS, "Settings"); // ah
+selectMenu(PAResourceCommand.PACommandNames_SIMULATION_RUN, "Run Simulation"); // ac
+selectMenu(PAResourceCommand.PACommandNames_SIMULATION_RUN, "Run Simulation"); // ac
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // ac
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ac
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ac
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // ac
+selectMenu(PAResourceItoN.MainMenuMgr_SETTINGS, "Settings"); // ah
+selectMenu(PAResourceCommand.PACommandNames_SIMULATION_RUN, "Run Simulation"); // ac
+selectMenu(PAResourceCommand.PACommandNames_SIMULATION_RUN, "Run Simulation"); // ac
+selectMenu(PAResourceCommand.PACommandNames_SIMULATION_RUN, "Run Simulation"); // ac
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // ac
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ak
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cr):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'TopPalindromo' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj TopPalindromo_vhdl.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '3' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab -wto 37a32fe4ce74485683f7acb6c8d989af --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TopPalindromo_behav xil_defaultlib.TopPalindromo -log elaborate.log" 
+// Tcl Message: Built simulation snapshot TopPalindromo_behav 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message:  ****** Webtalk v2020.2 (64-bit)   **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020   **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020     ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.  source C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.sim/sim_1/behav/xsim/xsim.dir/TopPalindromo_behav/webtalk/xsim_webtalk.tcl -notrace INFO: [Common 17-206] Exiting Webtalk at Sun Jun 12 10:35:38 2022... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 999.879 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "TopPalindromo_behav -key {Behavioral:sim_1:Functional:TopPalindromo} -tclbatch {TopPalindromo.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2020.2 
+// Elapsed time: 28 seconds
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. 
+// Elapsed time: 20 seconds
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a
+// 'd' command handler elapsed time: 49 seconds
+selectButton(PAResourceQtoS.RunGadget_SHOW_WARNING_AND_ERROR_MESSAGES_IN_MESSAGES, "3 warnings"); // h
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-614] signal 'dataIn' is read in the process but is not in the sensitivity list [C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.srcs/sources_1/new/Counter_bit.vhd:61]. ]", 2, true); // ah - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-614] signal 'dataIn' is read in the process but is not in the sensitivity list [C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.srcs/sources_1/new/Counter_bit.vhd:61]. ]", 2, true, false, false, false, false, true); // ah - Double Click - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-614] signal 'dataIn' is read in the process but is not in the sensitivity list [C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.srcs/sources_1/new/Counter_bit.vhd:61]. ]", 2, true); // ah - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-327] inferring latch for variable 's_counter_reg' [C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.srcs/sources_1/new/Counter_bit.vhd:73]. ]", 4, false); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-327] inferring latch for variable 's_counter_reg' [C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.srcs/sources_1/new/Counter_bit.vhd:73]. ]", 4, false, false, false, false, false, true); // ah - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopPalindromo.vhd", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Counter_bit.vhd", 2); // m
+selectCodeEditor("Counter_bit.vhd", 174, 200); // bP
+selectCodeEditor("Counter_bit.vhd", 421, 194); // bP
+selectCodeEditor("Counter_bit.vhd", 225, 140); // bP
+selectCodeEditor("Counter_bit.vhd", 225, 140, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Counter_bit.vhd", 369, 91); // bP
+// Elapsed time: 14 seconds
+selectCodeEditor("Counter_bit.vhd", 276, 240); // bP
+selectCodeEditor("Counter_bit.vhd", 290, 322); // bP
+selectCodeEditor("Counter_bit.vhd", 290, 322, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "Counter_bit.vhd", 'c'); // bP
+selectCodeEditor("Counter_bit.vhd", 289, 264); // bP
+selectCodeEditor("Counter_bit.vhd", 289, 264, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "Counter_bit.vhd", 'v'); // bP
+selectCodeEditor("Counter_bit.vhd", 175, 280); // bP
+selectCodeEditor("Counter_bit.vhd", 179, 326); // bP
+typeControlKey((HResource) null, "Counter_bit.vhd", 'v'); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Counter_bit.vhd", 200, 291); // bP
+selectCodeEditor("Counter_bit.vhd", 179, 115); // bP
+selectCodeEditor("Counter_bit.vhd", 191, 217); // bP
+selectCodeEditor("Counter_bit.vhd", 309, 211); // bP
+selectCodeEditor("Counter_bit.vhd", 185, 284); // bP
+// Elapsed time: 61 seconds
+selectCodeEditor("Counter_bit.vhd", 322, 117); // bP
+selectCodeEditor("Counter_bit.vhd", 170, 286); // bP
+typeControlKey((HResource) null, "Counter_bit.vhd", 'c'); // bP
+selectCodeEditor("Counter_bit.vhd", 334, 109); // bP
+typeControlKey((HResource) null, "Counter_bit.vhd", 'v'); // bP
+selectCodeEditor("Counter_bit.vhd", 185, 144); // bP
+selectCodeEditor("Counter_bit.vhd", 183, 140); // bP
+selectCodeEditor("Counter_bit.vhd", 485, 129); // bP
+selectCodeEditor("Counter_bit.vhd", 238, 75); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys4_Master.xdc", 3); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Counter_bit.vhd", 2); // m
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopPalindromo.vhd", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Counter_bit.vhd", 2); // m
+selectCodeEditor("Counter_bit.vhd", 444, 217); // bP

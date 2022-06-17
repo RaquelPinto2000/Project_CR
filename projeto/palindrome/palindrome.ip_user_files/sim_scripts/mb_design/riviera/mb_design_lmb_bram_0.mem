@@ -3,10 +3,10 @@
 // SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 // Vivado v2020.2 (64-bit)
 // Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
-// Created on Thursday June 16, 2022 - 04:28:05 pm, from:
+// Created on Friday June 17, 2022 - 11:35:08 pm, from:
 //
-//     Map file     - c:\Users\User\Dropbox\Project_CR\projeto\palindrome\palindrome.gen\sources_1\bd\mb_design\mb_design.bmm
-//     Data file(s) - c:/Users/User/Dropbox/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_microblaze_0_0/data/mb_bootloop_le.elf
+//     Map file     - c:\Users\Raquel\Desktop\Project_CR\projeto\palindrome\palindrome.gen\sources_1\bd\mb_design\mb_design.bmm
+//     Data file(s) - c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_microblaze_0_0/data/mb_bootloop_le.elf
 //
 // Address space 'mb_design_i_microblaze_0.mb_design_i_microblaze_0_local_memory_lmb_bram_ADDR_SPACE', bit lane [31:0].
 //
