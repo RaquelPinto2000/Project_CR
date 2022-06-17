@@ -60,7 +60,7 @@ typedef int bool;
 #define min(a, b)		((a < b) ? a : b)
 
 #define N				16 //16 palavras de 32 bits = 512 bits / 8 = 64 bytes
-
+#define MAX 32
 #define DMA_DEVICE_ID	XPAR_AXIDMA_0_DEVICE_ID
 
 /*********************** DMA Configuration Function **************************/
@@ -111,12 +111,12 @@ void PrintDataArray(int* pData, unsigned int size)
 	}
 }
 
-void PrintArray(int* pData)
+//size = (sizeof(pData)/sizeof(pData[0]))
+void PrintArray(int* pData, int size)
 {
 	xil_printf("\n\r");
-	for (int i = 32-1; i >= 0; i--)
-	{
-		xil_printf("%d", pData[i]);
+	for (int i = 0;i<size; i++){
+			xil_printf("%d", pData[i]);
 	}
 }
 
@@ -145,71 +145,44 @@ unsigned int StopAndGetPerformanceTimer()
 	return GetPerformanceTimer();
 }
 
-int* decToBinary(int n)
-{
-    // array to store binary number
-    int* binaryNum[32];
-
-    // counter for binary array
-    int i = 0;
-    while (n > 0) {
-
-        // storing remainder in binary array
-        binaryNum[i] = n % 2;
-        //xil_printf("%d ",n % 2);
-        n = n / 2;
-        i++;
-    }
-    PrintArray(binaryNum);
-    return binaryNum;
+void initArray(int *data, int size){
+	for (int i = 0;i<size; i++){
+		data[i]=0;
+	}
 }
 
-/*void CheckPalindromeSw(int* pData1, int* pData2, unsigned int size)
-{
-	for (int i = 0; i < size; i++)
+void decToBinary(int * data, long int num, int size){
+	int i = 0;
+	//int size = (sizeof(data)/sizeof(data[0]));
+	initArray(data,size);
+	while(num > 0)
 	{
-		int* aux = decToBinary(pData2[i]);
-		//PrintArray(aux,32);
-		pData1[i] = pData2[i];
-		for (int j = 0; j < 32; j++)
-		{
-			if (aux[j] != aux[32-j])
-			{
-				//xil_printf("\n\r It's not a palindrome!\n\r");
-			}
-		}
+		data[i] =  num % 2;
+		i++;
+		num = num / 2;
 	}
-	//xil_printf("\n\r It's a palindrome!\n\r");
-}*/
 
-bool CheckPalindromeSw(int pData1)
-{
-	int* aux = pData1;//decToBinary(pData1);
-	//xil_printf("\n\r %d \n\r",pData1);
-	PrintArray(aux);
-
-	for (int j = 0; j < 32; j++)
-	{
-		if (aux[j] != aux[32-j])
-		{
-			return FALSE;
-			//xil_printf("\n\r It's not a palindrome!\n\r");
-		}
-	}
-	//xil_printf("\n\r It's a palindrome!\n\r");
-	return TRUE;
 }
+
+
+int CheckPalindromeSw(int* pData1, int size)
+{
+    for (int j = size; j >0; j--) {
+		if (pData1[j-1] != pData1[size-j]){
+		    return 0;
+		}
+	}
+	return 1;
+}
+
 
 int main()
 {
-
-    //init_platform();
 
     int status;
 	XAxiDma dmaInstDefs;
 	int srcData[N], dstData[N];
 	unsigned int timeElapsed;
-
 	xil_printf("\r\nDMA with Palindrome Demo Program - Entering main()...");
 	init_platform();
 
@@ -217,38 +190,57 @@ int main()
 	RestartPerformanceTimer();
 	srand(0);
 
+	timeElapsed = StopAndGetPerformanceTimer();
+	xil_printf("\n\rMemory initialization time: %d microseconds\n\r",
+			   timeElapsed / (XPAR_CPU_M_AXI_DP_FREQ_HZ / 1000000));
+	//PrintDataArray(srcData, min(16, N));
+	xil_printf("\n\r");
+
+	RestartPerformanceTimer();
+
+
 	//1 palavra 1000101010001000 0001000101010001
-	srcData[0] = 10001010100010000001000101010001;//2800000082;//2324173137;
-	xil_printf("\n\r %d \n\r",srcData[0]);
-	bool result = CheckPalindromeSw(srcData[0]);
-	xil_printf("\n\rPalindrome: %s\n\r", result ? "Yes" : "No");
-	srcData[1] = 10001010100010101001000101011101;
-	result = CheckPalindromeSw(srcData[1]);
-	xil_printf("\n\rPalindrome: %s\n\r", result ? "Yes" : "No");
+	srcData[0] = 1704565158;//2800000082;//2324173137;
+
+/*
+	srcData[1] = 2800000083;
+	//result = CheckPalindromeSw(srcData[1]);
+	//xil_printf("\n\rPalindrome: %s\n\r", result ? "Yes" : "No");
     srcData[2] = 8;
     srcData[3] = 8;
     srcData[4] = 1;
 	srcData[5] = 1;
 	srcData[6] = 5;
-	srcData[7] = 80000001;
+	srcData[7] = 80000001;*/
 
-	for (int i = 8; i < N; i++)
+	for (int i = 1; i < N; i++)
 	{
 		srcData[i] = rand();
 	}
 
-	timeElapsed = StopAndGetPerformanceTimer();
-	xil_printf("\n\rMemory initialization time: %d microseconds\n\r",
-			   timeElapsed / (XPAR_CPU_M_AXI_DP_FREQ_HZ / 1000000));
-	PrintDataArray(srcData, min(16, N));
-	xil_printf("\n\r");
+	for (int i = 0;i<N;i++){
+		int bin[MAX];
+		int size = (sizeof(bin)/sizeof(bin[0]));
+		decToBinary(bin,srcData[i],size);
+		xil_printf("\n");
+		for (int i = 0;i<(sizeof(bin)/sizeof(bin[0])); i++){
+			xil_printf("%d", bin[i]);
+		}
+		dstData[i] = CheckPalindromeSw(bin, (sizeof(bin)/sizeof(bin[0])));
 
-	RestartPerformanceTimer();
+	}
+	xil_printf("\n");
+	for (int i = 0;i<(sizeof(dstData)/sizeof(dstData[0]));i++){
+		xil_printf("%d\n", dstData[i]);
+	}
+
+
+
 	//CheckPalindromeSw(Data);
 	timeElapsed = StopAndGetPerformanceTimer();
 	xil_printf("\n\rSoftware only time: %d microseconds",
 			   timeElapsed / (XPAR_CPU_M_AXI_DP_FREQ_HZ / 1000000));
-	PrintDataArray(dstData, min(16, N));
+	//PrintDataArray(dstData, min(16, N));
 
     xil_printf("\r\nConfiguring DMA...");
 	status = DMAConfig(DMA_DEVICE_ID, &dmaInstDefs);

@@ -1,50 +1,6 @@
-11:11:52 **** Incremental Build of configuration Debug for project palindromeApp ****
+17:03:18 **** Incremental Build of configuration Debug for project palindromeApp ****
 make all 
-'Building file: ../src/helloworld.c'
-'Invoking: MicroBlaze gcc compiler'
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IC:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/sw/mb_design_palindrome/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'decToBinary':
-../src/helloworld.c:158:22: warning: assignment to 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
-  158 |         binaryNum[i] = n % 2;
-      |                      ^
-../src/helloworld.c:163:16: warning: passing argument 1 of 'PrintArray' from incompatible pointer type [-Wincompatible-pointer-types]
-  163 |     PrintArray(binaryNum);
-      |                ^~~~~~~~~
-      |                |
-      |                int **
-../src/helloworld.c:114:22: note: expected 'int *' but argument is of type 'int **'
-  114 | void PrintArray(int* pData)
-      |                 ~~~~~^~~~~
-../src/helloworld.c:164:12: warning: returning 'int **' from a function with incompatible return type 'int *' [-Wincompatible-pointer-types]
-  164 |     return binaryNum;
-      |            ^~~~~~~~~
-../src/helloworld.c:164:12: warning: function returns address of local variable [-Wreturn-local-addr]
-../src/helloworld.c: In function 'CheckPalindromeSw':
-../src/helloworld.c:187:13: warning: initialization of 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
-  187 |  int* aux = pData1;//decToBinary(pData1);
-      |             ^~~~~~
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:221:15: warning: integer constant is too large for its type
-  221 |  srcData[0] = 10001010100010000001000101010001;//2800000082;//2324173137;
-      |               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-../src/helloworld.c:221:15: warning: overflow in conversion from 'long long int' to 'int' changes value from '289587053460609617' to '219306577' [-Woverflow]
-../src/helloworld.c:225:15: warning: integer constant is too large for its type
-  225 |  srcData[1] = 10001010100010101001000101011101;
-      |               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-../src/helloworld.c:225:15: warning: overflow in conversion from 'long long int' to 'int' changes value from '390587053460610717' to '258137757' [-Woverflow]
-'Finished building: ../src/helloworld.c'
-' '
-'Building target: palindromeApp.elf'
-'Invoking: MicroBlaze gcc linker'
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/export/mb_design_palindrome/sw/mb_design_palindrome/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "palindromeApp.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: palindromeApp.elf'
-' '
-'Invoking: MicroBlaze Print Size'
-mb-size palindromeApp.elf  |tee "palindromeApp.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  16800	   1468	   3172	  21440	   53c0	palindromeApp.elf
-'Finished building: palindromeApp.elf.size'
-' '
+make: Nothing to be done for 'all'.
 
-11:12:26 Build Finished (took 34s.542ms)
+17:03:19 Build Finished (took 195ms)
 

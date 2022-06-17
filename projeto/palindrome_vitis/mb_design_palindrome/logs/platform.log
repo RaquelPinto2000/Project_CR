@@ -2794,3 +2794,1474 @@ TRACE::2022-06-17.10:41:17::SCWMssOS::Checking the sw design at  C:/Users/User/D
 TRACE::2022-06-17.10:41:17::SCWMssOS::DEBUG:  swdes dump  C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
 
 TRACE::2022-06-17.10:41:17::SCWMssOS::Sw design exists and opened at  C:/Users/User/Dropbox/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.11:19:49::SCWPlatform::Trying to open the hw design at C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.11:19:49::SCWPlatform::DSA given C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.11:19:49::SCWPlatform::DSA absoulate path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.11:19:53::SCWPlatform::DSA directory C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw
+TRACE::2022-06-17.11:19:53::SCWPlatform:: Platform Path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.11:19:53::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2022-06-17.11:19:53::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-06-17.11:19:53::SCWPlatform::Opened new HwDB with name mb_design_wrapper
+TRACE::2022-06-17.11:19:53::SCWReader::Active system found as  mb_design_palindrome
+TRACE::2022-06-17.11:19:53::SCWReader::Handling sysconfig mb_design_palindrome
+TRACE::2022-06-17.11:19:53::SCWDomain::checking for install qemu data   : 
+TRACE::2022-06-17.11:19:53::SCWPlatform::Trying to open the hw design at C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.11:19:53::SCWPlatform::DSA given C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.11:19:53::SCWPlatform::DSA absoulate path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.11:19:53::SCWPlatform::DSA directory C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw
+TRACE::2022-06-17.11:19:53::SCWPlatform:: Platform Path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.11:19:53::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2022-06-17.11:19:53::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper
+TRACE::2022-06-17.11:19:53::SCWPlatform::Opened existing hwdb mb_design_wrapper
+TRACE::2022-06-17.11:19:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-06-17.11:19:53::SCWPlatform::Trying to open the hw design at C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.11:19:53::SCWPlatform::DSA given C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.11:19:53::SCWPlatform::DSA absoulate path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.11:19:53::SCWPlatform::DSA directory C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw
+TRACE::2022-06-17.11:19:53::SCWPlatform:: Platform Path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.11:19:53::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2022-06-17.11:19:53::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper
+TRACE::2022-06-17.11:19:53::SCWPlatform::Opened existing hwdb mb_design_wrapper
+TRACE::2022-06-17.11:19:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-06-17.11:19:53::SCWPlatform::Trying to open the hw design at C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.11:19:53::SCWPlatform::DSA given C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.11:19:53::SCWPlatform::DSA absoulate path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.11:19:53::SCWPlatform::DSA directory C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw
+TRACE::2022-06-17.11:19:53::SCWPlatform:: Platform Path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.11:19:53::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2022-06-17.11:19:53::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper
+TRACE::2022-06-17.11:19:53::SCWPlatform::Opened existing hwdb mb_design_wrapper
+TRACE::2022-06-17.11:19:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-06-17.11:19:53::SCWPlatform::Trying to open the hw design at C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.11:19:53::SCWPlatform::DSA given C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.11:19:53::SCWPlatform::DSA absoulate path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.11:19:53::SCWPlatform::DSA directory C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw
+TRACE::2022-06-17.11:19:53::SCWPlatform:: Platform Path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.11:19:53::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2022-06-17.11:19:53::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper
+TRACE::2022-06-17.11:19:53::SCWPlatform::Opened existing hwdb mb_design_wrapper
+TRACE::2022-06-17.11:19:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-06-17.11:19:53::SCWMssOS::Checking the sw design at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.11:19:53::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-06-17.11:19:53::SCWMssOS::No sw design opened at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.11:19:53::SCWMssOS::mss exists loading the mss file  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.11:19:53::SCWMssOS::Opened the sw design from mss  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.11:19:53::SCWMssOS::Adding the swdes entry C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2022-06-17.11:19:53::SCWMssOS::updating the scw layer about changes
+TRACE::2022-06-17.11:19:53::SCWMssOS::Opened the sw design.  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.11:19:53::SCWMssOS::Saving the mss changes C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.11:19:53::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-06-17.11:19:53::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-06-17.11:19:53::SCWMssOS::Commit changes completed.
+TRACE::2022-06-17.11:19:53::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2022-06-17.11:19:53::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2022-06-17.11:19:53::SCWPlatform::Trying to open the hw design at C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.11:19:53::SCWPlatform::DSA given C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.11:19:53::SCWPlatform::DSA absoulate path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.11:19:53::SCWPlatform::DSA directory C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw
+TRACE::2022-06-17.11:19:53::SCWPlatform:: Platform Path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.11:19:53::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2022-06-17.11:19:53::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper
+TRACE::2022-06-17.11:19:53::SCWPlatform::Opened existing hwdb mb_design_wrapper
+TRACE::2022-06-17.11:19:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-06-17.11:19:53::SCWMssOS::Checking the sw design at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.11:19:53::SCWMssOS::DEBUG:  swdes dump  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-06-17.11:19:53::SCWMssOS::Sw design exists and opened at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.11:19:53::SCWReader::No isolation master present  
+LOG::2022-06-17.11:19:53::SCWPlatform::Started generating the artifacts platform mb_design_palindrome
+TRACE::2022-06-17.11:19:53::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-06-17.11:19:53::SCWPlatform::Started generating the artifacts for system configuration mb_design_palindrome
+LOG::2022-06-17.11:19:53::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2022-06-17.11:19:53::SCWSystem::Not a boot domain 
+LOG::2022-06-17.11:19:53::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2022-06-17.11:19:53::SCWDomain::Generating domain artifcats
+TRACE::2022-06-17.11:19:53::SCWMssOS::Generating standalone artifcats
+TRACE::2022-06-17.11:19:53::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-06-17.11:19:53::SCWPlatform::Trying to open the hw design at C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.11:19:53::SCWPlatform::DSA given C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.11:19:53::SCWPlatform::DSA absoulate path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.11:19:53::SCWPlatform::DSA directory C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw
+TRACE::2022-06-17.11:19:53::SCWPlatform:: Platform Path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.11:19:53::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2022-06-17.11:19:53::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper
+TRACE::2022-06-17.11:19:53::SCWPlatform::Opened existing hwdb mb_design_wrapper
+TRACE::2022-06-17.11:19:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-06-17.11:19:53::SCWMssOS::Checking the sw design at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.11:19:53::SCWMssOS::DEBUG:  swdes dump  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-06-17.11:19:53::SCWMssOS::Sw design exists and opened at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.11:19:53::SCWMssOS::Completed writing the mss file at C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2022-06-17.11:19:53::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.11:19:53::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-06-17.11:19:53::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-06-17.11:19:53::SCWDomain::Building the domain :  standalone_microblaze_0
+TRACE::2022-06-17.11:19:53::SCWMssOS::doing bsp build ... 
+TRACE::2022-06-17.11:19:53::SCWMssOS::System Command Ran  C: & cd  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2022-06-17.11:19:53::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2022-06-17.11:19:53::SCWMssOS::"Running Make include in microblaze_0/libsrc/axidma_v9_12/src"
+
+TRACE::2022-06-17.11:19:53::SCWMssOS::make -C microblaze_0/libsrc/axidma_v9_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2022-06-17.11:19:53::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2022-06-17.11:19:53::SCWMssOS::ll -Wextra"
+
+TRACE::2022-06-17.11:19:53::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_5/src"
+
+TRACE::2022-06-17.11:19:53::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-06-17.11:19:53::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-06-17.11:19:53::SCWMssOS::-Wextra"
+
+TRACE::2022-06-17.11:19:53::SCWMssOS::"Running Make include in microblaze_0/libsrc/CheckPalindrome_v1_0/src"
+
+TRACE::2022-06-17.11:19:53::SCWMssOS::make -C microblaze_0/libsrc/CheckPalindrome_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-a
+TRACE::2022-06-17.11:19:53::SCWMssOS::r" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sect
+TRACE::2022-06-17.11:19:53::SCWMssOS::ions -Wall -Wextra"
+
+TRACE::2022-06-17.11:19:53::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_12/src"
+
+TRACE::2022-06-17.11:19:53::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-06-17.11:19:53::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-06-17.11:19:53::SCWMssOS::-Wextra"
+
+TRACE::2022-06-17.11:19:53::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_7/src"
+
+TRACE::2022-06-17.11:19:53::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-06-17.11:19:53::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-06-17.11:19:53::SCWMssOS::-Wextra"
+
+TRACE::2022-06-17.11:19:54::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_12/src"
+
+TRACE::2022-06-17.11:19:54::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-06-17.11:19:54::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2022-06-17.11:19:54::SCWMssOS:: -Wextra"
+
+TRACE::2022-06-17.11:19:54::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_3/src"
+
+TRACE::2022-06-17.11:19:54::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2022-06-17.11:19:54::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2022-06-17.11:19:54::SCWMssOS::-Wall -Wextra"
+
+TRACE::2022-06-17.11:19:55::SCWMssOS::"Running Make include in microblaze_0/libsrc/tmrctr_v4_7/src"
+
+TRACE::2022-06-17.11:19:55::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2022-06-17.11:19:55::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2022-06-17.11:19:55::SCWMssOS::l -Wextra"
+
+TRACE::2022-06-17.11:19:55::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_5/src"
+
+TRACE::2022-06-17.11:19:55::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-06-17.11:19:55::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2022-06-17.11:19:55::SCWMssOS::all -Wextra"
+
+TRACE::2022-06-17.11:19:55::SCWMssOS::"Running Make libs in microblaze_0/libsrc/CheckPalindrome_v1_0/src"
+
+TRACE::2022-06-17.11:19:55::SCWMssOS::make -C microblaze_0/libsrc/CheckPalindrome_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2022-06-17.11:19:55::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-section
+TRACE::2022-06-17.11:19:55::SCWMssOS::s -Wall -Wextra"
+
+TRACE::2022-06-17.11:19:55::SCWMssOS::"Compiling CheckPalindrome..."
+
+TRACE::2022-06-17.11:19:55::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2022-06-17.11:19:55::SCWMssOS::make -j --no-print-directory par_libs
+
+TRACE::2022-06-17.11:19:55::SCWMssOS::"Running Make include in microblaze_0/libsrc/axidma_v9_12/src"
+
+TRACE::2022-06-17.11:19:55::SCWMssOS::make -C microblaze_0/libsrc/axidma_v9_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2022-06-17.11:19:55::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2022-06-17.11:19:55::SCWMssOS::ll -Wextra"
+
+TRACE::2022-06-17.11:19:55::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_5/src"
+
+TRACE::2022-06-17.11:19:55::SCWMssOS::"Running Make include in microblaze_0/libsrc/CheckPalindrome_v1_0/src"
+
+TRACE::2022-06-17.11:19:55::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-06-17.11:19:55::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-06-17.11:19:55::SCWMssOS::-Wextra"
+
+TRACE::2022-06-17.11:19:55::SCWMssOS::make -C microblaze_0/libsrc/CheckPalindrome_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-a
+TRACE::2022-06-17.11:19:55::SCWMssOS::r" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sect
+TRACE::2022-06-17.11:19:55::SCWMssOS::ions -Wall -Wextra"
+
+TRACE::2022-06-17.11:19:55::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_12/src"
+
+TRACE::2022-06-17.11:19:55::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-06-17.11:19:55::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-06-17.11:19:55::SCWMssOS::-Wextra"
+
+TRACE::2022-06-17.11:19:55::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_7/src"
+
+TRACE::2022-06-17.11:19:55::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-06-17.11:19:55::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-06-17.11:19:55::SCWMssOS::-Wextra"
+
+TRACE::2022-06-17.11:19:55::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_12/src"
+
+TRACE::2022-06-17.11:19:55::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_3/src"
+
+TRACE::2022-06-17.11:19:55::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-06-17.11:19:55::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2022-06-17.11:19:55::SCWMssOS:: -Wextra"
+
+TRACE::2022-06-17.11:19:55::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2022-06-17.11:19:55::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2022-06-17.11:19:56::SCWMssOS::-Wall -Wextra"
+
+TRACE::2022-06-17.11:19:56::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_5/src"
+
+TRACE::2022-06-17.11:19:56::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-06-17.11:19:56::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2022-06-17.11:19:56::SCWMssOS::all -Wextra"
+
+TRACE::2022-06-17.11:19:56::SCWMssOS::"Running Make include in microblaze_0/libsrc/tmrctr_v4_7/src"
+
+TRACE::2022-06-17.11:19:56::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2022-06-17.11:19:56::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2022-06-17.11:19:56::SCWMssOS::l -Wextra"
+
+TRACE::2022-06-17.11:19:56::SCWMssOS::"Running Make libs in microblaze_0/libsrc/axidma_v9_12/src"
+
+TRACE::2022-06-17.11:19:56::SCWMssOS::make -C microblaze_0/libsrc/axidma_v9_12/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-06-17.11:19:56::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-06-17.11:19:56::SCWMssOS::-Wextra"
+
+TRACE::2022-06-17.11:19:56::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_5/src"
+
+TRACE::2022-06-17.11:19:56::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2022-06-17.11:19:56::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2022-06-17.11:19:56::SCWMssOS::xtra"
+
+TRACE::2022-06-17.11:19:56::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_12/src"
+
+TRACE::2022-06-17.11:19:56::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2022-06-17.11:19:56::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2022-06-17.11:19:56::SCWMssOS::xtra"
+
+TRACE::2022-06-17.11:19:56::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_7/src"
+
+TRACE::2022-06-17.11:19:56::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2022-06-17.11:19:56::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2022-06-17.11:19:56::SCWMssOS::xtra"
+
+TRACE::2022-06-17.11:19:56::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_12/src"
+
+TRACE::2022-06-17.11:19:56::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_12/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2022-06-17.11:19:56::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -W
+TRACE::2022-06-17.11:19:56::SCWMssOS::extra"
+
+TRACE::2022-06-17.11:19:56::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v7_3/src"
+
+TRACE::2022-06-17.11:19:56::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2022-06-17.11:19:56::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2022-06-17.11:19:56::SCWMssOS::ll -Wextra"
+
+TRACE::2022-06-17.11:19:56::SCWMssOS::"Running Make libs in microblaze_0/libsrc/tmrctr_v4_7/src"
+
+TRACE::2022-06-17.11:19:56::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_5/src"
+
+TRACE::2022-06-17.11:19:56::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-06-17.11:19:56::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2022-06-17.11:19:56::SCWMssOS:: -Wextra"
+
+TRACE::2022-06-17.11:19:56::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2022-06-17.11:19:56::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -
+TRACE::2022-06-17.11:19:57::SCWMssOS::Wextra"
+
+TRACE::2022-06-17.11:19:57::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2022-06-17.11:19:57::SCWMssOS::make --no-print-directory archive
+
+TRACE::2022-06-17.11:19:57::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/xplatform_info.o microblaze_0/lib/xuartlite.o microblaze_0/lib/microblaze_
+TRACE::2022-06-17.11:19:57::SCWMssOS::disable_exceptions.o microblaze_0/lib/xil_mem.o microblaze_0/lib/xtmrctr_options.o microblaze_0/lib/_exit.o microblaze_0/lib/xi
+TRACE::2022-06-17.11:19:57::SCWMssOS::l_testio.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_flush_dcache_range.o microblaze_0/lib/micro
+TRACE::2022-06-17.11:19:57::SCWMssOS::blaze_flush_cache_ext.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/lib/xil_cache.o microblaze_0/lib/xil_util.o microb
+TRACE::2022-06-17.11:19:57::SCWMssOS::laze_0/lib/inbyte.o microblaze_0/lib/xuartlite_stats.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/print.o
+TRACE::2022-06-17.11:19:57::SCWMssOS:: microblaze_0/lib/xbram_sinit.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_
+TRACE::2022-06-17.11:19:57::SCWMssOS::0/lib/microblaze_disable_interrupts.o microblaze_0/lib/xbram_selftest.o microblaze_0/lib/microblaze_interrupt_handler.o microbl
+TRACE::2022-06-17.11:19:57::SCWMssOS::aze_0/lib/microblaze_disable_icache.o microblaze_0/lib/xaxidma_sinit.o microblaze_0/lib/xgpio_g.o microblaze_0/lib/xaxidma_self
+TRACE::2022-06-17.11:19:57::SCWMssOS::test.o microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/xaxidma_bd.o micr
+TRACE::2022-06-17.11:19:57::SCWMssOS::oblaze_0/lib/xtmrctr_intr.o microblaze_0/lib/xbram_intr.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/xil_printf.o micr
+TRACE::2022-06-17.11:19:57::SCWMssOS::oblaze_0/lib/xintc_g.o microblaze_0/lib/xuartlite_g.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xtmrctr_l.o microblaze_0/lib/
+TRACE::2022-06-17.11:19:57::SCWMssOS::xintc_selftest.o microblaze_0/lib/xintc_l.o microblaze_0/lib/outbyte.o microblaze_0/lib/xgpio_extra.o microblaze_0/lib/xgpio_in
+TRACE::2022-06-17.11:19:57::SCWMssOS::tr.o microblaze_0/lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_cache_ext.o microblaze_0/lib/
+TRACE::2022-06-17.11:19:57::SCWMssOS::microblaze_sleep.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/hw_exception_handler.o microblaze_0/lib/xtmrctr.o microb
+TRACE::2022-06-17.11:19:57::SCWMssOS::laze_0/lib/xuartlite_selftest.o microblaze_0/lib/xgpio_sinit.o microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/xax
+TRACE::2022-06-17.11:19:57::SCWMssOS::idma_g.o microblaze_0/lib/xil_testcache.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_interrupts_g.o mic
+TRACE::2022-06-17.11:19:57::SCWMssOS::roblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/xio.o microblaze_0/lib/xtmrctr_g.o microblaze_0/lib/microblaze_en
+TRACE::2022-06-17.11:19:57::SCWMssOS::able_dcache.o microblaze_0/lib/xbram.o microblaze_0/lib/microblaze_invalidate_icache_range.o microblaze_0/lib/xtmrctr_selftest.
+TRACE::2022-06-17.11:19:57::SCWMssOS::o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/xaxidma.o mi
+TRACE::2022-06-17.11:19:57::SCWMssOS::croblaze_0/lib/errno.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xintc_options.o microblaze_0/lib/microblaze_invalidate_c
+TRACE::2022-06-17.11:19:57::SCWMssOS::ache_ext_range.o microblaze_0/lib/xintc_intr.o microblaze_0/lib/xil_exception.o microblaze_0/lib/pvr.o microblaze_0/lib/xgpio.o
+TRACE::2022-06-17.11:19:57::SCWMssOS:: microblaze_0/lib/xil_testmem.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/microblaze_flush_dcache.o microbla
+TRACE::2022-06-17.11:19:57::SCWMssOS::ze_0/lib/xil_clocking.o microblaze_0/lib/xil_assert.o microblaze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/microbla
+TRACE::2022-06-17.11:19:57::SCWMssOS::ze_enable_icache.o microblaze_0/lib/xintc.o microblaze_0/lib/xtmrctr_stats.o microblaze_0/lib/microblaze_init_icache_range.o mi
+TRACE::2022-06-17.11:19:57::SCWMssOS::croblaze_0/lib/xaxidma_bdring.o microblaze_0/lib/xtmrctr_sinit.o microblaze_0/lib/fcntl.o microblaze_0/lib/xgpio_selftest.o
+
+TRACE::2022-06-17.11:19:58::SCWMssOS::'Finished building libraries'
+
+TRACE::2022-06-17.11:19:58::SCWMssOS::Copying to export directory.
+TRACE::2022-06-17.11:19:58::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-06-17.11:19:58::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-06-17.11:19:58::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2022-06-17.11:19:58::SCWSystem::Completed Processing the sysconfig mb_design_palindrome
+LOG::2022-06-17.11:19:58::SCWPlatform::Completed generating the artifacts for system configuration mb_design_palindrome
+TRACE::2022-06-17.11:19:58::SCWPlatform::Started preparing the platform 
+TRACE::2022-06-17.11:19:58::SCWSystem::Writing the bif file for system config mb_design_palindrome
+TRACE::2022-06-17.11:19:58::SCWSystem::dir created 
+TRACE::2022-06-17.11:19:58::SCWSystem::Writing the bif 
+TRACE::2022-06-17.11:19:58::SCWPlatform::Started writing the spfm file 
+TRACE::2022-06-17.11:19:58::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-06-17.11:19:58::SCWPlatform::Completed generating the platform
+TRACE::2022-06-17.11:19:58::SCWMssOS::Saving the mss changes C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.11:19:58::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-06-17.11:19:58::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-06-17.11:19:58::SCWMssOS::Commit changes completed.
+TRACE::2022-06-17.11:19:58::SCWPlatform::Trying to open the hw design at C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.11:19:58::SCWPlatform::DSA given C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.11:19:58::SCWPlatform::DSA absoulate path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.11:19:58::SCWPlatform::DSA directory C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw
+TRACE::2022-06-17.11:19:58::SCWPlatform:: Platform Path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.11:19:58::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2022-06-17.11:19:58::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper
+TRACE::2022-06-17.11:19:58::SCWPlatform::Opened existing hwdb mb_design_wrapper
+TRACE::2022-06-17.11:19:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-06-17.11:19:58::SCWMssOS::Checking the sw design at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.11:19:58::SCWMssOS::DEBUG:  swdes dump  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-06-17.11:19:58::SCWMssOS::Sw design exists and opened at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.11:19:58::SCWWriter::formatted JSON is {
+	"platformName":	"mb_design_palindrome",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mb_design_palindrome",
+	"platHandOff":	"C:/Users/User/Dropbox/Project_CR/projeto/palindrome/mb_design_palindrome.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mb_design_palindrome.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mb_design_palindrome",
+	"systems":	[{
+			"systemName":	"mb_design_palindrome",
+			"systemDesc":	"mb_design_palindrome",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mb_design_palindrome",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"fb7ed2e4d128746253e13d4e26013f65",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-06-17.11:19:58::SCWPlatform::updated the xpfm file.
+TRACE::2022-06-17.11:19:58::SCWPlatform::Trying to open the hw design at C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.11:19:58::SCWPlatform::DSA given C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.11:19:58::SCWPlatform::DSA absoulate path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.11:19:58::SCWPlatform::DSA directory C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw
+TRACE::2022-06-17.11:19:58::SCWPlatform:: Platform Path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.11:19:58::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2022-06-17.11:19:58::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper
+TRACE::2022-06-17.11:19:58::SCWPlatform::Opened existing hwdb mb_design_wrapper
+TRACE::2022-06-17.11:19:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-06-17.11:19:58::SCWMssOS::Checking the sw design at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.11:19:58::SCWMssOS::DEBUG:  swdes dump  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-06-17.11:19:58::SCWMssOS::Sw design exists and opened at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.15:25:35::SCWMssOS::cleaning the bsp 
+TRACE::2022-06-17.15:25:35::SCWMssOS::System Command Ran  C: & cd  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp & make clean 
+TRACE::2022-06-17.15:25:35::SCWMssOS::make -C microblaze_0/libsrc/axidma_v9_12/src -s clean 
+
+TRACE::2022-06-17.15:25:35::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s clean 
+
+TRACE::2022-06-17.15:25:35::SCWMssOS::make -C microblaze_0/libsrc/CheckPalindrome_v1_0/src -s clean 
+
+TRACE::2022-06-17.15:25:35::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s clean 
+
+TRACE::2022-06-17.15:25:36::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_7/src -s clean 
+
+TRACE::2022-06-17.15:25:36::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_12/src -s clean 
+
+TRACE::2022-06-17.15:25:36::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s clean 
+
+TRACE::2022-06-17.15:25:36::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_7/src -s clean 
+
+TRACE::2022-06-17.15:25:37::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s clean 
+
+TRACE::2022-06-17.15:25:37::SCWMssOS::rm -f microblaze_0/lib/libxil.a
+
+LOG::2022-06-17.15:25:40::SCWPlatform::Started generating the artifacts platform mb_design_palindrome
+TRACE::2022-06-17.15:25:40::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-06-17.15:25:40::SCWPlatform::Started generating the artifacts for system configuration mb_design_palindrome
+LOG::2022-06-17.15:25:40::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2022-06-17.15:25:40::SCWSystem::Not a boot domain 
+LOG::2022-06-17.15:25:40::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2022-06-17.15:25:40::SCWDomain::Generating domain artifcats
+TRACE::2022-06-17.15:25:40::SCWMssOS::Generating standalone artifcats
+TRACE::2022-06-17.15:25:40::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-06-17.15:25:40::SCWPlatform::Trying to open the hw design at C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.15:25:40::SCWPlatform::DSA given C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.15:25:40::SCWPlatform::DSA absoulate path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.15:25:40::SCWPlatform::DSA directory C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw
+TRACE::2022-06-17.15:25:40::SCWPlatform:: Platform Path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.15:25:40::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2022-06-17.15:25:40::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper
+TRACE::2022-06-17.15:25:40::SCWPlatform::Opened existing hwdb mb_design_wrapper
+TRACE::2022-06-17.15:25:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-06-17.15:25:40::SCWMssOS::Checking the sw design at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.15:25:40::SCWMssOS::DEBUG:  swdes dump  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-06-17.15:25:40::SCWMssOS::Sw design exists and opened at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.15:25:40::SCWMssOS::Completed writing the mss file at C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2022-06-17.15:25:40::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.15:25:40::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-06-17.15:25:40::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-06-17.15:25:40::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2022-06-17.15:25:40::SCWMssOS::doing bsp build ... 
+TRACE::2022-06-17.15:25:40::SCWMssOS::System Command Ran  C: & cd  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2022-06-17.15:25:40::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2022-06-17.15:25:40::SCWMssOS::"Running Make include in microblaze_0/libsrc/axidma_v9_12/src"
+
+TRACE::2022-06-17.15:25:40::SCWMssOS::make -C microblaze_0/libsrc/axidma_v9_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2022-06-17.15:25:40::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2022-06-17.15:25:40::SCWMssOS::ll -Wextra"
+
+TRACE::2022-06-17.15:25:40::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_5/src"
+
+TRACE::2022-06-17.15:25:40::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-06-17.15:25:40::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-06-17.15:25:40::SCWMssOS::-Wextra"
+
+TRACE::2022-06-17.15:25:40::SCWMssOS::"Running Make include in microblaze_0/libsrc/CheckPalindrome_v1_0/src"
+
+TRACE::2022-06-17.15:25:40::SCWMssOS::make -C microblaze_0/libsrc/CheckPalindrome_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-a
+TRACE::2022-06-17.15:25:40::SCWMssOS::r" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sect
+TRACE::2022-06-17.15:25:40::SCWMssOS::ions -Wall -Wextra"
+
+TRACE::2022-06-17.15:25:40::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_12/src"
+
+TRACE::2022-06-17.15:25:40::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-06-17.15:25:40::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-06-17.15:25:40::SCWMssOS::-Wextra"
+
+TRACE::2022-06-17.15:25:40::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_7/src"
+
+TRACE::2022-06-17.15:25:40::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-06-17.15:25:40::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-06-17.15:25:40::SCWMssOS::-Wextra"
+
+TRACE::2022-06-17.15:25:40::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_12/src"
+
+TRACE::2022-06-17.15:25:40::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-06-17.15:25:40::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2022-06-17.15:25:40::SCWMssOS:: -Wextra"
+
+TRACE::2022-06-17.15:25:40::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_3/src"
+
+TRACE::2022-06-17.15:25:40::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2022-06-17.15:25:40::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2022-06-17.15:25:40::SCWMssOS::-Wall -Wextra"
+
+TRACE::2022-06-17.15:25:40::SCWMssOS::"Running Make include in microblaze_0/libsrc/tmrctr_v4_7/src"
+
+TRACE::2022-06-17.15:25:40::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2022-06-17.15:25:40::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2022-06-17.15:25:40::SCWMssOS::l -Wextra"
+
+TRACE::2022-06-17.15:25:40::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_5/src"
+
+TRACE::2022-06-17.15:25:40::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-06-17.15:25:40::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2022-06-17.15:25:40::SCWMssOS::all -Wextra"
+
+TRACE::2022-06-17.15:25:40::SCWMssOS::"Running Make libs in microblaze_0/libsrc/CheckPalindrome_v1_0/src"
+
+TRACE::2022-06-17.15:25:40::SCWMssOS::make -C microblaze_0/libsrc/CheckPalindrome_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2022-06-17.15:25:40::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-section
+TRACE::2022-06-17.15:25:40::SCWMssOS::s -Wall -Wextra"
+
+TRACE::2022-06-17.15:25:40::SCWMssOS::"Compiling CheckPalindrome..."
+
+TRACE::2022-06-17.15:25:41::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2022-06-17.15:25:41::SCWMssOS::make -j --no-print-directory par_libs
+
+TRACE::2022-06-17.15:25:41::SCWMssOS::"Running Make include in microblaze_0/libsrc/axidma_v9_12/src"
+
+TRACE::2022-06-17.15:25:41::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_5/src"
+
+TRACE::2022-06-17.15:25:41::SCWMssOS::make -C microblaze_0/libsrc/axidma_v9_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2022-06-17.15:25:41::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2022-06-17.15:25:41::SCWMssOS::ll -Wextra"
+
+TRACE::2022-06-17.15:25:41::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-06-17.15:25:41::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-06-17.15:25:41::SCWMssOS::-Wextra"
+
+TRACE::2022-06-17.15:25:41::SCWMssOS::"Running Make include in microblaze_0/libsrc/CheckPalindrome_v1_0/src"
+
+TRACE::2022-06-17.15:25:41::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_12/src"
+
+TRACE::2022-06-17.15:25:41::SCWMssOS::make -C microblaze_0/libsrc/CheckPalindrome_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-a
+TRACE::2022-06-17.15:25:41::SCWMssOS::r" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sect
+TRACE::2022-06-17.15:25:41::SCWMssOS::ions -Wall -Wextra"
+
+TRACE::2022-06-17.15:25:41::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-06-17.15:25:41::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-06-17.15:25:41::SCWMssOS::-Wextra"
+
+TRACE::2022-06-17.15:25:41::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_12/src"
+
+TRACE::2022-06-17.15:25:41::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_7/src"
+
+TRACE::2022-06-17.15:25:41::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-06-17.15:25:41::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-06-17.15:25:41::SCWMssOS::-Wextra"
+
+TRACE::2022-06-17.15:25:41::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_3/src"
+
+TRACE::2022-06-17.15:25:41::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-06-17.15:25:41::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2022-06-17.15:25:41::SCWMssOS:: -Wextra"
+
+TRACE::2022-06-17.15:25:41::SCWMssOS::"Running Make include in microblaze_0/libsrc/tmrctr_v4_7/src"
+
+TRACE::2022-06-17.15:25:41::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2022-06-17.15:25:41::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2022-06-17.15:25:41::SCWMssOS::-Wall -Wextra"
+
+TRACE::2022-06-17.15:25:41::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_5/src"
+
+TRACE::2022-06-17.15:25:41::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2022-06-17.15:25:41::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2022-06-17.15:25:41::SCWMssOS::l -Wextra"
+
+TRACE::2022-06-17.15:25:41::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-06-17.15:25:41::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2022-06-17.15:25:41::SCWMssOS::all -Wextra"
+
+TRACE::2022-06-17.15:25:41::SCWMssOS::"Running Make libs in microblaze_0/libsrc/axidma_v9_12/src"
+
+TRACE::2022-06-17.15:25:41::SCWMssOS::make -C microblaze_0/libsrc/axidma_v9_12/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-06-17.15:25:41::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-06-17.15:25:41::SCWMssOS::-Wextra"
+
+TRACE::2022-06-17.15:25:41::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_5/src"
+
+TRACE::2022-06-17.15:25:41::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2022-06-17.15:25:41::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2022-06-17.15:25:41::SCWMssOS::xtra"
+
+TRACE::2022-06-17.15:25:41::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_12/src"
+
+TRACE::2022-06-17.15:25:41::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2022-06-17.15:25:41::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2022-06-17.15:25:41::SCWMssOS::xtra"
+
+TRACE::2022-06-17.15:25:41::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_7/src"
+
+TRACE::2022-06-17.15:25:41::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2022-06-17.15:25:41::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2022-06-17.15:25:41::SCWMssOS::xtra"
+
+TRACE::2022-06-17.15:25:41::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_12/src"
+
+TRACE::2022-06-17.15:25:41::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_12/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2022-06-17.15:25:41::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -W
+TRACE::2022-06-17.15:25:41::SCWMssOS::extra"
+
+TRACE::2022-06-17.15:25:41::SCWMssOS::"Running Make libs in microblaze_0/libsrc/tmrctr_v4_7/src"
+
+TRACE::2022-06-17.15:25:41::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2022-06-17.15:25:41::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -
+TRACE::2022-06-17.15:25:41::SCWMssOS::Wextra"
+
+TRACE::2022-06-17.15:25:41::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_5/src"
+
+TRACE::2022-06-17.15:25:41::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v7_3/src"
+
+TRACE::2022-06-17.15:25:41::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-06-17.15:25:41::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2022-06-17.15:25:41::SCWMssOS:: -Wextra"
+
+TRACE::2022-06-17.15:25:41::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2022-06-17.15:25:41::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2022-06-17.15:25:41::SCWMssOS::ll -Wextra"
+
+TRACE::2022-06-17.15:25:44::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2022-06-17.15:25:45::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2022-06-17.15:25:45::SCWMssOS::make --no-print-directory archive
+
+TRACE::2022-06-17.15:25:45::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/xplatform_info.o microblaze_0/lib/xuartlite.o microblaze_0/lib/microblaze_
+TRACE::2022-06-17.15:25:45::SCWMssOS::disable_exceptions.o microblaze_0/lib/xil_mem.o microblaze_0/lib/xtmrctr_options.o microblaze_0/lib/_exit.o microblaze_0/lib/xi
+TRACE::2022-06-17.15:25:45::SCWMssOS::l_testio.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_flush_dcache_range.o microblaze_0/lib/micro
+TRACE::2022-06-17.15:25:45::SCWMssOS::blaze_flush_cache_ext.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/lib/xil_cache.o microblaze_0/lib/xil_util.o microb
+TRACE::2022-06-17.15:25:45::SCWMssOS::laze_0/lib/inbyte.o microblaze_0/lib/xuartlite_stats.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/print.o
+TRACE::2022-06-17.15:25:45::SCWMssOS:: microblaze_0/lib/xbram_sinit.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_
+TRACE::2022-06-17.15:25:45::SCWMssOS::0/lib/microblaze_disable_interrupts.o microblaze_0/lib/xbram_selftest.o microblaze_0/lib/microblaze_interrupt_handler.o microbl
+TRACE::2022-06-17.15:25:45::SCWMssOS::aze_0/lib/microblaze_disable_icache.o microblaze_0/lib/xaxidma_sinit.o microblaze_0/lib/xgpio_g.o microblaze_0/lib/xaxidma_self
+TRACE::2022-06-17.15:25:45::SCWMssOS::test.o microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/xaxidma_bd.o micr
+TRACE::2022-06-17.15:25:45::SCWMssOS::oblaze_0/lib/xtmrctr_intr.o microblaze_0/lib/xbram_intr.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/xil_printf.o micr
+TRACE::2022-06-17.15:25:45::SCWMssOS::oblaze_0/lib/xintc_g.o microblaze_0/lib/xuartlite_g.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xtmrctr_l.o microblaze_0/lib/
+TRACE::2022-06-17.15:25:45::SCWMssOS::xintc_selftest.o microblaze_0/lib/xintc_l.o microblaze_0/lib/outbyte.o microblaze_0/lib/xgpio_extra.o microblaze_0/lib/xgpio_in
+TRACE::2022-06-17.15:25:45::SCWMssOS::tr.o microblaze_0/lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_cache_ext.o microblaze_0/lib/
+TRACE::2022-06-17.15:25:45::SCWMssOS::microblaze_sleep.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/hw_exception_handler.o microblaze_0/lib/xtmrctr.o microb
+TRACE::2022-06-17.15:25:45::SCWMssOS::laze_0/lib/xuartlite_selftest.o microblaze_0/lib/xgpio_sinit.o microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/xax
+TRACE::2022-06-17.15:25:45::SCWMssOS::idma_g.o microblaze_0/lib/xil_testcache.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_interrupts_g.o mic
+TRACE::2022-06-17.15:25:45::SCWMssOS::roblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/xio.o microblaze_0/lib/xtmrctr_g.o microblaze_0/lib/microblaze_en
+TRACE::2022-06-17.15:25:45::SCWMssOS::able_dcache.o microblaze_0/lib/xbram.o microblaze_0/lib/microblaze_invalidate_icache_range.o microblaze_0/lib/xtmrctr_selftest.
+TRACE::2022-06-17.15:25:45::SCWMssOS::o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/xaxidma.o mi
+TRACE::2022-06-17.15:25:45::SCWMssOS::croblaze_0/lib/errno.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xintc_options.o microblaze_0/lib/microblaze_invalidate_c
+TRACE::2022-06-17.15:25:45::SCWMssOS::ache_ext_range.o microblaze_0/lib/xintc_intr.o microblaze_0/lib/xil_exception.o microblaze_0/lib/pvr.o microblaze_0/lib/xgpio.o
+TRACE::2022-06-17.15:25:45::SCWMssOS:: microblaze_0/lib/xil_testmem.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/microblaze_flush_dcache.o microbla
+TRACE::2022-06-17.15:25:45::SCWMssOS::ze_0/lib/xil_clocking.o microblaze_0/lib/xil_assert.o microblaze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/microbla
+TRACE::2022-06-17.15:25:45::SCWMssOS::ze_enable_icache.o microblaze_0/lib/xintc.o microblaze_0/lib/xtmrctr_stats.o microblaze_0/lib/microblaze_init_icache_range.o mi
+TRACE::2022-06-17.15:25:45::SCWMssOS::croblaze_0/lib/xaxidma_bdring.o microblaze_0/lib/xtmrctr_sinit.o microblaze_0/lib/fcntl.o microblaze_0/lib/xgpio_selftest.o
+
+TRACE::2022-06-17.15:25:45::SCWMssOS::'Finished building libraries'
+
+TRACE::2022-06-17.15:25:45::SCWMssOS::Copying to export directory.
+TRACE::2022-06-17.15:25:45::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-06-17.15:25:45::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-06-17.15:25:45::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2022-06-17.15:25:45::SCWSystem::Completed Processing the sysconfig mb_design_palindrome
+LOG::2022-06-17.15:25:45::SCWPlatform::Completed generating the artifacts for system configuration mb_design_palindrome
+TRACE::2022-06-17.15:25:45::SCWPlatform::Started preparing the platform 
+TRACE::2022-06-17.15:25:45::SCWSystem::Writing the bif file for system config mb_design_palindrome
+TRACE::2022-06-17.15:25:45::SCWSystem::dir created 
+TRACE::2022-06-17.15:25:45::SCWSystem::Writing the bif 
+TRACE::2022-06-17.15:25:45::SCWPlatform::Started writing the spfm file 
+TRACE::2022-06-17.15:25:45::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-06-17.15:25:45::SCWPlatform::Completed generating the platform
+TRACE::2022-06-17.15:25:45::SCWMssOS::Saving the mss changes C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.15:25:45::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-06-17.15:25:45::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-06-17.15:25:45::SCWMssOS::Commit changes completed.
+TRACE::2022-06-17.15:25:45::SCWPlatform::Trying to open the hw design at C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.15:25:45::SCWPlatform::DSA given C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.15:25:45::SCWPlatform::DSA absoulate path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.15:25:45::SCWPlatform::DSA directory C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw
+TRACE::2022-06-17.15:25:45::SCWPlatform:: Platform Path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.15:25:45::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2022-06-17.15:25:45::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper
+TRACE::2022-06-17.15:25:45::SCWPlatform::Opened existing hwdb mb_design_wrapper
+TRACE::2022-06-17.15:25:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-06-17.15:25:45::SCWMssOS::Checking the sw design at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.15:25:45::SCWMssOS::DEBUG:  swdes dump  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-06-17.15:25:45::SCWMssOS::Sw design exists and opened at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.15:25:45::SCWWriter::formatted JSON is {
+	"platformName":	"mb_design_palindrome",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mb_design_palindrome",
+	"platHandOff":	"C:/Users/User/Dropbox/Project_CR/projeto/palindrome/mb_design_palindrome.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mb_design_palindrome.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mb_design_palindrome",
+	"systems":	[{
+			"systemName":	"mb_design_palindrome",
+			"systemDesc":	"mb_design_palindrome",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mb_design_palindrome",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"fb7ed2e4d128746253e13d4e26013f65",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-06-17.15:25:45::SCWPlatform::updated the xpfm file.
+TRACE::2022-06-17.15:25:45::SCWPlatform::Trying to open the hw design at C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.15:25:45::SCWPlatform::DSA given C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.15:25:45::SCWPlatform::DSA absoulate path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.15:25:45::SCWPlatform::DSA directory C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw
+TRACE::2022-06-17.15:25:45::SCWPlatform:: Platform Path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.15:25:45::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2022-06-17.15:25:45::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper
+TRACE::2022-06-17.15:25:45::SCWPlatform::Opened existing hwdb mb_design_wrapper
+TRACE::2022-06-17.15:25:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-06-17.15:25:45::SCWMssOS::Checking the sw design at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.15:25:45::SCWMssOS::DEBUG:  swdes dump  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-06-17.15:25:45::SCWMssOS::Sw design exists and opened at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.16:00:53::SCWMssOS::cleaning the bsp 
+TRACE::2022-06-17.16:00:53::SCWMssOS::System Command Ran  C: & cd  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp & make clean 
+TRACE::2022-06-17.16:00:53::SCWMssOS::make -C microblaze_0/libsrc/axidma_v9_12/src -s clean 
+
+TRACE::2022-06-17.16:00:53::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s clean 
+
+TRACE::2022-06-17.16:00:54::SCWMssOS::make -C microblaze_0/libsrc/CheckPalindrome_v1_0/src -s clean 
+
+TRACE::2022-06-17.16:00:54::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s clean 
+
+TRACE::2022-06-17.16:00:54::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_7/src -s clean 
+
+TRACE::2022-06-17.16:00:54::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_12/src -s clean 
+
+TRACE::2022-06-17.16:00:54::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s clean 
+
+TRACE::2022-06-17.16:00:55::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_7/src -s clean 
+
+TRACE::2022-06-17.16:00:55::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s clean 
+
+TRACE::2022-06-17.16:00:55::SCWMssOS::rm -f microblaze_0/lib/libxil.a
+
+LOG::2022-06-17.16:00:58::SCWPlatform::Started generating the artifacts platform mb_design_palindrome
+TRACE::2022-06-17.16:00:58::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-06-17.16:00:58::SCWPlatform::Started generating the artifacts for system configuration mb_design_palindrome
+LOG::2022-06-17.16:00:58::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2022-06-17.16:00:58::SCWSystem::Not a boot domain 
+LOG::2022-06-17.16:00:58::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2022-06-17.16:00:58::SCWDomain::Generating domain artifcats
+TRACE::2022-06-17.16:00:58::SCWMssOS::Generating standalone artifcats
+TRACE::2022-06-17.16:00:58::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-06-17.16:00:58::SCWPlatform::Trying to open the hw design at C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.16:00:58::SCWPlatform::DSA given C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.16:00:58::SCWPlatform::DSA absoulate path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.16:00:58::SCWPlatform::DSA directory C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw
+TRACE::2022-06-17.16:00:58::SCWPlatform:: Platform Path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.16:00:58::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2022-06-17.16:00:58::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper
+TRACE::2022-06-17.16:00:58::SCWPlatform::Opened existing hwdb mb_design_wrapper
+TRACE::2022-06-17.16:00:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-06-17.16:00:58::SCWMssOS::Checking the sw design at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.16:00:58::SCWMssOS::DEBUG:  swdes dump  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-06-17.16:00:58::SCWMssOS::Sw design exists and opened at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.16:00:58::SCWMssOS::Completed writing the mss file at C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2022-06-17.16:00:58::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.16:00:58::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-06-17.16:00:58::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-06-17.16:00:58::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2022-06-17.16:00:58::SCWMssOS::doing bsp build ... 
+TRACE::2022-06-17.16:00:58::SCWMssOS::System Command Ran  C: & cd  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2022-06-17.16:00:58::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2022-06-17.16:00:58::SCWMssOS::"Running Make include in microblaze_0/libsrc/axidma_v9_12/src"
+
+TRACE::2022-06-17.16:00:58::SCWMssOS::make -C microblaze_0/libsrc/axidma_v9_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2022-06-17.16:00:58::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2022-06-17.16:00:58::SCWMssOS::ll -Wextra"
+
+TRACE::2022-06-17.16:00:58::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_5/src"
+
+TRACE::2022-06-17.16:00:58::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-06-17.16:00:58::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-06-17.16:00:58::SCWMssOS::-Wextra"
+
+TRACE::2022-06-17.16:00:58::SCWMssOS::"Running Make include in microblaze_0/libsrc/CheckPalindrome_v1_0/src"
+
+TRACE::2022-06-17.16:00:58::SCWMssOS::make -C microblaze_0/libsrc/CheckPalindrome_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-a
+TRACE::2022-06-17.16:00:58::SCWMssOS::r" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sect
+TRACE::2022-06-17.16:00:58::SCWMssOS::ions -Wall -Wextra"
+
+TRACE::2022-06-17.16:00:58::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_12/src"
+
+TRACE::2022-06-17.16:00:58::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-06-17.16:00:58::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-06-17.16:00:58::SCWMssOS::-Wextra"
+
+TRACE::2022-06-17.16:00:59::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_7/src"
+
+TRACE::2022-06-17.16:00:59::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-06-17.16:00:59::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-06-17.16:00:59::SCWMssOS::-Wextra"
+
+TRACE::2022-06-17.16:00:59::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_12/src"
+
+TRACE::2022-06-17.16:00:59::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-06-17.16:00:59::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2022-06-17.16:00:59::SCWMssOS:: -Wextra"
+
+TRACE::2022-06-17.16:00:59::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_3/src"
+
+TRACE::2022-06-17.16:00:59::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2022-06-17.16:00:59::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2022-06-17.16:00:59::SCWMssOS::-Wall -Wextra"
+
+TRACE::2022-06-17.16:00:59::SCWMssOS::"Running Make include in microblaze_0/libsrc/tmrctr_v4_7/src"
+
+TRACE::2022-06-17.16:00:59::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2022-06-17.16:00:59::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2022-06-17.16:00:59::SCWMssOS::l -Wextra"
+
+TRACE::2022-06-17.16:00:59::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_5/src"
+
+TRACE::2022-06-17.16:00:59::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-06-17.16:00:59::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2022-06-17.16:00:59::SCWMssOS::all -Wextra"
+
+TRACE::2022-06-17.16:00:59::SCWMssOS::"Running Make libs in microblaze_0/libsrc/CheckPalindrome_v1_0/src"
+
+TRACE::2022-06-17.16:00:59::SCWMssOS::make -C microblaze_0/libsrc/CheckPalindrome_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2022-06-17.16:00:59::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-section
+TRACE::2022-06-17.16:00:59::SCWMssOS::s -Wall -Wextra"
+
+TRACE::2022-06-17.16:00:59::SCWMssOS::"Compiling CheckPalindrome..."
+
+TRACE::2022-06-17.16:00:59::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2022-06-17.16:00:59::SCWMssOS::make -j --no-print-directory par_libs
+
+TRACE::2022-06-17.16:00:59::SCWMssOS::"Running Make include in microblaze_0/libsrc/axidma_v9_12/src"
+
+TRACE::2022-06-17.16:00:59::SCWMssOS::make -C microblaze_0/libsrc/axidma_v9_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2022-06-17.16:00:59::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2022-06-17.16:00:59::SCWMssOS::ll -Wextra"
+
+TRACE::2022-06-17.16:00:59::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_5/src"
+
+TRACE::2022-06-17.16:00:59::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-06-17.16:00:59::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-06-17.16:00:59::SCWMssOS::-Wextra"
+
+TRACE::2022-06-17.16:00:59::SCWMssOS::"Running Make include in microblaze_0/libsrc/CheckPalindrome_v1_0/src"
+
+TRACE::2022-06-17.16:00:59::SCWMssOS::make -C microblaze_0/libsrc/CheckPalindrome_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-a
+TRACE::2022-06-17.16:00:59::SCWMssOS::r" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sect
+TRACE::2022-06-17.16:00:59::SCWMssOS::ions -Wall -Wextra"
+
+TRACE::2022-06-17.16:00:59::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_12/src"
+
+TRACE::2022-06-17.16:00:59::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-06-17.16:00:59::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-06-17.16:00:59::SCWMssOS::-Wextra"
+
+TRACE::2022-06-17.16:00:59::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_12/src"
+
+TRACE::2022-06-17.16:00:59::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_7/src"
+
+TRACE::2022-06-17.16:00:59::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-06-17.16:00:59::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-06-17.16:00:59::SCWMssOS::-Wextra"
+
+TRACE::2022-06-17.16:00:59::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-06-17.16:00:59::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2022-06-17.16:00:59::SCWMssOS:: -Wextra"
+
+TRACE::2022-06-17.16:00:59::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_3/src"
+
+TRACE::2022-06-17.16:00:59::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2022-06-17.16:00:59::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2022-06-17.16:00:59::SCWMssOS::-Wall -Wextra"
+
+TRACE::2022-06-17.16:00:59::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_5/src"
+
+TRACE::2022-06-17.16:00:59::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-06-17.16:00:59::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2022-06-17.16:00:59::SCWMssOS::all -Wextra"
+
+TRACE::2022-06-17.16:01:00::SCWMssOS::"Running Make include in microblaze_0/libsrc/tmrctr_v4_7/src"
+
+TRACE::2022-06-17.16:01:00::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2022-06-17.16:01:00::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2022-06-17.16:01:00::SCWMssOS::l -Wextra"
+
+TRACE::2022-06-17.16:01:00::SCWMssOS::"Running Make libs in microblaze_0/libsrc/axidma_v9_12/src"
+
+TRACE::2022-06-17.16:01:00::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_5/src"
+
+TRACE::2022-06-17.16:01:00::SCWMssOS::make -C microblaze_0/libsrc/axidma_v9_12/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-06-17.16:01:00::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-06-17.16:01:00::SCWMssOS::-Wextra"
+
+TRACE::2022-06-17.16:01:00::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2022-06-17.16:01:00::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2022-06-17.16:01:00::SCWMssOS::xtra"
+
+TRACE::2022-06-17.16:01:00::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_12/src"
+
+TRACE::2022-06-17.16:01:00::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_7/src"
+
+TRACE::2022-06-17.16:01:00::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2022-06-17.16:01:00::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2022-06-17.16:01:00::SCWMssOS::xtra"
+
+TRACE::2022-06-17.16:01:00::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2022-06-17.16:01:00::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2022-06-17.16:01:00::SCWMssOS::xtra"
+
+TRACE::2022-06-17.16:01:00::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_12/src"
+
+TRACE::2022-06-17.16:01:00::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v7_3/src"
+
+TRACE::2022-06-17.16:01:00::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2022-06-17.16:01:00::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2022-06-17.16:01:00::SCWMssOS::ll -Wextra"
+
+TRACE::2022-06-17.16:01:00::SCWMssOS::"Running Make libs in microblaze_0/libsrc/tmrctr_v4_7/src"
+
+TRACE::2022-06-17.16:01:00::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_5/src"
+
+TRACE::2022-06-17.16:01:00::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_12/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2022-06-17.16:01:00::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -W
+TRACE::2022-06-17.16:01:00::SCWMssOS::extra"
+
+TRACE::2022-06-17.16:01:00::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2022-06-17.16:01:00::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -
+TRACE::2022-06-17.16:01:00::SCWMssOS::Wextra"
+
+TRACE::2022-06-17.16:01:00::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-06-17.16:01:00::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2022-06-17.16:01:00::SCWMssOS:: -Wextra"
+
+TRACE::2022-06-17.16:01:03::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2022-06-17.16:01:04::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2022-06-17.16:01:04::SCWMssOS::make --no-print-directory archive
+
+TRACE::2022-06-17.16:01:04::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/xplatform_info.o microblaze_0/lib/xuartlite.o microblaze_0/lib/microblaze_
+TRACE::2022-06-17.16:01:04::SCWMssOS::disable_exceptions.o microblaze_0/lib/xil_mem.o microblaze_0/lib/xtmrctr_options.o microblaze_0/lib/_exit.o microblaze_0/lib/xi
+TRACE::2022-06-17.16:01:04::SCWMssOS::l_testio.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_flush_dcache_range.o microblaze_0/lib/micro
+TRACE::2022-06-17.16:01:04::SCWMssOS::blaze_flush_cache_ext.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/lib/xil_cache.o microblaze_0/lib/xil_util.o microb
+TRACE::2022-06-17.16:01:04::SCWMssOS::laze_0/lib/inbyte.o microblaze_0/lib/xuartlite_stats.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/print.o
+TRACE::2022-06-17.16:01:04::SCWMssOS:: microblaze_0/lib/xbram_sinit.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_
+TRACE::2022-06-17.16:01:04::SCWMssOS::0/lib/microblaze_disable_interrupts.o microblaze_0/lib/xbram_selftest.o microblaze_0/lib/microblaze_interrupt_handler.o microbl
+TRACE::2022-06-17.16:01:04::SCWMssOS::aze_0/lib/microblaze_disable_icache.o microblaze_0/lib/xaxidma_sinit.o microblaze_0/lib/xgpio_g.o microblaze_0/lib/xaxidma_self
+TRACE::2022-06-17.16:01:04::SCWMssOS::test.o microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/xaxidma_bd.o micr
+TRACE::2022-06-17.16:01:04::SCWMssOS::oblaze_0/lib/xtmrctr_intr.o microblaze_0/lib/xbram_intr.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/xil_printf.o micr
+TRACE::2022-06-17.16:01:04::SCWMssOS::oblaze_0/lib/xintc_g.o microblaze_0/lib/xuartlite_g.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xtmrctr_l.o microblaze_0/lib/
+TRACE::2022-06-17.16:01:04::SCWMssOS::xintc_selftest.o microblaze_0/lib/xintc_l.o microblaze_0/lib/outbyte.o microblaze_0/lib/xgpio_extra.o microblaze_0/lib/xgpio_in
+TRACE::2022-06-17.16:01:04::SCWMssOS::tr.o microblaze_0/lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_cache_ext.o microblaze_0/lib/
+TRACE::2022-06-17.16:01:04::SCWMssOS::microblaze_sleep.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/hw_exception_handler.o microblaze_0/lib/xtmrctr.o microb
+TRACE::2022-06-17.16:01:04::SCWMssOS::laze_0/lib/xuartlite_selftest.o microblaze_0/lib/xgpio_sinit.o microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/xax
+TRACE::2022-06-17.16:01:04::SCWMssOS::idma_g.o microblaze_0/lib/xil_testcache.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_interrupts_g.o mic
+TRACE::2022-06-17.16:01:04::SCWMssOS::roblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/xio.o microblaze_0/lib/xtmrctr_g.o microblaze_0/lib/microblaze_en
+TRACE::2022-06-17.16:01:04::SCWMssOS::able_dcache.o microblaze_0/lib/xbram.o microblaze_0/lib/microblaze_invalidate_icache_range.o microblaze_0/lib/xtmrctr_selftest.
+TRACE::2022-06-17.16:01:04::SCWMssOS::o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/xaxidma.o mi
+TRACE::2022-06-17.16:01:04::SCWMssOS::croblaze_0/lib/errno.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xintc_options.o microblaze_0/lib/microblaze_invalidate_c
+TRACE::2022-06-17.16:01:04::SCWMssOS::ache_ext_range.o microblaze_0/lib/xintc_intr.o microblaze_0/lib/xil_exception.o microblaze_0/lib/pvr.o microblaze_0/lib/xgpio.o
+TRACE::2022-06-17.16:01:04::SCWMssOS:: microblaze_0/lib/xil_testmem.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/microblaze_flush_dcache.o microbla
+TRACE::2022-06-17.16:01:04::SCWMssOS::ze_0/lib/xil_clocking.o microblaze_0/lib/xil_assert.o microblaze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/microbla
+TRACE::2022-06-17.16:01:04::SCWMssOS::ze_enable_icache.o microblaze_0/lib/xintc.o microblaze_0/lib/xtmrctr_stats.o microblaze_0/lib/microblaze_init_icache_range.o mi
+TRACE::2022-06-17.16:01:04::SCWMssOS::croblaze_0/lib/xaxidma_bdring.o microblaze_0/lib/xtmrctr_sinit.o microblaze_0/lib/fcntl.o microblaze_0/lib/xgpio_selftest.o
+
+TRACE::2022-06-17.16:01:04::SCWMssOS::'Finished building libraries'
+
+TRACE::2022-06-17.16:01:04::SCWMssOS::Copying to export directory.
+TRACE::2022-06-17.16:01:04::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-06-17.16:01:04::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-06-17.16:01:04::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2022-06-17.16:01:04::SCWSystem::Completed Processing the sysconfig mb_design_palindrome
+LOG::2022-06-17.16:01:04::SCWPlatform::Completed generating the artifacts for system configuration mb_design_palindrome
+TRACE::2022-06-17.16:01:04::SCWPlatform::Started preparing the platform 
+TRACE::2022-06-17.16:01:04::SCWSystem::Writing the bif file for system config mb_design_palindrome
+TRACE::2022-06-17.16:01:04::SCWSystem::dir created 
+TRACE::2022-06-17.16:01:04::SCWSystem::Writing the bif 
+TRACE::2022-06-17.16:01:04::SCWPlatform::Started writing the spfm file 
+TRACE::2022-06-17.16:01:04::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-06-17.16:01:04::SCWPlatform::Completed generating the platform
+TRACE::2022-06-17.16:01:04::SCWMssOS::Saving the mss changes C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.16:01:04::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-06-17.16:01:04::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-06-17.16:01:04::SCWMssOS::Commit changes completed.
+TRACE::2022-06-17.16:01:04::SCWPlatform::Trying to open the hw design at C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.16:01:04::SCWPlatform::DSA given C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.16:01:04::SCWPlatform::DSA absoulate path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.16:01:04::SCWPlatform::DSA directory C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw
+TRACE::2022-06-17.16:01:04::SCWPlatform:: Platform Path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.16:01:04::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2022-06-17.16:01:04::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper
+TRACE::2022-06-17.16:01:04::SCWPlatform::Opened existing hwdb mb_design_wrapper
+TRACE::2022-06-17.16:01:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-06-17.16:01:04::SCWMssOS::Checking the sw design at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.16:01:04::SCWMssOS::DEBUG:  swdes dump  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-06-17.16:01:04::SCWMssOS::Sw design exists and opened at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.16:01:04::SCWWriter::formatted JSON is {
+	"platformName":	"mb_design_palindrome",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mb_design_palindrome",
+	"platHandOff":	"C:/Users/User/Dropbox/Project_CR/projeto/palindrome/mb_design_palindrome.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mb_design_palindrome.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mb_design_palindrome",
+	"systems":	[{
+			"systemName":	"mb_design_palindrome",
+			"systemDesc":	"mb_design_palindrome",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mb_design_palindrome",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"fb7ed2e4d128746253e13d4e26013f65",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-06-17.16:01:04::SCWPlatform::updated the xpfm file.
+TRACE::2022-06-17.16:01:04::SCWPlatform::Trying to open the hw design at C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.16:01:04::SCWPlatform::DSA given C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.16:01:04::SCWPlatform::DSA absoulate path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.16:01:04::SCWPlatform::DSA directory C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw
+TRACE::2022-06-17.16:01:04::SCWPlatform:: Platform Path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.16:01:04::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2022-06-17.16:01:04::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper
+TRACE::2022-06-17.16:01:04::SCWPlatform::Opened existing hwdb mb_design_wrapper
+TRACE::2022-06-17.16:01:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-06-17.16:01:04::SCWMssOS::Checking the sw design at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.16:01:04::SCWMssOS::DEBUG:  swdes dump  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-06-17.16:01:04::SCWMssOS::Sw design exists and opened at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.16:48:15::SCWMssOS::cleaning the bsp 
+TRACE::2022-06-17.16:48:15::SCWMssOS::System Command Ran  C: & cd  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp & make clean 
+TRACE::2022-06-17.16:48:15::SCWMssOS::make -C microblaze_0/libsrc/axidma_v9_12/src -s clean 
+
+TRACE::2022-06-17.16:48:15::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s clean 
+
+TRACE::2022-06-17.16:48:15::SCWMssOS::make -C microblaze_0/libsrc/CheckPalindrome_v1_0/src -s clean 
+
+TRACE::2022-06-17.16:48:15::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s clean 
+
+TRACE::2022-06-17.16:48:15::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_7/src -s clean 
+
+TRACE::2022-06-17.16:48:15::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_12/src -s clean 
+
+TRACE::2022-06-17.16:48:16::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s clean 
+
+TRACE::2022-06-17.16:48:16::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_7/src -s clean 
+
+TRACE::2022-06-17.16:48:16::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s clean 
+
+TRACE::2022-06-17.16:48:16::SCWMssOS::rm -f microblaze_0/lib/libxil.a
+
+LOG::2022-06-17.16:48:24::SCWPlatform::Started generating the artifacts platform mb_design_palindrome
+TRACE::2022-06-17.16:48:24::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-06-17.16:48:24::SCWPlatform::Started generating the artifacts for system configuration mb_design_palindrome
+LOG::2022-06-17.16:48:24::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2022-06-17.16:48:24::SCWSystem::Not a boot domain 
+LOG::2022-06-17.16:48:24::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2022-06-17.16:48:24::SCWDomain::Generating domain artifcats
+TRACE::2022-06-17.16:48:24::SCWMssOS::Generating standalone artifcats
+TRACE::2022-06-17.16:48:24::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-06-17.16:48:24::SCWPlatform::Trying to open the hw design at C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.16:48:24::SCWPlatform::DSA given C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.16:48:24::SCWPlatform::DSA absoulate path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.16:48:24::SCWPlatform::DSA directory C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw
+TRACE::2022-06-17.16:48:24::SCWPlatform:: Platform Path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.16:48:24::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2022-06-17.16:48:24::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper
+TRACE::2022-06-17.16:48:24::SCWPlatform::Opened existing hwdb mb_design_wrapper
+TRACE::2022-06-17.16:48:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-06-17.16:48:24::SCWMssOS::Checking the sw design at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.16:48:24::SCWMssOS::DEBUG:  swdes dump  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-06-17.16:48:24::SCWMssOS::Sw design exists and opened at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.16:48:24::SCWMssOS::Completed writing the mss file at C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2022-06-17.16:48:24::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.16:48:24::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-06-17.16:48:24::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-06-17.16:48:24::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2022-06-17.16:48:24::SCWMssOS::doing bsp build ... 
+TRACE::2022-06-17.16:48:24::SCWMssOS::System Command Ran  C: & cd  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2022-06-17.16:48:24::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2022-06-17.16:48:24::SCWMssOS::"Running Make include in microblaze_0/libsrc/axidma_v9_12/src"
+
+TRACE::2022-06-17.16:48:24::SCWMssOS::make -C microblaze_0/libsrc/axidma_v9_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2022-06-17.16:48:24::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2022-06-17.16:48:24::SCWMssOS::ll -Wextra"
+
+TRACE::2022-06-17.16:48:24::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_5/src"
+
+TRACE::2022-06-17.16:48:24::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-06-17.16:48:24::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-06-17.16:48:24::SCWMssOS::-Wextra"
+
+TRACE::2022-06-17.16:48:24::SCWMssOS::"Running Make include in microblaze_0/libsrc/CheckPalindrome_v1_0/src"
+
+TRACE::2022-06-17.16:48:24::SCWMssOS::make -C microblaze_0/libsrc/CheckPalindrome_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-a
+TRACE::2022-06-17.16:48:24::SCWMssOS::r" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sect
+TRACE::2022-06-17.16:48:24::SCWMssOS::ions -Wall -Wextra"
+
+TRACE::2022-06-17.16:48:24::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_12/src"
+
+TRACE::2022-06-17.16:48:24::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-06-17.16:48:24::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-06-17.16:48:24::SCWMssOS::-Wextra"
+
+TRACE::2022-06-17.16:48:24::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_7/src"
+
+TRACE::2022-06-17.16:48:24::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-06-17.16:48:24::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-06-17.16:48:24::SCWMssOS::-Wextra"
+
+TRACE::2022-06-17.16:48:24::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_12/src"
+
+TRACE::2022-06-17.16:48:24::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-06-17.16:48:24::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2022-06-17.16:48:24::SCWMssOS:: -Wextra"
+
+TRACE::2022-06-17.16:48:24::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_3/src"
+
+TRACE::2022-06-17.16:48:24::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2022-06-17.16:48:24::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2022-06-17.16:48:24::SCWMssOS::-Wall -Wextra"
+
+TRACE::2022-06-17.16:48:24::SCWMssOS::"Running Make include in microblaze_0/libsrc/tmrctr_v4_7/src"
+
+TRACE::2022-06-17.16:48:24::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2022-06-17.16:48:24::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2022-06-17.16:48:24::SCWMssOS::l -Wextra"
+
+TRACE::2022-06-17.16:48:25::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_5/src"
+
+TRACE::2022-06-17.16:48:25::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-06-17.16:48:25::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2022-06-17.16:48:25::SCWMssOS::all -Wextra"
+
+TRACE::2022-06-17.16:48:25::SCWMssOS::"Running Make libs in microblaze_0/libsrc/CheckPalindrome_v1_0/src"
+
+TRACE::2022-06-17.16:48:25::SCWMssOS::make -C microblaze_0/libsrc/CheckPalindrome_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2022-06-17.16:48:25::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-section
+TRACE::2022-06-17.16:48:25::SCWMssOS::s -Wall -Wextra"
+
+TRACE::2022-06-17.16:48:25::SCWMssOS::"Compiling CheckPalindrome..."
+
+TRACE::2022-06-17.16:48:25::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2022-06-17.16:48:25::SCWMssOS::make -j --no-print-directory par_libs
+
+TRACE::2022-06-17.16:48:25::SCWMssOS::"Running Make include in microblaze_0/libsrc/axidma_v9_12/src"
+
+TRACE::2022-06-17.16:48:25::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_5/src"
+
+TRACE::2022-06-17.16:48:25::SCWMssOS::make -C microblaze_0/libsrc/axidma_v9_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2022-06-17.16:48:25::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2022-06-17.16:48:25::SCWMssOS::ll -Wextra"
+
+TRACE::2022-06-17.16:48:25::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-06-17.16:48:25::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-06-17.16:48:25::SCWMssOS::-Wextra"
+
+TRACE::2022-06-17.16:48:25::SCWMssOS::"Running Make include in microblaze_0/libsrc/CheckPalindrome_v1_0/src"
+
+TRACE::2022-06-17.16:48:25::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_12/src"
+
+TRACE::2022-06-17.16:48:25::SCWMssOS::make -C microblaze_0/libsrc/CheckPalindrome_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-a
+TRACE::2022-06-17.16:48:25::SCWMssOS::r" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sect
+TRACE::2022-06-17.16:48:25::SCWMssOS::ions -Wall -Wextra"
+
+TRACE::2022-06-17.16:48:25::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-06-17.16:48:25::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-06-17.16:48:25::SCWMssOS::-Wextra"
+
+TRACE::2022-06-17.16:48:25::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_7/src"
+
+TRACE::2022-06-17.16:48:25::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_12/src"
+
+TRACE::2022-06-17.16:48:25::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_3/src"
+
+TRACE::2022-06-17.16:48:25::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-06-17.16:48:25::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-06-17.16:48:25::SCWMssOS::-Wextra"
+
+TRACE::2022-06-17.16:48:25::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-06-17.16:48:25::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2022-06-17.16:48:25::SCWMssOS:: -Wextra"
+
+TRACE::2022-06-17.16:48:25::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2022-06-17.16:48:25::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2022-06-17.16:48:25::SCWMssOS::-Wall -Wextra"
+
+TRACE::2022-06-17.16:48:25::SCWMssOS::"Running Make include in microblaze_0/libsrc/tmrctr_v4_7/src"
+
+TRACE::2022-06-17.16:48:25::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2022-06-17.16:48:25::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2022-06-17.16:48:25::SCWMssOS::l -Wextra"
+
+TRACE::2022-06-17.16:48:25::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_5/src"
+
+TRACE::2022-06-17.16:48:25::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-06-17.16:48:25::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2022-06-17.16:48:25::SCWMssOS::all -Wextra"
+
+TRACE::2022-06-17.16:48:25::SCWMssOS::"Running Make libs in microblaze_0/libsrc/axidma_v9_12/src"
+
+TRACE::2022-06-17.16:48:25::SCWMssOS::make -C microblaze_0/libsrc/axidma_v9_12/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-06-17.16:48:25::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-06-17.16:48:25::SCWMssOS::-Wextra"
+
+TRACE::2022-06-17.16:48:25::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_5/src"
+
+TRACE::2022-06-17.16:48:25::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2022-06-17.16:48:25::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2022-06-17.16:48:25::SCWMssOS::xtra"
+
+TRACE::2022-06-17.16:48:25::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_12/src"
+
+TRACE::2022-06-17.16:48:25::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_7/src"
+
+TRACE::2022-06-17.16:48:25::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2022-06-17.16:48:25::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2022-06-17.16:48:25::SCWMssOS::xtra"
+
+TRACE::2022-06-17.16:48:25::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2022-06-17.16:48:25::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2022-06-17.16:48:25::SCWMssOS::xtra"
+
+TRACE::2022-06-17.16:48:26::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_12/src"
+
+TRACE::2022-06-17.16:48:26::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_12/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2022-06-17.16:48:26::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -W
+TRACE::2022-06-17.16:48:26::SCWMssOS::extra"
+
+TRACE::2022-06-17.16:48:26::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v7_3/src"
+
+TRACE::2022-06-17.16:48:26::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2022-06-17.16:48:26::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2022-06-17.16:48:26::SCWMssOS::ll -Wextra"
+
+TRACE::2022-06-17.16:48:26::SCWMssOS::"Running Make libs in microblaze_0/libsrc/tmrctr_v4_7/src"
+
+TRACE::2022-06-17.16:48:26::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_5/src"
+
+TRACE::2022-06-17.16:48:26::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2022-06-17.16:48:26::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -
+TRACE::2022-06-17.16:48:26::SCWMssOS::Wextra"
+
+TRACE::2022-06-17.16:48:26::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-06-17.16:48:26::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2022-06-17.16:48:26::SCWMssOS:: -Wextra"
+
+TRACE::2022-06-17.16:48:29::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2022-06-17.16:48:29::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2022-06-17.16:48:29::SCWMssOS::make --no-print-directory archive
+
+TRACE::2022-06-17.16:48:29::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/xplatform_info.o microblaze_0/lib/xuartlite.o microblaze_0/lib/microblaze_
+TRACE::2022-06-17.16:48:29::SCWMssOS::disable_exceptions.o microblaze_0/lib/xil_mem.o microblaze_0/lib/xtmrctr_options.o microblaze_0/lib/_exit.o microblaze_0/lib/xi
+TRACE::2022-06-17.16:48:29::SCWMssOS::l_testio.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_flush_dcache_range.o microblaze_0/lib/micro
+TRACE::2022-06-17.16:48:29::SCWMssOS::blaze_flush_cache_ext.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/lib/xil_cache.o microblaze_0/lib/xil_util.o microb
+TRACE::2022-06-17.16:48:29::SCWMssOS::laze_0/lib/inbyte.o microblaze_0/lib/xuartlite_stats.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/print.o
+TRACE::2022-06-17.16:48:29::SCWMssOS:: microblaze_0/lib/xbram_sinit.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_
+TRACE::2022-06-17.16:48:29::SCWMssOS::0/lib/microblaze_disable_interrupts.o microblaze_0/lib/xbram_selftest.o microblaze_0/lib/microblaze_interrupt_handler.o microbl
+TRACE::2022-06-17.16:48:29::SCWMssOS::aze_0/lib/microblaze_disable_icache.o microblaze_0/lib/xaxidma_sinit.o microblaze_0/lib/xgpio_g.o microblaze_0/lib/xaxidma_self
+TRACE::2022-06-17.16:48:29::SCWMssOS::test.o microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/xaxidma_bd.o micr
+TRACE::2022-06-17.16:48:29::SCWMssOS::oblaze_0/lib/xtmrctr_intr.o microblaze_0/lib/xbram_intr.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/xil_printf.o micr
+TRACE::2022-06-17.16:48:29::SCWMssOS::oblaze_0/lib/xintc_g.o microblaze_0/lib/xuartlite_g.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xtmrctr_l.o microblaze_0/lib/
+TRACE::2022-06-17.16:48:29::SCWMssOS::xintc_selftest.o microblaze_0/lib/xintc_l.o microblaze_0/lib/outbyte.o microblaze_0/lib/xgpio_extra.o microblaze_0/lib/xgpio_in
+TRACE::2022-06-17.16:48:29::SCWMssOS::tr.o microblaze_0/lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_cache_ext.o microblaze_0/lib/
+TRACE::2022-06-17.16:48:29::SCWMssOS::microblaze_sleep.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/hw_exception_handler.o microblaze_0/lib/xtmrctr.o microb
+TRACE::2022-06-17.16:48:29::SCWMssOS::laze_0/lib/xuartlite_selftest.o microblaze_0/lib/xgpio_sinit.o microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/xax
+TRACE::2022-06-17.16:48:29::SCWMssOS::idma_g.o microblaze_0/lib/xil_testcache.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_interrupts_g.o mic
+TRACE::2022-06-17.16:48:29::SCWMssOS::roblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/xio.o microblaze_0/lib/xtmrctr_g.o microblaze_0/lib/microblaze_en
+TRACE::2022-06-17.16:48:29::SCWMssOS::able_dcache.o microblaze_0/lib/xbram.o microblaze_0/lib/microblaze_invalidate_icache_range.o microblaze_0/lib/xtmrctr_selftest.
+TRACE::2022-06-17.16:48:29::SCWMssOS::o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/xaxidma.o mi
+TRACE::2022-06-17.16:48:29::SCWMssOS::croblaze_0/lib/errno.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xintc_options.o microblaze_0/lib/microblaze_invalidate_c
+TRACE::2022-06-17.16:48:29::SCWMssOS::ache_ext_range.o microblaze_0/lib/xintc_intr.o microblaze_0/lib/xil_exception.o microblaze_0/lib/pvr.o microblaze_0/lib/xgpio.o
+TRACE::2022-06-17.16:48:29::SCWMssOS:: microblaze_0/lib/xil_testmem.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/microblaze_flush_dcache.o microbla
+TRACE::2022-06-17.16:48:29::SCWMssOS::ze_0/lib/xil_clocking.o microblaze_0/lib/xil_assert.o microblaze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/microbla
+TRACE::2022-06-17.16:48:29::SCWMssOS::ze_enable_icache.o microblaze_0/lib/xintc.o microblaze_0/lib/xtmrctr_stats.o microblaze_0/lib/microblaze_init_icache_range.o mi
+TRACE::2022-06-17.16:48:29::SCWMssOS::croblaze_0/lib/xaxidma_bdring.o microblaze_0/lib/xtmrctr_sinit.o microblaze_0/lib/fcntl.o microblaze_0/lib/xgpio_selftest.o
+
+TRACE::2022-06-17.16:48:29::SCWMssOS::'Finished building libraries'
+
+TRACE::2022-06-17.16:48:30::SCWMssOS::Copying to export directory.
+TRACE::2022-06-17.16:48:30::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-06-17.16:48:30::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-06-17.16:48:30::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2022-06-17.16:48:30::SCWSystem::Completed Processing the sysconfig mb_design_palindrome
+LOG::2022-06-17.16:48:30::SCWPlatform::Completed generating the artifacts for system configuration mb_design_palindrome
+TRACE::2022-06-17.16:48:30::SCWPlatform::Started preparing the platform 
+TRACE::2022-06-17.16:48:30::SCWSystem::Writing the bif file for system config mb_design_palindrome
+TRACE::2022-06-17.16:48:30::SCWSystem::dir created 
+TRACE::2022-06-17.16:48:30::SCWSystem::Writing the bif 
+TRACE::2022-06-17.16:48:30::SCWPlatform::Started writing the spfm file 
+TRACE::2022-06-17.16:48:30::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-06-17.16:48:30::SCWPlatform::Completed generating the platform
+TRACE::2022-06-17.16:48:30::SCWMssOS::Saving the mss changes C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.16:48:30::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-06-17.16:48:30::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-06-17.16:48:30::SCWMssOS::Commit changes completed.
+TRACE::2022-06-17.16:48:30::SCWPlatform::Trying to open the hw design at C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.16:48:30::SCWPlatform::DSA given C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.16:48:30::SCWPlatform::DSA absoulate path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.16:48:30::SCWPlatform::DSA directory C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw
+TRACE::2022-06-17.16:48:30::SCWPlatform:: Platform Path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.16:48:30::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2022-06-17.16:48:30::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper
+TRACE::2022-06-17.16:48:30::SCWPlatform::Opened existing hwdb mb_design_wrapper
+TRACE::2022-06-17.16:48:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-06-17.16:48:30::SCWMssOS::Checking the sw design at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.16:48:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-06-17.16:48:30::SCWMssOS::Sw design exists and opened at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.16:48:30::SCWWriter::formatted JSON is {
+	"platformName":	"mb_design_palindrome",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mb_design_palindrome",
+	"platHandOff":	"C:/Users/User/Dropbox/Project_CR/projeto/palindrome/mb_design_palindrome.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mb_design_palindrome.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mb_design_palindrome",
+	"systems":	[{
+			"systemName":	"mb_design_palindrome",
+			"systemDesc":	"mb_design_palindrome",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mb_design_palindrome",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"fb7ed2e4d128746253e13d4e26013f65",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-06-17.16:48:30::SCWPlatform::updated the xpfm file.
+TRACE::2022-06-17.16:48:30::SCWPlatform::Trying to open the hw design at C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.16:48:30::SCWPlatform::DSA given C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.16:48:30::SCWPlatform::DSA absoulate path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.16:48:30::SCWPlatform::DSA directory C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw
+TRACE::2022-06-17.16:48:30::SCWPlatform:: Platform Path C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/hw/mb_design_palindrome.xsa
+TRACE::2022-06-17.16:48:30::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2022-06-17.16:48:30::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper
+TRACE::2022-06-17.16:48:30::SCWPlatform::Opened existing hwdb mb_design_wrapper
+TRACE::2022-06-17.16:48:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-06-17.16:48:30::SCWMssOS::Checking the sw design at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-06-17.16:48:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-06-17.16:48:30::SCWMssOS::Sw design exists and opened at  C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome_vitis/mb_design_palindrome/microblaze_0/standalone_microblaze_0/bsp/system.mss
