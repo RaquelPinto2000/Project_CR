@@ -111,12 +111,12 @@ void PrintDataArray(int* pData, unsigned int size)
 	}
 }
 
-void PrintArray(int* pData, unsigned int size)
+void PrintArray(int* pData)
 {
 	xil_printf("\n\r");
 	for (int i = 32-1; i >= 0; i--)
 	{
-		xil_printf("%d ", pData[i]);
+		xil_printf("%d", pData[i]);
 	}
 }
 
@@ -156,14 +156,15 @@ int* decToBinary(int n)
 
         // storing remainder in binary array
         binaryNum[i] = n % 2;
+        //xil_printf("%d ",n % 2);
         n = n / 2;
         i++;
     }
-
+    PrintArray(binaryNum);
     return binaryNum;
 }
 
-void CheckPalindromeSw(int* pData1, int* pData2, unsigned int size)
+/*void CheckPalindromeSw(int* pData1, int* pData2, unsigned int size)
 {
 	for (int i = 0; i < size; i++)
 	{
@@ -179,6 +180,24 @@ void CheckPalindromeSw(int* pData1, int* pData2, unsigned int size)
 		}
 	}
 	//xil_printf("\n\r It's a palindrome!\n\r");
+}*/
+
+bool CheckPalindromeSw(int pData1)
+{
+	int* aux = pData1;//decToBinary(pData1);
+	//xil_printf("\n\r %d \n\r",pData1);
+	PrintArray(aux);
+
+	for (int j = 0; j < 32; j++)
+	{
+		if (aux[j] != aux[32-j])
+		{
+			return FALSE;
+			//xil_printf("\n\r It's not a palindrome!\n\r");
+		}
+	}
+	//xil_printf("\n\r It's a palindrome!\n\r");
+	return TRUE;
 }
 
 int main()
@@ -199,8 +218,13 @@ int main()
 	srand(0);
 
 	//1 palavra 1000101010001000 0001000101010001
-	srcData[0] = 2324173137;
-	srcData[1] = 10;
+	srcData[0] = 10001010100010000001000101010001;//2800000082;//2324173137;
+	xil_printf("\n\r %d \n\r",srcData[0]);
+	bool result = CheckPalindromeSw(srcData[0]);
+	xil_printf("\n\rPalindrome: %s\n\r", result ? "Yes" : "No");
+	srcData[1] = 10001010100010101001000101011101;
+	result = CheckPalindromeSw(srcData[1]);
+	xil_printf("\n\rPalindrome: %s\n\r", result ? "Yes" : "No");
     srcData[2] = 8;
     srcData[3] = 8;
     srcData[4] = 1;
@@ -220,7 +244,7 @@ int main()
 	xil_printf("\n\r");
 
 	RestartPerformanceTimer();
-	CheckPalindromeSw(dstData, srcData, N);
+	//CheckPalindromeSw(Data);
 	timeElapsed = StopAndGetPerformanceTimer();
 	xil_printf("\n\rSoftware only time: %d microseconds",
 			   timeElapsed / (XPAR_CPU_M_AXI_DP_FREQ_HZ / 1000000));

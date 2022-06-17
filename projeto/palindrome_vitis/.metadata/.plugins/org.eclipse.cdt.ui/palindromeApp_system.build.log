@@ -1,6 +1,6 @@
-23:20:04 **** Incremental Build of configuration Debug for project palindromeApp_system ****
+11:12:31 **** Incremental Build of configuration Debug for project palindromeApp_system ****
 make all 
 Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
 
-23:20:04 Build Finished (took 203ms)
+11:12:34 Build Finished (took 3s.111ms)
 
