@@ -863,11 +863,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Jun 17 22:34:51 UTC 2022</spirit:value>
+            <spirit:value>Sat Jun 18 14:42:21 UTC 2022</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:8a3a55bd</spirit:value>
+            <spirit:value>9:a04254e1</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -878,7 +878,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:8a3a55bd</spirit:value>
+            <spirit:value>9:a04254e1</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -894,11 +894,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Jun 17 22:34:51 UTC 2022</spirit:value>
+            <spirit:value>Sat Jun 18 14:42:21 UTC 2022</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:8a3a55bd</spirit:value>
+            <spirit:value>9:a04254e1</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -914,11 +914,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Jun 17 22:34:51 UTC 2022</spirit:value>
+            <spirit:value>Sat Jun 18 14:42:21 UTC 2022</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:edb40bfd</spirit:value>
+            <spirit:value>9:d6f99b2f</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -934,11 +934,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Jun 17 22:34:51 UTC 2022</spirit:value>
+            <spirit:value>Sat Jun 18 14:42:21 UTC 2022</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:edb40bfd</spirit:value>
+            <spirit:value>9:d6f99b2f</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1394,19 +1394,19 @@
     <spirit:fileSet>
       <spirit:name>xilinx_vhdlsynthesis_view_fileset</spirit:name>
       <spirit:file>
-        <spirit:name>../../ipshared/6bf9/hdl/CheckPalindrome_v1_0_S00_AXI.vhd</spirit:name>
+        <spirit:name>../../ipshared/e45a/hdl/CheckPalindrome_v1_0_S00_AXI.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/6bf9/hdl/CheckPalindrome_v1_0_S00_AXIS.vhd</spirit:name>
+        <spirit:name>../../ipshared/e45a/hdl/CheckPalindrome_v1_0_S00_AXIS.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/6bf9/src/PalindromoCheck.vhd</spirit:name>
+        <spirit:name>../../ipshared/e45a/src/PalindromoCheck.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/6bf9/hdl/CheckPalindrome_v1_0.vhd</spirit:name>
+        <spirit:name>../../ipshared/e45a/hdl/CheckPalindrome_v1_0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
     </spirit:fileSet>
@@ -1421,19 +1421,19 @@
     <spirit:fileSet>
       <spirit:name>xilinx_vhdlbehavioralsimulation_view_fileset</spirit:name>
       <spirit:file>
-        <spirit:name>../../ipshared/6bf9/hdl/CheckPalindrome_v1_0_S00_AXI.vhd</spirit:name>
+        <spirit:name>../../ipshared/e45a/hdl/CheckPalindrome_v1_0_S00_AXI.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/6bf9/hdl/CheckPalindrome_v1_0_S00_AXIS.vhd</spirit:name>
+        <spirit:name>../../ipshared/e45a/hdl/CheckPalindrome_v1_0_S00_AXIS.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/6bf9/src/PalindromoCheck.vhd</spirit:name>
+        <spirit:name>../../ipshared/e45a/src/PalindromoCheck.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/6bf9/hdl/CheckPalindrome_v1_0.vhd</spirit:name>
+        <spirit:name>../../ipshared/e45a/hdl/CheckPalindrome_v1_0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
     </spirit:fileSet>
@@ -1519,7 +1519,7 @@
   <spirit:vendorExtensions>
     <xilinx:coreExtensions>
       <xilinx:displayName>CheckPalindrome_v1.0</xilinx:displayName>
-      <xilinx:coreRevision>8</xilinx:coreRevision>
+      <xilinx:coreRevision>11</xilinx:coreRevision>
       <xilinx:tags>
         <xilinx:tag xilinx:name="ui.data.coregen.dd@2a97c909_ARCHIVE_LOCATION">c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
         <xilinx:tag xilinx:name="ui.data.coregen.dd@2d21f079_ARCHIVE_LOCATION">c:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
@@ -1643,6 +1643,52 @@
         <xilinx:tag xilinx:name="ui.data.coregen.dd@414a740d_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
         <xilinx:tag xilinx:name="ui.data.coregen.dd@632160a_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
         <xilinx:tag xilinx:name="ui.data.coregen.dd@21157491_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@67207925_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2a94db6b_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5a05b1f0_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6b6663cb_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1a10a40a_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1f724a4f_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1ec26ab_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@552e908a_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6a822e6f_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3e1675be_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@59828bf6_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@597c4277_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@47e61065_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@150a1b93_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7f105175_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@11ed76ba_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2dcb0fd6_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3ad8717d_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5a6652ff_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4982fb9e_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@50ba0293_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7362bb29_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3b331b98_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2330b7e4_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@68ee696f_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5983f9e4_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@339f68a3_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@631bd804_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@51ef3684_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5f46c98_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@c4c96cb_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@824a5bb_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7cae9c08_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5272b11c_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2b6ac072_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2a3ea5a3_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7770cf92_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1b13ee3e_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@48494d47_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6a314543_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@34058ad2_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@48c211b2_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@321c451c_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6ba98e25_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2f5c5a16_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1b3d0d58_ARCHIVE_LOCATION">c:/Users/Raquel/Desktop/Project_CR/projeto/ip_repo/CheckPalindrome_1.0</xilinx:tag>
       </xilinx:tags>
       <xilinx:configElementInfos>
         <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S00_AXI.ADDR_WIDTH" xilinx:valueSource="auto" xilinx:valuePermission="bd"/>
@@ -1710,7 +1756,7 @@
       <xilinx:xilinxVersion>2020.2</xilinx:xilinxVersion>
       <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="0d9ba22e"/>
       <xilinx:checksum xilinx:scope="memoryMaps" xilinx:value="ed1368d5"/>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="b40a126d"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="c65170b4"/>
       <xilinx:checksum xilinx:scope="ports" xilinx:value="61cbfad4"/>
       <xilinx:checksum xilinx:scope="hdlParameters" xilinx:value="cdb0862d"/>
       <xilinx:checksum xilinx:scope="parameters" xilinx:value="6434dbe6"/>

@@ -1,0 +1,6 @@
+/*mb_design_palindrome_v3*/
+the_ROM_image:
+{
+   <bitstream> 
+   <elf> 
+}

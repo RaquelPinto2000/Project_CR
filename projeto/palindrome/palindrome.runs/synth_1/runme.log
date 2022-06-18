@@ -24,11 +24,11 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100
 INFO: [Device 21-403] Loading part xc7a100tcsg324-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 4224
+INFO: [Synth 8-7075] Helper process launched with PID 26468
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 999.398 ; gain = 0.000
+Starting RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 999.672 ; gain = 0.000
 ---------------------------------------------------------------------------------
-WARNING: [Synth 8-2048] function clogb2 does not always return a value [c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/6bf9/hdl/CheckPalindrome_v1_0_S00_AXIS.vhd:55]
+WARNING: [Synth 8-2048] function clogb2 does not always return a value [c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/e45a/hdl/CheckPalindrome_v1_0_S00_AXIS.vhd:55]
 INFO: [Synth 8-638] synthesizing module 'mb_design_wrapper' [C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/hdl/mb_design_wrapper.vhd:37]
 INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:36242' bound to instance 'cellular_ram_dq_iobuf_0' of component 'IOBUF' [C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/hdl/mb_design_wrapper.vhd:135]
 INFO: [Synth 8-6157] synthesizing module 'IOBUF' [C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:36242]
@@ -59,31 +59,31 @@ INFO: [Synth 8-638] synthesizing module 'mb_design_CheckPalindrome_1_0' [c:/User
 	Parameter C_S00_AXIS_TDATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
-INFO: [Synth 8-3491] module 'CheckPalindrome_v1_0' declared at 'c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/6bf9/hdl/CheckPalindrome_v1_0.vhd:5' bound to instance 'U0' of component 'CheckPalindrome_v1_0' [c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_CheckPalindrome_1_0/synth/mb_design_CheckPalindrome_1_0.vhd:173]
-INFO: [Synth 8-638] synthesizing module 'CheckPalindrome_v1_0' [c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/6bf9/hdl/CheckPalindrome_v1_0.vhd:61]
+INFO: [Synth 8-3491] module 'CheckPalindrome_v1_0' declared at 'c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/e45a/hdl/CheckPalindrome_v1_0.vhd:5' bound to instance 'U0' of component 'CheckPalindrome_v1_0' [c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_CheckPalindrome_1_0/synth/mb_design_CheckPalindrome_1_0.vhd:173]
+INFO: [Synth 8-638] synthesizing module 'CheckPalindrome_v1_0' [c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/e45a/hdl/CheckPalindrome_v1_0.vhd:61]
 	Parameter C_S00_AXIS_TDATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 	Parameter C_S_AXIS_TDATA_WIDTH bound to: 32 - type: integer 
-INFO: [Synth 8-3491] module 'CheckPalindrome_v1_0_S00_AXIS' declared at 'c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/6bf9/hdl/CheckPalindrome_v1_0_S00_AXIS.vhd:5' bound to instance 'CheckPalindrome_v1_0_S00_AXIS_inst' of component 'CheckPalindrome_v1_0_S00_AXIS' [c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/6bf9/hdl/CheckPalindrome_v1_0.vhd:114]
-INFO: [Synth 8-638] synthesizing module 'CheckPalindrome_v1_0_S00_AXIS' [c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/6bf9/hdl/CheckPalindrome_v1_0_S00_AXIS.vhd:38]
+INFO: [Synth 8-3491] module 'CheckPalindrome_v1_0_S00_AXIS' declared at 'c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/e45a/hdl/CheckPalindrome_v1_0_S00_AXIS.vhd:5' bound to instance 'CheckPalindrome_v1_0_S00_AXIS_inst' of component 'CheckPalindrome_v1_0_S00_AXIS' [c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/e45a/hdl/CheckPalindrome_v1_0.vhd:114]
+INFO: [Synth 8-638] synthesizing module 'CheckPalindrome_v1_0_S00_AXIS' [c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/e45a/hdl/CheckPalindrome_v1_0_S00_AXIS.vhd:38]
 	Parameter C_S_AXIS_TDATA_WIDTH bound to: 32 - type: integer 
-INFO: [Synth 8-226] default block is never used [c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/6bf9/hdl/CheckPalindrome_v1_0_S00_AXIS.vhd:102]
-INFO: [Synth 8-3491] module 'PalindromoCheck' declared at 'c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/6bf9/src/PalindromoCheck.vhd:34' bound to instance 'Palindrome_Check' of component 'PalindromoCheck' [c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/6bf9/hdl/CheckPalindrome_v1_0_S00_AXIS.vhd:183]
-INFO: [Synth 8-638] synthesizing module 'PalindromoCheck' [c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/6bf9/src/PalindromoCheck.vhd:39]
-INFO: [Synth 8-256] done synthesizing module 'PalindromoCheck' (2#1) [c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/6bf9/src/PalindromoCheck.vhd:39]
-INFO: [Synth 8-256] done synthesizing module 'CheckPalindrome_v1_0_S00_AXIS' (3#1) [c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/6bf9/hdl/CheckPalindrome_v1_0_S00_AXIS.vhd:38]
+INFO: [Synth 8-226] default block is never used [c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/e45a/hdl/CheckPalindrome_v1_0_S00_AXIS.vhd:98]
+INFO: [Synth 8-256] done synthesizing module 'CheckPalindrome_v1_0_S00_AXIS' (2#1) [c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/e45a/hdl/CheckPalindrome_v1_0_S00_AXIS.vhd:38]
 	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
-INFO: [Synth 8-3491] module 'CheckPalindrome_v1_0_S00_AXI' declared at 'c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/6bf9/hdl/CheckPalindrome_v1_0_S00_AXI.vhd:5' bound to instance 'CheckPalindrome_v1_0_S00_AXI_inst' of component 'CheckPalindrome_v1_0_S00_AXI' [c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/6bf9/hdl/CheckPalindrome_v1_0.vhd:130]
-INFO: [Synth 8-638] synthesizing module 'CheckPalindrome_v1_0_S00_AXI' [c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/6bf9/hdl/CheckPalindrome_v1_0_S00_AXI.vhd:86]
+INFO: [Synth 8-3491] module 'CheckPalindrome_v1_0_S00_AXI' declared at 'c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/e45a/hdl/CheckPalindrome_v1_0_S00_AXI.vhd:5' bound to instance 'CheckPalindrome_v1_0_S00_AXI_inst' of component 'CheckPalindrome_v1_0_S00_AXI' [c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/e45a/hdl/CheckPalindrome_v1_0.vhd:130]
+INFO: [Synth 8-638] synthesizing module 'CheckPalindrome_v1_0_S00_AXI' [c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/e45a/hdl/CheckPalindrome_v1_0_S00_AXI.vhd:86]
 	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
-INFO: [Synth 8-226] default block is never used [c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/6bf9/hdl/CheckPalindrome_v1_0_S00_AXI.vhd:226]
-INFO: [Synth 8-226] default block is never used [c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/6bf9/hdl/CheckPalindrome_v1_0_S00_AXI.vhd:356]
-WARNING: [Synth 8-614] signal 'result_palindrome' is read in the process but is not in the sensitivity list [c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/6bf9/hdl/CheckPalindrome_v1_0_S00_AXI.vhd:351]
-INFO: [Synth 8-256] done synthesizing module 'CheckPalindrome_v1_0_S00_AXI' (4#1) [c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/6bf9/hdl/CheckPalindrome_v1_0_S00_AXI.vhd:86]
-INFO: [Synth 8-256] done synthesizing module 'CheckPalindrome_v1_0' (5#1) [c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/6bf9/hdl/CheckPalindrome_v1_0.vhd:61]
+INFO: [Synth 8-226] default block is never used [c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/e45a/hdl/CheckPalindrome_v1_0_S00_AXI.vhd:232]
+INFO: [Synth 8-226] default block is never used [c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/e45a/hdl/CheckPalindrome_v1_0_S00_AXI.vhd:362]
+WARNING: [Synth 8-614] signal 's_checkPalindrome' is read in the process but is not in the sensitivity list [c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/e45a/hdl/CheckPalindrome_v1_0_S00_AXI.vhd:357]
+INFO: [Synth 8-3491] module 'PalindromoCheck' declared at 'c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/e45a/src/PalindromoCheck.vhd:34' bound to instance 'Palindrome_Check' of component 'PalindromoCheck' [c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/e45a/hdl/CheckPalindrome_v1_0_S00_AXI.vhd:394]
+INFO: [Synth 8-638] synthesizing module 'PalindromoCheck' [c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/e45a/src/PalindromoCheck.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'PalindromoCheck' (3#1) [c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/e45a/src/PalindromoCheck.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'CheckPalindrome_v1_0_S00_AXI' (4#1) [c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/e45a/hdl/CheckPalindrome_v1_0_S00_AXI.vhd:86]
+INFO: [Synth 8-256] done synthesizing module 'CheckPalindrome_v1_0' (5#1) [c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ipshared/e45a/hdl/CheckPalindrome_v1_0.vhd:61]
 INFO: [Synth 8-256] done synthesizing module 'mb_design_CheckPalindrome_1_0' (6#1) [c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_CheckPalindrome_1_0/synth/mb_design_CheckPalindrome_1_0.vhd:89]
 WARNING: [Synth 8-5640] Port 'axi_dma_tstvec' is missing in component declaration [c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/synth/mb_design.vhd:7547]
 INFO: [Synth 8-3491] module 'mb_design_axi_dma_0_0' declared at 'c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/ip/mb_design_axi_dma_0_0/synth/mb_design_axi_dma_0_0.vhd:59' bound to instance 'axi_dma_0' of component 'mb_design_axi_dma_0_0' [c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/synth/mb_design.vhd:8059]
@@ -5545,20 +5545,20 @@ INFO: [Synth 8-256] done synthesizing module 'mb_design_rst_clk_wiz_1_100M_0' (2
 INFO: [Synth 8-256] done synthesizing module 'mb_design' (252#1) [c:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/synth/mb_design.vhd:7197]
 INFO: [Synth 8-256] done synthesizing module 'mb_design_wrapper' (253#1) [C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.gen/sources_1/bd/mb_design/hdl/mb_design_wrapper.vhd:37]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:01:00 ; elapsed = 00:01:09 . Memory (MB): peak = 1466.113 ; gain = 466.715
+Finished RTL Elaboration : Time (s): cpu = 00:01:07 ; elapsed = 00:01:17 . Memory (MB): peak = 1464.570 ; gain = 464.898
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:01:03 ; elapsed = 00:01:12 . Memory (MB): peak = 1466.113 ; gain = 466.715
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:10 ; elapsed = 00:01:21 . Memory (MB): peak = 1464.570 ; gain = 464.898
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:03 ; elapsed = 00:01:12 . Memory (MB): peak = 1466.113 ; gain = 466.715
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:10 ; elapsed = 00:01:21 . Memory (MB): peak = 1464.570 ; gain = 464.898
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1466.113 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1464.570 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 1280 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -5629,7 +5629,7 @@ Resolution: To avoid this warning, move constraints listed in [.Xil/mb_design_wr
 INFO: [Project 1-1715] 3 XPM XDC files have been applied to the design.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.029 . Memory (MB): peak = 1474.273 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 1480.910 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 869 instances were transformed.
   FDC_1 => FDCE (inverted pins: C): 1 instance 
@@ -5645,16 +5645,16 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 16 instances
   SRL16 => SRL16E: 1 instance 
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.512 . Memory (MB): peak = 1474.273 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.638 . Memory (MB): peak = 1480.910 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:01:33 ; elapsed = 00:01:41 . Memory (MB): peak = 1474.273 ; gain = 474.875
+Finished Constraint Validation : Time (s): cpu = 00:01:44 ; elapsed = 00:01:54 . Memory (MB): peak = 1480.910 ; gain = 481.238
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tcsg324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:01:33 ; elapsed = 00:01:41 . Memory (MB): peak = 1474.273 ; gain = 474.875
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:44 ; elapsed = 00:01:54 . Memory (MB): peak = 1480.910 ; gain = 481.238
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -5747,7 +5747,7 @@ Applied set_property KEEP = true for sys_clock. (constraint file  auto generated
 Applied set_property KEEP = true for usb_uart_rxd. (constraint file  auto generated constraint).
 Applied set_property KEEP = true for mb_design_i/axi_uartlite_0/U0/UARTLITE_CORE_I/UARTLITE_TX_I/TX. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:34 ; elapsed = 00:01:42 . Memory (MB): peak = 1474.273 ; gain = 474.875
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:45 ; elapsed = 00:01:55 . Memory (MB): peak = 1480.910 ; gain = 481.238
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'smpl_cs_reg' in module 'axi_dma_smple_sm'
 INFO: [Synth 8-802] inferred FSM for state register 'sig_pcc_sm_state_reg' in module 'axi_datamover_pcc'
@@ -5918,7 +5918,7 @@ INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'gen_axi.write_cs_reg' using encoding 'one-hot' in module 'axi_crossbar_v2_1_23_decerr_slave'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:51 ; elapsed = 00:02:00 . Memory (MB): peak = 1474.273 ; gain = 474.875
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:02:04 ; elapsed = 00:02:16 . Memory (MB): peak = 1480.910 ; gain = 481.238
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
 ---------------------------------------------------------------------------------
@@ -6068,7 +6068,7 @@ INFO: [Synth 8-5784] Optimized 1 bits of RAM "gen_wr_a.gen_word_narrow.mem_reg" 
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:59 ; elapsed = 00:03:09 . Memory (MB): peak = 1474.273 ; gain = 474.875
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:03:20 ; elapsed = 00:03:33 . Memory (MB): peak = 1480.910 ; gain = 481.238
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
 ---------------------------------------------------------------------------------
@@ -6102,7 +6102,7 @@ Start Applying XDC Timing Constraints
 INFO: [Synth 8-5578] Moved timing constraint from pin 'microblaze_0/U0/Reset' to pin 'rst_clk_wiz_1_100M/U0/FDRE_inst/Q'
 INFO: [Synth 8-5819] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:03:08 ; elapsed = 00:03:18 . Memory (MB): peak = 1474.273 ; gain = 474.875
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:03:30 ; elapsed = 00:03:43 . Memory (MB): peak = 1480.910 ; gain = 481.238
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
@@ -6110,7 +6110,7 @@ Start Timing Optimization
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
 INFO: [Synth 8-5775] Found 'rw_addr_collision' attribute set to 'no' on SDP RAM gen_wr_a.gen_word_narrow.mem_reg. Setting write mode to NO_CHANGE 
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:03:16 ; elapsed = 00:03:26 . Memory (MB): peak = 1474.273 ; gain = 474.875
+Finished Timing Optimization : Time (s): cpu = 00:03:40 ; elapsed = 00:03:53 . Memory (MB): peak = 1480.910 ; gain = 481.238
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -6138,8 +6138,12 @@ Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance mb_design_i/axis_data_fifo_0/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance mb_design_i/axis_data_fifo_0/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance mb_design_i/axis_data_fifo_0/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance mb_design_i/axis_data_fifo_0/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:03:25 ; elapsed = 00:03:35 . Memory (MB): peak = 1474.273 ; gain = 474.875
+Finished Technology Mapping : Time (s): cpu = 00:03:50 ; elapsed = 00:04:03 . Memory (MB): peak = 1480.910 ; gain = 481.238
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -6213,37 +6217,37 @@ Finished Final Netlist Cleanup
 WARNING: [Synth 8-3295] tying undriven pin I_AXI_DMA_REG_MODULE/strm_valid_int2_inferred:in0 to constant 0
 WARNING: [Synth 8-3295] tying undriven pin I_AXI_DMA_REG_MODULE/strm_valid_int_cdc_to_inferred:in0 to constant 0
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:03:30 ; elapsed = 00:03:40 . Memory (MB): peak = 1474.273 ; gain = 474.875
+Finished IO Insertion : Time (s): cpu = 00:03:55 ; elapsed = 00:04:09 . Memory (MB): peak = 1480.910 ; gain = 481.238
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:03:30 ; elapsed = 00:03:40 . Memory (MB): peak = 1474.273 ; gain = 474.875
+Finished Renaming Generated Instances : Time (s): cpu = 00:03:55 ; elapsed = 00:04:09 . Memory (MB): peak = 1480.910 ; gain = 481.238
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:03:32 ; elapsed = 00:03:42 . Memory (MB): peak = 1474.273 ; gain = 474.875
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:03:58 ; elapsed = 00:04:11 . Memory (MB): peak = 1480.910 ; gain = 481.238
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:03:32 ; elapsed = 00:03:43 . Memory (MB): peak = 1474.273 ; gain = 474.875
+Finished Renaming Generated Ports : Time (s): cpu = 00:03:58 ; elapsed = 00:04:11 . Memory (MB): peak = 1480.910 ; gain = 481.238
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:03:32 ; elapsed = 00:03:43 . Memory (MB): peak = 1474.273 ; gain = 474.875
+Finished Handling Custom Attributes : Time (s): cpu = 00:03:58 ; elapsed = 00:04:12 . Memory (MB): peak = 1480.910 ; gain = 481.238
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:03:33 ; elapsed = 00:03:43 . Memory (MB): peak = 1474.273 ; gain = 474.875
+Finished Renaming Generated Nets : Time (s): cpu = 00:03:58 ; elapsed = 00:04:12 . Memory (MB): peak = 1480.910 ; gain = 481.238
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -6325,7 +6329,7 @@ Report Cell Usage:
 |30    |FDC        |     1|
 |31    |FDPE       |     6|
 |32    |FDR        |   207|
-|33    |FDRE       |  4899|
+|33    |FDRE       |  4935|
 |35    |FDS        |     1|
 |36    |FDSE       |   359|
 |37    |IBUF       |    24|
@@ -6333,15 +6337,15 @@ Report Cell Usage:
 |39    |OBUF       |    63|
 +------+-----------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:03:33 ; elapsed = 00:03:43 . Memory (MB): peak = 1474.273 ; gain = 474.875
+Finished Writing Synthesis Report : Time (s): cpu = 00:03:58 ; elapsed = 00:04:12 . Memory (MB): peak = 1480.910 ; gain = 481.238
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:02:06 ; elapsed = 00:03:20 . Memory (MB): peak = 1474.273 ; gain = 466.715
-Synthesis Optimization Complete : Time (s): cpu = 00:03:33 ; elapsed = 00:03:43 . Memory (MB): peak = 1474.273 ; gain = 474.875
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:22 ; elapsed = 00:03:46 . Memory (MB): peak = 1480.910 ; gain = 464.898
+Synthesis Optimization Complete : Time (s): cpu = 00:03:59 ; elapsed = 00:04:12 . Memory (MB): peak = 1480.910 ; gain = 481.238
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.719 . Memory (MB): peak = 1474.273 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.709 . Memory (MB): peak = 1480.910 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 1261 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 WARNING: [Constraints 18-5572] Instance mb_design_i/axi_emc_0/U0/mem_a_int_reg[23] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
@@ -6353,7 +6357,7 @@ WARNING: [Constraints 18-5572] Instance mb_design_i/axi_emc_0/U0/mem_a_int_reg[2
 WARNING: [Constraints 18-5572] Instance mb_design_i/axi_emc_0/U0/mem_a_int_reg[29] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
 WARNING: [Constraints 18-5572] Instance mb_design_i/axi_emc_0/U0/mem_a_int_reg[30] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
 WARNING: [Constraints 18-5572] Instance mb_design_i/axi_emc_0/U0/mem_a_int_reg[31] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1474.273 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 1480.910 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 492 instances were transformed.
   (MUXCY,XORCY) => CARRY4: 89 instances
@@ -6369,9 +6373,9 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   SRL16 => SRL16E: 1 instance 
 
 INFO: [Common 17-83] Releasing license: Synthesis
-985 Infos, 19 Warnings, 0 Critical Warnings and 0 Errors encountered.
+989 Infos, 19 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:03:47 ; elapsed = 00:04:00 . Memory (MB): peak = 1474.273 ; gain = 474.875
+synth_design: Time (s): cpu = 00:04:15 ; elapsed = 00:04:31 . Memory (MB): peak = 1480.910 ; gain = 481.238
 INFO: [Common 17-1381] The checkpoint 'C:/Users/Raquel/Desktop/Project_CR/projeto/palindrome/palindrome.runs/synth_1/mb_design_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file mb_design_wrapper_utilization_synth.rpt -pb mb_design_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Fri Jun 17 23:40:08 2022...
+INFO: [Common 17-206] Exiting Vivado at Sat Jun 18 15:48:41 2022...
