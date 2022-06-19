@@ -1,0 +1,203 @@
+15:23:22 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Raquel\Desktop\Project_CR\projeto2\Novapasta\temp_xsdb_launch_script.tcl
+15:23:22 INFO  : Registering command handlers for Vitis TCF services
+15:23:27 INFO  : XSCT server has started successfully.
+15:23:27 INFO  : plnx-install-location is set to ''
+15:23:27 INFO  : Successfully done setting XSCT server connection channel  
+15:23:27 INFO  : Successfully done query RDI_DATADIR 
+15:23:27 INFO  : Successfully done setting workspace for the tool. 
+15:23:28 INFO  : Platform repository initialization has completed.
+15:24:05 INFO  : Result from executing command 'getProjects': mb_design_CheckCounterPalindrome
+15:24:05 INFO  : Result from executing command 'getPlatforms': 
+15:24:05 WARN  : An unexpected exception occurred in the module 'platform project logging'
+15:24:06 INFO  : Platform 'mb_design_CheckCounterPalindrome' is added to custom repositories.
+15:24:09 INFO  : Platform 'mb_design_CheckCounterPalindrome' is added to custom repositories.
+15:26:02 INFO  : Result from executing command 'getProjects': mb_design_CheckCounterPalindrome
+15:26:02 INFO  : Result from executing command 'getPlatforms': mb_design_CheckCounterPalindrome|C:/Users/Raquel/Desktop/Project_CR/projeto2/Novapasta/mb_design_CheckCounterPalindrome/export/mb_design_CheckCounterPalindrome/mb_design_CheckCounterPalindrome.xpfm
+15:26:20 INFO  : Result from executing command 'getProjects': mb_design_CheckCounterPalindrome
+15:26:20 INFO  : Result from executing command 'getPlatforms': mb_design_CheckCounterPalindrome|C:/Users/Raquel/Desktop/Project_CR/projeto2/Novapasta/mb_design_CheckCounterPalindrome/export/mb_design_CheckCounterPalindrome/mb_design_CheckCounterPalindrome.xpfm
+15:26:20 INFO  : Checking for BSP changes to sync application flags for project 'PalindromeApp'...
+15:26:29 INFO  : Checking for BSP changes to sync application flags for project 'PalindromeApp'...
+15:26:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:26:35 INFO  : Jtag cable 'Digilent Nexys4 210274505240A' is selected.
+15:26:35 INFO  : 'jtag frequency' command is executed.
+15:26:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274505240A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274505240A-13631093-0"}' command is executed.
+15:26:37 INFO  : Device configured successfully with "C:/Users/Raquel/Desktop/Project_CR/projeto2/Novapasta/PalindromeApp/_ide/bitstream/mb_design_CheckCounterPalindrome.bit"
+15:26:37 INFO  : Context for processor 'microblaze_0' is selected.
+15:26:38 INFO  : Hardware design and registers information is loaded from 'C:/Users/Raquel/Desktop/Project_CR/projeto2/Novapasta/mb_design_CheckCounterPalindrome/export/mb_design_CheckCounterPalindrome/hw/mb_design_CheckCounterPalindrome.xsa'.
+15:26:38 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:26:38 INFO  : Context for processor 'microblaze_0' is selected.
+15:26:38 INFO  : System reset is completed.
+15:26:41 INFO  : 'after 3000' command is executed.
+15:26:41 INFO  : Context for processor 'microblaze_0' is selected.
+15:26:41 INFO  : The application 'C:/Users/Raquel/Desktop/Project_CR/projeto2/Novapasta/PalindromeApp/Debug/PalindromeApp.elf' is downloaded to processor 'microblaze_0'.
+15:26:41 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274505240A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274505240A-13631093-0"}
+fpga -file C:/Users/Raquel/Desktop/Project_CR/projeto2/Novapasta/PalindromeApp/_ide/bitstream/mb_design_CheckCounterPalindrome.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/Raquel/Desktop/Project_CR/projeto2/Novapasta/mb_design_CheckCounterPalindrome/export/mb_design_CheckCounterPalindrome/hw/mb_design_CheckCounterPalindrome.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Raquel/Desktop/Project_CR/projeto2/Novapasta/PalindromeApp/Debug/PalindromeApp.elf
+----------------End of Script----------------
+
+15:26:41 INFO  : Context for processor 'microblaze_0' is selected.
+15:26:41 INFO  : 'con' command is executed.
+15:26:41 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:26:41 INFO  : Launch script is exported to file 'C:\Users\Raquel\Desktop\Project_CR\projeto2\Novapasta\PalindromeApp_system\_ide\scripts\systemdebugger_palindromeapp_system_standalone.tcl'
+15:27:14 INFO  : Checking for BSP changes to sync application flags for project 'PalindromeApp'...
+15:27:19 INFO  : Disconnected from the channel tcfchan#5.
+15:27:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:27:19 INFO  : Jtag cable 'Digilent Nexys4 210274505240A' is selected.
+15:27:19 INFO  : 'jtag frequency' command is executed.
+15:27:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274505240A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274505240A-13631093-0"}' command is executed.
+15:27:21 INFO  : Device configured successfully with "C:/Users/Raquel/Desktop/Project_CR/projeto2/Novapasta/PalindromeApp/_ide/bitstream/mb_design_CheckCounterPalindrome.bit"
+15:27:21 INFO  : Context for processor 'microblaze_0' is selected.
+15:27:21 INFO  : Hardware design and registers information is loaded from 'C:/Users/Raquel/Desktop/Project_CR/projeto2/Novapasta/mb_design_CheckCounterPalindrome/export/mb_design_CheckCounterPalindrome/hw/mb_design_CheckCounterPalindrome.xsa'.
+15:27:21 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:27:21 INFO  : Context for processor 'microblaze_0' is selected.
+15:27:21 INFO  : System reset is completed.
+15:27:24 INFO  : 'after 3000' command is executed.
+15:27:24 INFO  : Context for processor 'microblaze_0' is selected.
+15:27:25 INFO  : The application 'C:/Users/Raquel/Desktop/Project_CR/projeto2/Novapasta/PalindromeApp/Debug/PalindromeApp.elf' is downloaded to processor 'microblaze_0'.
+15:27:25 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274505240A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274505240A-13631093-0"}
+fpga -file C:/Users/Raquel/Desktop/Project_CR/projeto2/Novapasta/PalindromeApp/_ide/bitstream/mb_design_CheckCounterPalindrome.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/Raquel/Desktop/Project_CR/projeto2/Novapasta/mb_design_CheckCounterPalindrome/export/mb_design_CheckCounterPalindrome/hw/mb_design_CheckCounterPalindrome.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Raquel/Desktop/Project_CR/projeto2/Novapasta/PalindromeApp/Debug/PalindromeApp.elf
+----------------End of Script----------------
+
+15:27:25 INFO  : Context for processor 'microblaze_0' is selected.
+15:27:25 INFO  : 'con' command is executed.
+15:27:25 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:27:25 INFO  : Launch script is exported to file 'C:\Users\Raquel\Desktop\Project_CR\projeto2\Novapasta\PalindromeApp_system\_ide\scripts\systemdebugger_palindromeapp_system_standalone.tcl'
+15:27:32 INFO  : Checking for BSP changes to sync application flags for project 'PalindromeApp'...
+15:27:37 INFO  : Disconnected from the channel tcfchan#6.
+15:27:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:27:37 INFO  : Jtag cable 'Digilent Nexys4 210274505240A' is selected.
+15:27:37 INFO  : 'jtag frequency' command is executed.
+15:27:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274505240A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274505240A-13631093-0"}' command is executed.
+15:27:40 INFO  : Device configured successfully with "C:/Users/Raquel/Desktop/Project_CR/projeto2/Novapasta/PalindromeApp/_ide/bitstream/mb_design_CheckCounterPalindrome.bit"
+15:27:40 INFO  : Context for processor 'microblaze_0' is selected.
+15:27:40 INFO  : Hardware design and registers information is loaded from 'C:/Users/Raquel/Desktop/Project_CR/projeto2/Novapasta/mb_design_CheckCounterPalindrome/export/mb_design_CheckCounterPalindrome/hw/mb_design_CheckCounterPalindrome.xsa'.
+15:27:40 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:27:40 INFO  : Context for processor 'microblaze_0' is selected.
+15:27:40 INFO  : System reset is completed.
+15:27:43 INFO  : 'after 3000' command is executed.
+15:27:43 INFO  : Context for processor 'microblaze_0' is selected.
+15:27:43 INFO  : The application 'C:/Users/Raquel/Desktop/Project_CR/projeto2/Novapasta/PalindromeApp/Debug/PalindromeApp.elf' is downloaded to processor 'microblaze_0'.
+15:27:43 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274505240A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274505240A-13631093-0"}
+fpga -file C:/Users/Raquel/Desktop/Project_CR/projeto2/Novapasta/PalindromeApp/_ide/bitstream/mb_design_CheckCounterPalindrome.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/Raquel/Desktop/Project_CR/projeto2/Novapasta/mb_design_CheckCounterPalindrome/export/mb_design_CheckCounterPalindrome/hw/mb_design_CheckCounterPalindrome.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Raquel/Desktop/Project_CR/projeto2/Novapasta/PalindromeApp/Debug/PalindromeApp.elf
+----------------End of Script----------------
+
+15:27:43 INFO  : Context for processor 'microblaze_0' is selected.
+15:27:43 INFO  : 'con' command is executed.
+15:27:43 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:27:43 INFO  : Launch script is exported to file 'C:\Users\Raquel\Desktop\Project_CR\projeto2\Novapasta\PalindromeApp_system\_ide\scripts\systemdebugger_palindromeapp_system_standalone.tcl'
+15:28:04 INFO  : Checking for BSP changes to sync application flags for project 'PalindromeApp'...
+15:28:12 INFO  : Disconnected from the channel tcfchan#7.
+15:28:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:28:12 INFO  : Jtag cable 'Digilent Nexys4 210274505240A' is selected.
+15:28:12 INFO  : 'jtag frequency' command is executed.
+15:28:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274505240A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274505240A-13631093-0"}' command is executed.
+15:28:15 INFO  : Device configured successfully with "C:/Users/Raquel/Desktop/Project_CR/projeto2/Novapasta/PalindromeApp/_ide/bitstream/mb_design_CheckCounterPalindrome.bit"
+15:28:15 INFO  : Context for processor 'microblaze_0' is selected.
+15:28:15 INFO  : Hardware design and registers information is loaded from 'C:/Users/Raquel/Desktop/Project_CR/projeto2/Novapasta/mb_design_CheckCounterPalindrome/export/mb_design_CheckCounterPalindrome/hw/mb_design_CheckCounterPalindrome.xsa'.
+15:28:15 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:28:15 INFO  : Context for processor 'microblaze_0' is selected.
+15:28:15 INFO  : System reset is completed.
+15:28:18 INFO  : 'after 3000' command is executed.
+15:28:18 INFO  : Context for processor 'microblaze_0' is selected.
+15:28:18 INFO  : The application 'C:/Users/Raquel/Desktop/Project_CR/projeto2/Novapasta/PalindromeApp/Debug/PalindromeApp.elf' is downloaded to processor 'microblaze_0'.
+15:28:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274505240A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274505240A-13631093-0"}
+fpga -file C:/Users/Raquel/Desktop/Project_CR/projeto2/Novapasta/PalindromeApp/_ide/bitstream/mb_design_CheckCounterPalindrome.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/Raquel/Desktop/Project_CR/projeto2/Novapasta/mb_design_CheckCounterPalindrome/export/mb_design_CheckCounterPalindrome/hw/mb_design_CheckCounterPalindrome.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Raquel/Desktop/Project_CR/projeto2/Novapasta/PalindromeApp/Debug/PalindromeApp.elf
+----------------End of Script----------------
+
+15:28:18 INFO  : Context for processor 'microblaze_0' is selected.
+15:28:18 INFO  : 'con' command is executed.
+15:28:18 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:28:18 INFO  : Launch script is exported to file 'C:\Users\Raquel\Desktop\Project_CR\projeto2\Novapasta\PalindromeApp_system\_ide\scripts\systemdebugger_palindromeapp_system_standalone.tcl'
+15:28:42 INFO  : Checking for BSP changes to sync application flags for project 'PalindromeApp'...
+15:28:47 INFO  : Disconnected from the channel tcfchan#8.
+15:28:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:28:47 INFO  : Jtag cable 'Digilent Nexys4 210274505240A' is selected.
+15:28:47 INFO  : 'jtag frequency' command is executed.
+15:28:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274505240A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274505240A-13631093-0"}' command is executed.
+15:28:49 INFO  : Device configured successfully with "C:/Users/Raquel/Desktop/Project_CR/projeto2/Novapasta/PalindromeApp/_ide/bitstream/mb_design_CheckCounterPalindrome.bit"
+15:28:50 INFO  : Context for processor 'microblaze_0' is selected.
+15:28:50 INFO  : Hardware design and registers information is loaded from 'C:/Users/Raquel/Desktop/Project_CR/projeto2/Novapasta/mb_design_CheckCounterPalindrome/export/mb_design_CheckCounterPalindrome/hw/mb_design_CheckCounterPalindrome.xsa'.
+15:28:50 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:28:50 INFO  : Context for processor 'microblaze_0' is selected.
+15:28:50 INFO  : System reset is completed.
+15:28:53 INFO  : 'after 3000' command is executed.
+15:28:53 INFO  : Context for processor 'microblaze_0' is selected.
+15:28:53 INFO  : The application 'C:/Users/Raquel/Desktop/Project_CR/projeto2/Novapasta/PalindromeApp/Debug/PalindromeApp.elf' is downloaded to processor 'microblaze_0'.
+15:28:53 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274505240A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274505240A-13631093-0"}
+fpga -file C:/Users/Raquel/Desktop/Project_CR/projeto2/Novapasta/PalindromeApp/_ide/bitstream/mb_design_CheckCounterPalindrome.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/Raquel/Desktop/Project_CR/projeto2/Novapasta/mb_design_CheckCounterPalindrome/export/mb_design_CheckCounterPalindrome/hw/mb_design_CheckCounterPalindrome.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/Raquel/Desktop/Project_CR/projeto2/Novapasta/PalindromeApp/Debug/PalindromeApp.elf
+----------------End of Script----------------
+
+15:28:53 INFO  : Context for processor 'microblaze_0' is selected.
+15:28:53 INFO  : 'con' command is executed.
+15:28:53 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:28:53 INFO  : Launch script is exported to file 'C:\Users\Raquel\Desktop\Project_CR\projeto2\Novapasta\PalindromeApp_system\_ide\scripts\systemdebugger_palindromeapp_system_standalone.tcl'
+15:48:11 INFO  : Disconnected from the channel tcfchan#9.

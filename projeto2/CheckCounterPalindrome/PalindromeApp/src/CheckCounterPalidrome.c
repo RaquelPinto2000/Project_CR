@@ -65,26 +65,6 @@ typedef int bool;
 
 /*****************************  Helper Functions *****************************/
 
-void PrintDataArray(int* pData, unsigned int size)
-{
-	int* p;
-
-	xil_printf("\n\r");
-	for (p = pData; p < pData + size; p++)
-	{
-		xil_printf("%08x  ", *p);
-	}
-}
-
-//size = (sizeof(pData)/sizeof(pData[0]))
-void PrintArray(int* pData, int size)
-{
-	xil_printf("\n\r");
-	for (int i = 0;i<size; i++){
-			xil_printf("%d", pData[i]);
-	}
-}
-
 void ResetPerformanceTimer()
 {
 	XTmrCtr_Disable(XPAR_TMRCTR_0_BASEADDR, 0);
@@ -116,13 +96,14 @@ void initArray(int *data, int size){
 	}
 }
 
-void decToBinary(long double * data, long double num, int size){
+void decToBinary(int * data, int num, int size){
 	int i = 0;
-	//int size = (sizeof(data)/sizeof(data[0]));
+
 	initArray(data,size);
+
 	while(num > 0)
 	{
-		data[i] = (long double)  num % 2;
+		data[i] = num % 2;
 		i++;
 		num = num / 2;
 	}
@@ -157,11 +138,11 @@ int CheckPalindromeHw(int* pDst, int* pSrc, unsigned int size)
 	for (p = pSrc; p < pSrc + size; p++, pDst++)
 	{
 		//macros: *p - o valor a passar, 0 - o numero da interface, FSL_DEFAULT - flags (by default)
-		putfslx(*p, 0, FSL_DEFAULT); //entrada slave stream do nosso modulo (le da memoria)
-		//xil_printf("\nRESULT hardware = %d \n", 	Xil_In32(XPAR_CHECKCOUNTPALINDROME_0_S00_AXI_BASEADDR + 0));
 
+		putfslx(*p, 0, FSL_DEFAULT); //entrada slave stream do nosso modulo (le da memoria)
 		//counter acumulativo
 		int result = Xil_In32(XPAR_CHECKCOUNTPALINDROME_0_S00_AXI_BASEADDR + 0);
+		//xil_printf("%d", result); //para imprimir o resultado escrito no register
 		Xil_Out32(XPAR_CHECKCOUNTPALINDROME_0_S00_AXI_BASEADDR + 4, result);
 		if (result==1){
 			counter=counter+1;
@@ -189,9 +170,10 @@ bool CheckCounterPalindrome(int* dstDataSW, int* dstDataHW,int counterSW, int co
 
 int main()
 {
-
+	//2184
+		//3000=BB8
+	// 3*4*16+ 4 + 4 + 4 + (bin - 16*32*4) = 2252 -> 3000 = BB8 = Stack Size
 	int srcData[N], dstDataSW[N], dstDataHW[N];
-	long double srcDataSW[N];
 	unsigned int timeElapsed;
 	int counterSW = 0;
 	int counterHW = 0;
@@ -204,98 +186,66 @@ int main()
 	timeElapsed = StopAndGetPerformanceTimer();
 	xil_printf("\n\rMemory initialization time: %d microseconds\n\r",
 			   timeElapsed / (XPAR_CPU_M_AXI_DP_FREQ_HZ / 1000000));
-	//PrintDataArray(srcData, min(16, N));
-	xil_printf("\n\r");
 
 	//------------------------------------------SOTFWARE---------------------------------------
 	RestartPerformanceTimer();
 
 	//palindromos = 9 -> indices 0, 3, 4, 6, 8, 9, 11, 13, 15
-	srcData[0] = 1704565158; //01100101100110011001100110100110
-	srcData[1] = 3023014426; //10110100001011111000101000011010
-	srcData[2] = 2492252386; //10010100100011001100000011100010
-	srcData[3] = 4294967295; //11111111111111111111111111111111
-	srcData[4] = 0; 		 //00000000000000000000000000000000
-	srcData[5] = 4230737452; //11111100001010111110111000101100
-	srcData[6] = 2702176389; //10100001000011111111000010000101
-	srcData[7] = 767213316;  //00101101101110101011111100000100
-	srcData[8] = 3536044875; //11010010110000111100001101001011
-	srcData[9] = 190593744;  //00001011010111000011101011010000
-	srcData[10] = 463115274; //00011011100110101001010000001010
-	srcData[11] = 3567625515;//11010100101001011010010100101011
-	srcData[12] = 520016216; //00011110111111101101000101011000
-	srcData[13] = 2483703849;//10010100000010100101000000101001
-	srcData[14] = 3567633678;//11010100101001011100010100001110
-	srcData[15] = 463100376; //00011011100110100101100111011000
+	srcData[0] = 1704565158; //0110 0101 1001 1001 1001 1001 1010 0110
+	srcData[1] = 35648752; 	 //0000 0010 0001 1111 1111 0100 1111 0000
+	srcData[2] = 249224586;  //0000 1110 1101 1010 1101 1101 1000 1010
+	srcData[3] = 4294967295; //1111 1111 1111 1111 1111 1111 1111 1111
+	srcData[4] = 0; 		 //0000 0000 0000 0000 0000 0000 0000 0000
+	srcData[5] = 423077452;  //0001 1001 0011 0111 1010 0110 0100 1100
+	srcData[6] = 2702176389; //1010 0001 0000 1111 1111 0000 1000 0101
+	srcData[7] = 767213316;  //0010 1101 1011 1010 1011 1111 0000 0100
+	srcData[8] = 3536044875; //1101 0010 1100 0011 1100 0011 0100 1011
+	srcData[9] = 190593744;  //0000 1011 0101 1100 0011 1010 1101 0000
+	srcData[10] = 463115274; //0001 1011 1001 1010 1001 0100 0000 1010
+	srcData[11] = 3567625515;//1101 0100 1010 0101 1010 0101 0010 1011
+	srcData[12] = 520016216; //0001 1110 1111 1110 1101 0001 0101 1000
+	srcData[13] = 2483703849;//1001 0100 0000 1010 0101 0000 0010 1001
+	srcData[14] = 356733678; //0001 0101 0100 0011 0101 0010 1110 1110
+	srcData[15] = 463100376; //0001 1011 1001 1010 0101 1001 1101 1000
 
-	srcDataSW[0] = 1704565158; //01100101100110011001100110100110
-		srcDataSW[1] = 3023014426; //10110100001011111000101000011010
-		srcDataSW[2] = 2492252386; //10010100100011001100000011100010
-		srcDataSW[3] = 4294967295; //11111111111111111111111111111111
-		srcDataSW[4] = 0; 		 //00000000000000000000000000000000
-		srcDataSW[5] = 4230737452; //11111100001010111110111000101100
-		srcDataSW[6] = 2702176389; //10100001000011111111000010000101
-		srcDataSW[7] = 767213316;  //00101101101110101011111100000100
-		srcDataSW[8] = 3536044875; //11010010110000111100001101001011
-		srcDataSW[9] = 190593744;  //00001011010111000011101011010000
-		srcDataSW[10] = 463115274; //00011011100110101001010000001010
-		srcDataSW[11] = 3567625515;//11010100101001011010010100101011
-		srcDataSW[12] = 520016216; //00011110111111101101000101011000
-		srcDataSW[13] = 2483703849;//10010100000010100101000000101001
-		srcDataSW[14] = 3567633678;//11010100101001011100010100001110
-		srcDataSW[15] = 463100376; //00011011100110100101100111011000
-
-	/*
-	for (int i = 1; i < N-1; i++){
+	/*for (int i = 0; i < N-1; i++){
 		srcData[i] = rand();
 	}*/
 
 
 	for (int i = 0;i<N;i++){
-		long double bin[MAX];
-		int size = (sizeof(bin)/sizeof(bin[0]));
-		decToBinary(bin,srcDataSW[i],size);
-		for (int i = 0;i<(sizeof(bin)/sizeof(bin[0])); i++){
-			xil_printf("%d", bin[i]);
-		}
-		xil_printf("\n");
+		int bin[MAX];
+		decToBinary(bin,srcData[i],(sizeof(bin)/sizeof(bin[0])));
 		dstDataSW[i] = CheckPalindromeSw(bin, (sizeof(bin)/sizeof(bin[0])));
 	}
 
-
-	xil_printf("\nRESULT\n");
+	/*xil_printf("\dstData - software\n");
 	for (int i = 0;i<(sizeof(dstDataSW)/sizeof(dstDataSW[0]));i++){
 		xil_printf("%d", dstDataSW[i]);
-	}
-	xil_printf("\n");
-	int size_dstData = (sizeof(dstDataSW)/sizeof(dstDataSW[0]));
-	counterSW = counter_PalindromeSW(dstDataSW, size_dstData);
+	}*/
+	//xil_printf("\n");
+
+	counterSW = counter_PalindromeSW(dstDataSW, (sizeof(dstDataSW)/sizeof(dstDataSW[0])));
 	xil_printf("\nResultado software counter -> %d", counterSW);
-	//2184
-	//3000=BB8
 
 	timeElapsed = StopAndGetPerformanceTimer();
 	xil_printf("\n\rSoftware only time: %d microseconds",
 			   timeElapsed / (XPAR_CPU_M_AXI_DP_FREQ_HZ / 1000000));
-	//PrintDataArray(dstData, min(16, N));
-
 
 //------------------------------------------HARDWARE---------------------------------------
 
-
-
 	RestartPerformanceTimer();
 
-	int sizeDst = sizeof(dstDataHW)/sizeof(dstDataHW[0]);
-	counterHW = CheckPalindromeHw(dstDataHW, srcData, sizeDst);
+	counterHW = CheckPalindromeHw(dstDataHW, srcData, (sizeof(dstDataHW)/sizeof(dstDataHW[0])));
 	xil_printf("\nResultado counter -> %d", counterHW);
-
+	//xil_printf("\ndstData - hardware\n");
 	timeElapsed = StopAndGetPerformanceTimer();
 	xil_printf("\n\rHardware assisted reverse endianness time: %d microseconds",
 				   timeElapsed / (XPAR_CPU_M_AXI_DP_FREQ_HZ / 1000000));
 
 	xil_printf("\n\rChecking result: %s\n\r",
 	    	CheckCounterPalindrome(dstDataSW, dstDataHW, counterSW, counterHW, N) ? "OK" : "Error");
+
     cleanup_platform();
     return 0;
 }

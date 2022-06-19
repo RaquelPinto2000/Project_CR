@@ -1,0 +1,25 @@
+15:28:42 **** Incremental Build of configuration Debug for project PalindromeApp ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IC:/Users/Raquel/Desktop/Project_CR/projeto2/Novapasta/mb_design_CheckCounterPalindrome/export/mb_design_CheckCounterPalindrome/sw/mb_design_CheckCounterPalindrome/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:194:14: warning: variable 'srcDataSW' set but not used [-Wunused-but-set-variable]
+  194 |  long double srcDataSW[N];
+      |              ^~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: PalindromeApp.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/Raquel/Desktop/Project_CR/projeto2/Novapasta/mb_design_CheckCounterPalindrome/export/mb_design_CheckCounterPalindrome/sw/mb_design_CheckCounterPalindrome/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PalindromeApp.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: PalindromeApp.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size PalindromeApp.elf  |tee "PalindromeApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  14852	   1400	  18532	  34784	   87e0	PalindromeApp.elf
+'Finished building: PalindromeApp.elf.size'
+' '
+
+15:28:43 Build Finished (took 821ms)
+
