@@ -3,9 +3,9 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Sat Jun 18 17:19:27 2022">
+<application name="pa" timeStamp="Sun Jun 19 11:56:40 2022">
 <section name="Project Information" visible="false">
-<property name="ProjectID" value="8c322be1818c42fea98651e5494d035e" type="ProjectID"/>
+<property name="ProjectID" value="d85a111223bb4d14b2f896e8a8657800" type="ProjectID"/>
 <property name="ProjectIteration" value="1" type="ProjectIteration"/>
 </section>
 <section name="PlanAhead Usage" visible="true">
@@ -17,34 +17,12 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
 </item>
 <item name="Java Command Handlers">
-<property name="CloseProject" value="1" type="JavaHandler"/>
-<property name="EditInIPPackagerHandler" value="1" type="JavaHandler"/>
-<property name="IPPackagerHandler" value="1" type="JavaHandler"/>
-<property name="LaunchVitis" value="1" type="JavaHandler"/>
-<property name="NewExportHardware" value="1" type="JavaHandler"/>
-</item>
-<item name="Gui Handlers">
-<property name="BaseDialog_CANCEL" value="1" type="GuiHandlerData"/>
-<property name="BaseDialog_OK" value="2" type="GuiHandlerData"/>
-<property name="ExportPlatformWizard_OUTPUT_XSA_NAME" value="1" type="GuiHandlerData"/>
-<property name="FileSetPanel_FILE_SET_PANEL_TREE" value="5" type="GuiHandlerData"/>
-<property name="MainMenuMgr_CHECKPOINT" value="1" type="GuiHandlerData"/>
-<property name="MainMenuMgr_EXPORT" value="1" type="GuiHandlerData"/>
-<property name="MainMenuMgr_FILE" value="2" type="GuiHandlerData"/>
-<property name="MainMenuMgr_IP" value="1" type="GuiHandlerData"/>
-<property name="MainMenuMgr_PROJECT" value="1" type="GuiHandlerData"/>
-<property name="MainMenuMgr_TEXT_EDITOR" value="1" type="GuiHandlerData"/>
-<property name="MainMenuMgr_TOOLS" value="2" type="GuiHandlerData"/>
-<property name="PACommandNames_EDIT_IN_IP_PACKAGER" value="1" type="GuiHandlerData"/>
-<property name="PACommandNames_EXPORT_HARDWARE" value="1" type="GuiHandlerData"/>
-<property name="RDICommands_CUSTOM_COMMANDS" value="1" type="GuiHandlerData"/>
-<property name="SelectMenu_HIGHLIGHT" value="1" type="GuiHandlerData"/>
-<property name="SystemBuilderMenu_IP_DOCUMENTATION" value="1" type="GuiHandlerData"/>
+<property name="ExitApp" value="1" type="JavaHandler"/>
 </item>
 <item name="Other">
-<property name="GuiMode" value="32" type="GuiMode"/>
+<property name="GuiMode" value="34" type="GuiMode"/>
 <property name="BatchMode" value="0" type="BatchMode"/>
-<property name="TclMode" value="24" type="TclMode"/>
+<property name="TclMode" value="25" type="TclMode"/>
 </item>
 </section>
 </application>

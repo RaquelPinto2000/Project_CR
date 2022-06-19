@@ -1,0 +1,32 @@
+13:07:14 **** Incremental Build of configuration Debug for project PalindromeApp ****
+make all 
+'Building file: ../src/CheckCounterPalidrome.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/CheckCounterPalidrome.o" -IC:/Users/Raquel/Desktop/Project_CR/projeto2/CheckCounterPalindrome/mb_design_CheckCounterPalindrome/export/mb_design_CheckCounterPalindrome/sw/mb_design_CheckCounterPalindrome/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/CheckCounterPalidrome.d" -MT"src/CheckCounterPalidrome.o" -o "src/CheckCounterPalidrome.o" "../src/CheckCounterPalidrome.c"
+../src/CheckCounterPalidrome.c: In function 'decToBinary':
+../src/CheckCounterPalidrome.c:122:12: warning: passing argument 1 of 'initArray' from incompatible pointer type [-Wincompatible-pointer-types]
+  122 |  initArray(data,size);
+      |            ^~~~
+      |            |
+      |            long double *
+../src/CheckCounterPalidrome.c:113:21: note: expected 'int *' but argument is of type 'long double *'
+  113 | void initArray(int *data, int size){
+      |                ~~~~~^~~~
+../src/CheckCounterPalidrome.c:125:32: error: invalid operands to binary % (have 'long double' and 'int')
+  125 |   data[i] = (long double)  num % 2;
+      |             ~~~~~~~~~~~~~~~~~~ ^
+      |             |
+      |             long double
+../src/CheckCounterPalidrome.c: In function 'main':
+../src/CheckCounterPalidrome.c:262:36: warning: passing argument 1 of 'CheckPalindromeSw' from incompatible pointer type [-Wincompatible-pointer-types]
+  262 |   dstDataSW[i] = CheckPalindromeSw(bin, (sizeof(bin)/sizeof(bin[0])));
+      |                                    ^~~
+      |                                    |
+      |                                    long double *
+../src/CheckCounterPalidrome.c:132:28: note: expected 'int *' but argument is of type 'long double *'
+  132 | int CheckPalindromeSw(int* pData1, int size)
+      |                       ~~~~~^~~~~~
+make: *** [src/subdir.mk:26: src/CheckCounterPalidrome.o] Error 1
+
+13:07:14 Build Finished (took 345ms)
+
