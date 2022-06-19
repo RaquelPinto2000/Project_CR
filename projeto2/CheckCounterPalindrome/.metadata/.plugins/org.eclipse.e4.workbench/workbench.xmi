@@ -3,7 +3,7 @@
   <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;CheckCounterPalidrome.c&quot; tooltip=&quot;PalindromeApp/src/CheckCounterPalidrome.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/PalindromeApp/src/CheckCounterPalidrome.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.xilinx.sdk.lscript.editor&quot; name=&quot;lscript.ld&quot; tooltip=&quot;PalindromeApp/src/lscript.ld&quot;>&#xD;&#xA;&lt;persistable path=&quot;/PalindromeApp/src/lscript.ld&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.make.editor&quot; name=&quot;Makefile&quot; tooltip=&quot;mb_design_CheckCounterPalindrome/hw/drivers/CheckCountPalindrome_v1_0/src/Makefile&quot;>&#xD;&#xA;&lt;persistable path=&quot;/mb_design_CheckCounterPalindrome/hw/drivers/CheckCountPalindrome_v1_0/src/Makefile&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.make.editor&quot; name=&quot;Makefile&quot; tooltip=&quot;mb_design_CheckCounterPalindrome/microblaze_0/standalone_microblaze_0/bsp/microblaze_0/libsrc/CheckCountPalindrome_v1_0/src/Makefile&quot;>&#xD;&#xA;&lt;persistable path=&quot;/mb_design_CheckCounterPalindrome/microblaze_0/standalone_microblaze_0/bsp/microblaze_0/libsrc/CheckCountPalindrome_v1_0/src/Makefile&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;helloworld.c&quot; tooltip=&quot;PalindromeApp/src/helloworld.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/PalindromeApp/src/helloworld.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.xilinx.sdx.ui.settingseditor&quot; name=&quot;PalindromeApp.prj&quot; tooltip=&quot;PalindromeApp/PalindromeApp.prj&quot;>&#xD;&#xA;&lt;persistable path=&quot;/PalindromeApp/PalindromeApp.prj&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_EEksQe-2Eey2gLeCbp4IQQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_EbmsMe-2Eey2gLeCbp4IQQ" x="668" y="-9" width="1280" height="720">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_EEksQe-2Eey2gLeCbp4IQQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_EbmsMe-2Eey2gLeCbp4IQQ" x="520" y="-9" width="1280" height="720">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -64,7 +64,7 @@
                   </children>
                 </children>
               </children>
-              <children xsi:type="basic:PartSashContainer" xmi:id="_Ebv2LO-2Eey2gLeCbp4IQQ" containerData="4334" selectedElement="_Ebv2Le-2Eey2gLeCbp4IQQ" horizontal="true">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_Ebv2LO-2Eey2gLeCbp4IQQ" containerData="4334" selectedElement="_Ebv2Mu-2Eey2gLeCbp4IQQ" horizontal="true">
                 <children xsi:type="basic:PartStack" xmi:id="_Ebv2Le-2Eey2gLeCbp4IQQ" elementId="org.eclipse.ui.console.ConsoleViewMStack" containerData="3594" selectedElement="_Ebv2Lu-2Eey2gLeCbp4IQQ">
                   <children xsi:type="advanced:Placeholder" xmi:id="_Ebv2Lu-2Eey2gLeCbp4IQQ" elementId="org.eclipse.ui.console.ConsoleView" ref="_EbhzsO-2Eey2gLeCbp4IQQ" closeable="true">
                     <tags>View</tags>
@@ -407,7 +407,7 @@
           <tags>com.xilinx.sdx.ui.settingseditor</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_PJ1JcO-2Eey2gLeCbp4IQQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="CheckCounterPalidrome.c" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;CheckCounterPalidrome.c&quot; partName=&quot;CheckCounterPalidrome.c&quot; title=&quot;CheckCounterPalidrome.c&quot; tooltip=&quot;PalindromeApp/src/CheckCounterPalidrome.c&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/PalindromeApp/src/CheckCounterPalidrome.c&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;7583&quot; selectionTopPixel=&quot;4579&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;CheckCounterPalidrome.c&quot; partName=&quot;CheckCounterPalidrome.c&quot; title=&quot;CheckCounterPalidrome.c&quot; tooltip=&quot;PalindromeApp/src/CheckCounterPalidrome.c&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/PalindromeApp/src/CheckCounterPalidrome.c&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;5100&quot; selectionTopPixel=&quot;3748&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.cdt.ui.editor.CEditor</tags>
@@ -436,6 +436,9 @@
         <tags>menuContribution:popup</tags>
       </menus>
       <menus xsi:type="menu:PopupMenu" xmi:id="_gsMDkO_PEeyGUOo6QtV_8A" elementId="com.xilinx.ide.projectExplorer#PopupMenu">
+        <tags>menuContribution:popup</tags>
+      </menus>
+      <menus xsi:type="menu:PopupMenu" xmi:id="_QynacO_dEeyFkZOjlr4p4w" elementId="com.xilinx.ide.projectExplorer#PopupMenu">
         <tags>menuContribution:popup</tags>
       </menus>
       <toolbar xmi:id="_ErVKQe-2Eey2gLeCbp4IQQ" elementId="com.xilinx.ide.projectExplorer"/>
@@ -3377,10 +3380,11 @@
   <addons xmi:id="_EEksVu-2Eey2gLeCbp4IQQ" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_EEksV--2Eey2gLeCbp4IQQ" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_EEqL0O-2Eey2gLeCbp4IQQ" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_DiGvAO_PEeyGUOo6QtV_8A" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <addons xmi:id="_EGfX0O-2Eey2gLeCbp4IQQ" elementId="com.xilinx.sdk.targetmanager.ui.addon.view" contributionURI="bundleclass://com.xilinx.sdk.targetmanager/com.xilinx.sdk.targetmanager.ui.ViewVisibilityAdapterAddon"/>
   <addons xmi:id="_DiX0wO_PEeyGUOo6QtV_8A" elementId="com.xilinx.sdk.targetmanager.ui.addon.view" contributionURI="bundleclass://com.xilinx.sdk.targetmanager/com.xilinx.sdk.targetmanager.ui.ViewVisibilityAdapterAddon"/>
+  <addons xmi:id="_Nuh-Ye_dEeyFkZOjlr4p4w" elementId="com.xilinx.sdk.targetmanager.ui.addon.view" contributionURI="bundleclass://com.xilinx.sdk.targetmanager/com.xilinx.sdk.targetmanager.ui.ViewVisibilityAdapterAddon"/>
   <categories xmi:id="_EE_jAO-2Eey2gLeCbp4IQQ" elementId="org.eclipse.team.ui.category.team" name="Team" description="Actions that apply when working with a Team"/>
   <categories xmi:id="_EE_jAe-2Eey2gLeCbp4IQQ" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>
   <categories xmi:id="_EE_jAu-2Eey2gLeCbp4IQQ" elementId="org.eclipse.ui.category.edit" name="Edit"/>

@@ -170,8 +170,7 @@ bool CheckCounterPalindrome(int* dstDataSW, int* dstDataHW,int counterSW, int co
 
 int main()
 {
-	//2184
-		//3000=BB8
+
 	// 3*4*16+ 4 + 4 + 4 + (bin - 16*32*4) = 2252 -> 3000 = BB8 = Stack Size
 	int srcData[N], dstDataSW[N], dstDataHW[N];
 	unsigned int timeElapsed;

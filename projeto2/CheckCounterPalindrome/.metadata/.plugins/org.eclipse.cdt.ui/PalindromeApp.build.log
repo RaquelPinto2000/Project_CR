@@ -1,6 +1,6 @@
-16:26:43 **** Incremental Build of configuration Debug for project PalindromeApp ****
+16:36:56 **** Incremental Build of configuration Debug for project PalindromeApp ****
 make all 
 make: Nothing to be done for 'all'.
 
-16:26:43 Build Finished (took 193ms)
+16:36:56 Build Finished (took 217ms)
 

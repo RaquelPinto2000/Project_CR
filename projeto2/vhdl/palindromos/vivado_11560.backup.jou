@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Jun 12 17:20:00 2022
+# Process ID: 11560
+# Current directory: C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3292 C:\Academico\UA\4ano\2semestre\CR\Pratica\Projeto\palindromos\palindromos.xpr
+# Log file: C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/vivado.log
+# Journal file: C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.xpr
+update_compile_order -fileset sources_1

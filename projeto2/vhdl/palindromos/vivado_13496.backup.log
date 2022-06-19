@@ -1,0 +1,170 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Jun 12 10:39:34 2022
+# Process ID: 13496
+# Current directory: C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11332 C:\Academico\UA\4ano\2semestre\CR\Pratica\Projeto\palindromos\palindromos.xpr
+# Log file: C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/vivado.log
+# Journal file: C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.xpr
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:06 . Memory (MB): peak = 999.379 ; gain = 0.000
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Jun 12 10:40:03 2022] Launched synth_1...
+Run output will be captured here: C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Jun 12 10:42:07 2022] Launched synth_1...
+Run output will be captured here: C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Jun 12 10:43:48 2022] Launched synth_1...
+Run output will be captured here: C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Jun 12 10:51:51 2022] Launched synth_1...
+Run output will be captured here: C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Jun 12 10:55:00 2022] Launched synth_1...
+Run output will be captured here: C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Jun 12 10:56:21 2022] Launched synth_1...
+Run output will be captured here: C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Jun 12 11:03:19 2022] Launched synth_1...
+Run output will be captured here: C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Jun 12 11:05:31 2022] Launched synth_1...
+Run output will be captured here: C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Jun 12 11:07:46 2022] Launched synth_1...
+Run output will be captured here: C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.runs/synth_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Sun Jun 12 11:08:06 2022] Launched synth_1...
+Run output will be captured here: C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Jun 12 11:09:30 2022] Launched synth_1...
+Run output will be captured here: C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Jun 12 11:12:19 2022] Launched synth_1...
+Run output will be captured here: C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Jun 12 11:13:26 2022] Launched synth_1...
+Run output will be captured here: C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Jun 12 11:15:30 2022] Launched synth_1...
+Run output will be captured here: C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Jun 12 11:16:54 2022] Launched synth_1...
+Run output will be captured here: C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Jun 12 11:20:16 2022] Launched synth_1...
+Run output will be captured here: C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Jun 12 11:22:18 2022] Launched synth_1...
+Run output will be captured here: C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.runs/synth_1/runme.log
+close [ open C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.srcs/sources_1/new/coiso_2.vhd w ]
+add_files C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.srcs/sources_1/new/coiso_2.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.srcs/sources_1/new/counter5bits.vhd w ]
+add_files C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.srcs/sources_1/new/counter5bits.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'Counter_bit(Behavioral)' found in library 'xil_defaultlib'
+Duplicate found at line 42 of file C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.srcs/sources_1/new/Counter_bit.vhd
+	(Active) Duplicate found at line 41 of file C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.srcs/sources_1/new/coiso_2.vhd
+[Sun Jun 12 11:33:33 2022] Launched synth_1...
+Run output will be captured here: C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.runs/synth_1/runme.log
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'Counter_bit(Behavioral)' found in library 'xil_defaultlib'
+Duplicate found at line 42 of file C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.srcs/sources_1/new/Counter_bit.vhd
+	(Active) Duplicate found at line 41 of file C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.srcs/sources_1/new/coiso_2.vhd
+[Sun Jun 12 11:34:41 2022] Launched synth_1...
+Run output will be captured here: C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.runs/synth_1/runme.log
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Jun 12 11:35:44 2022] Launched synth_1...
+Run output will be captured here: C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.runs/synth_1/runme.log
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TopPalindromo' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TopPalindromo_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.srcs/sources_1/new/Counter_bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Counter_bit'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.srcs/sources_1/new/counter5bits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'counter5bits'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.srcs/sources_1/new/TopPalindromo.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TopPalindromo'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.sim/sim_1/behav/xsim'
+"xelab -wto 37a32fe4ce74485683f7acb6c8d989af --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TopPalindromo_behav xil_defaultlib.TopPalindromo -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 37a32fe4ce74485683f7acb6c8d989af --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TopPalindromo_behav xil_defaultlib.TopPalindromo -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.DebounceUnit [debounceunit_default]
+Compiling architecture behavioral of entity xil_defaultlib.PulseGenerator_counter [pulsegenerator_counter_default]
+Compiling architecture behavioral of entity xil_defaultlib.PalindromoCheck [palindromocheck_default]
+Compiling architecture behavioral of entity xil_defaultlib.Counter_bit [counter_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.counter5bits [counter5bits_default]
+Compiling architecture behavioral of entity xil_defaultlib.toppalindromo
+Built simulation snapshot TopPalindromo_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TopPalindromo_behav -key {Behavioral:sim_1:Functional:TopPalindromo} -tclbatch {TopPalindromo.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.

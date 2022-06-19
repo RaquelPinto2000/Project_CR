@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Jun 19 14:54:03 2022
+# Process ID: 16248
+# Current directory: C:/Users/Raquel/Desktop/Project_CR/projeto2/Palindrome
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6264 C:\Users\Raquel\Desktop\Project_CR\projeto2\Palindrome\Palindrome.xpr
+# Log file: C:/Users/Raquel/Desktop/Project_CR/projeto2/Palindrome/vivado.log
+# Journal file: C:/Users/Raquel/Desktop/Project_CR/projeto2/Palindrome\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Raquel/Desktop/Project_CR/projeto2/Palindrome/Palindrome.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Raquel/Desktop/Project_CR/projeto2/ip_repo/CheckCountPalindrome_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:11 . Memory (MB): peak = 999.777 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Jun 19 16:27:30 2022...
