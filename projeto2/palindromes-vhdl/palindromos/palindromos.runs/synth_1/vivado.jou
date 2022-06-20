@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Jun 17 23:16:18 2022
+# Process ID: 20904
+# Current directory: C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.runs/synth_1
+# Command line: vivado.exe -log TopPalindromo.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TopPalindromo.tcl
+# Log file: C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.runs/synth_1/TopPalindromo.vds
+# Journal file: C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source TopPalindromo.tcl -notrace

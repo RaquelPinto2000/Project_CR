@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Jun 19 22:27:50 2022
+# Process ID: 1020
+# Current directory: C:/Users/Raquel/Desktop/Project_CR/projeto2/Palindrome
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2984 C:\Users\Raquel\Desktop\Project_CR\projeto2\Palindrome\Palindrome.xpr
+# Log file: C:/Users/Raquel/Desktop/Project_CR/projeto2/Palindrome/vivado.log
+# Journal file: C:/Users/Raquel/Desktop/Project_CR/projeto2/Palindrome\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Raquel/Desktop/Project_CR/projeto2/Palindrome/Palindrome.xpr
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/Raquel/Desktop/Project_CR/projeto2/Palindrome/Palindrome.srcs/sources_1/bd/mb_design/mb_design.bd}
+ipx::edit_ip_in_project -upgrade true -name CheckCountPalindrome_v1_0_project -directory C:/Users/Raquel/Desktop/Project_CR/projeto2/Palindrome/Palindrome.tmp/CheckCountPalindrome_v1_0_project c:/Users/Raquel/Desktop/Project_CR/projeto2/ip_repo/CheckCountPalindrome_1.0/component.xml
+update_compile_order -fileset sources_1
+current_project Palindrome
+current_project CheckCountPalindrome_v1_0_project
+close_project

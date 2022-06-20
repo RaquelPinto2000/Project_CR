@@ -1,8 +1,23 @@
 Nothing to build in platform 'mb_design_CheckCounterPalindrome'
 
-16:36:56 **** Incremental Build of configuration Debug for project PalindromeApp ****
+22:41:36 **** Incremental Build of configuration Debug for project PalindromeApp ****
 make all 
-make: Nothing to be done for 'all'.
-16:36:57 **** Incremental Build of configuration Debug for project PalindromeApp_system ****
+'Building file: ../src/CheckCounterPalidrome.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/CheckCounterPalidrome.o" -IC:/Users/Raquel/Desktop/Project_CR/projeto2/CheckCounterPalindrome/mb_design_CheckCounterPalindrome/export/mb_design_CheckCounterPalindrome/sw/mb_design_CheckCounterPalindrome/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/CheckCounterPalidrome.d" -MT"src/CheckCounterPalidrome.o" -o "src/CheckCounterPalidrome.o" "../src/CheckCounterPalidrome.c"
+'Finished building: ../src/CheckCounterPalidrome.c'
+' '
+'Building target: PalindromeApp.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/Raquel/Desktop/Project_CR/projeto2/CheckCounterPalindrome/mb_design_CheckCounterPalindrome/export/mb_design_CheckCounterPalindrome/sw/mb_design_CheckCounterPalindrome/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PalindromeApp.elf"  ./src/CheckCounterPalidrome.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: PalindromeApp.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size PalindromeApp.elf  |tee "PalindromeApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15152	   1400	   5144	  21696	   54c0	PalindromeApp.elf
+'Finished building: PalindromeApp.elf.size'
+' '
+22:41:37 **** Incremental Build of configuration Debug for project PalindromeApp_system ****
 make all 
 Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."

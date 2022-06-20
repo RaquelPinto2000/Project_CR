@@ -1,0 +1,41 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Jun 20 11:03:05 2022
+# Process ID: 19332
+# Current directory: C:/Users/Raquel/Desktop/Project_CR/projeto2/palindromes-vhdl/palindromos
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7388 C:\Users\Raquel\Desktop\Project_CR\projeto2\palindromes-vhdl\palindromos\palindromos.xpr
+# Log file: C:/Users/Raquel/Desktop/Project_CR/projeto2/palindromes-vhdl/palindromos/vivado.log
+# Journal file: C:/Users/Raquel/Desktop/Project_CR/projeto2/palindromes-vhdl/palindromos\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Raquel/Desktop/Project_CR/projeto2/palindromes-vhdl/palindromos/palindromos.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos' since last save.
+WARNING: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'C:/Users/Raquel/Desktop/Project_CR/projeto2/palindromes-vhdl/palindromos/palindromos.gen/sources_1', nor could it be found using path 'C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:07 . Memory (MB): peak = 999.484 ; gain = 0.000
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/Raquel/Desktop/Project_CR/projeto2/palindromes-vhdl/palindromos/palindromos.srcs/sources_1/new/git.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/Raquel/Desktop/Project_CR/projeto2/palindromes-vhdl/palindromos/palindromos.srcs/sources_1/new/git.vhd
+export_ip_user_files -of_objects  [get_files C:/Users/Raquel/Desktop/Project_CR/projeto2/palindromes-vhdl/palindromos/palindromos.srcs/sources_1/new/coiso.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/Raquel/Desktop/Project_CR/projeto2/palindromes-vhdl/palindromos/palindromos.srcs/sources_1/new/coiso.vhd
+file delete -force C:/Users/Raquel/Desktop/Project_CR/projeto2/palindromes-vhdl/palindromos/palindromos.srcs/sources_1/new/coiso.vhd
+export_ip_user_files -of_objects  [get_files C:/Users/Raquel/Desktop/Project_CR/projeto2/palindromes-vhdl/palindromos/palindromos.srcs/sources_1/new/coiso_2.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/Raquel/Desktop/Project_CR/projeto2/palindromes-vhdl/palindromos/palindromos.srcs/sources_1/new/coiso_2.vhd
+file delete -force C:/Users/Raquel/Desktop/Project_CR/projeto2/palindromes-vhdl/palindromos/palindromos.srcs/sources_1/new/coiso_2.vhd
+export_ip_user_files -of_objects  [get_files C:/Users/Raquel/Desktop/Project_CR/projeto2/palindromes-vhdl/palindromos/palindromos.srcs/sources_1/new/counter5bits.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/Raquel/Desktop/Project_CR/projeto2/palindromes-vhdl/palindromos/palindromos.srcs/sources_1/new/counter5bits.vhd
+file delete -force C:/Users/Raquel/Desktop/Project_CR/projeto2/palindromes-vhdl/palindromos/palindromos.srcs/sources_1/new/counter5bits.vhd
+export_ip_user_files -of_objects  [get_files C:/Users/Raquel/Desktop/Project_CR/projeto2/palindromes-vhdl/palindromos/palindromos.srcs/sources_1/new/CountPalindrome.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/Raquel/Desktop/Project_CR/projeto2/palindromes-vhdl/palindromos/palindromos.srcs/sources_1/new/CountPalindrome.vhd
+file delete -force C:/Users/Raquel/Desktop/Project_CR/projeto2/palindromes-vhdl/palindromos/palindromos.srcs/sources_1/new/CountPalindrome.vhd
+export_ip_user_files -of_objects  [get_files C:/Users/Raquel/Desktop/Project_CR/projeto2/palindromes-vhdl/palindromos/palindromos.srcs/sources_1/new/Counter_bit.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/Raquel/Desktop/Project_CR/projeto2/palindromes-vhdl/palindromos/palindromos.srcs/sources_1/new/Counter_bit.vhd
+file delete -force C:/Users/Raquel/Desktop/Project_CR/projeto2/palindromes-vhdl/palindromos/palindromos.srcs/sources_1/new/Counter_bit.vhd
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Jun 20 11:08:09 2022...

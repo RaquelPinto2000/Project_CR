@@ -2,10 +2,10 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Sun Jun 19 16:29:56 2022
-# Process ID: 17080
+# Start of session at: Mon Jun 20 11:25:23 2022
+# Process ID: 18536
 # Current directory: C:/Users/Raquel/Desktop/Project_CR/projeto2/Palindrome
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14056 C:\Users\Raquel\Desktop\Project_CR\projeto2\Palindrome\Palindrome.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8840 C:\Users\Raquel\Desktop\Project_CR\projeto2\Palindrome\Palindrome.xpr
 # Log file: C:/Users/Raquel/Desktop/Project_CR/projeto2/Palindrome/vivado.log
 # Journal file: C:/Users/Raquel/Desktop/Project_CR/projeto2/Palindrome\vivado.jou
 #-----------------------------------------------------------
@@ -16,7 +16,7 @@ Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Raquel/Desktop/Project_CR/projeto2/ip_repo/CheckCountPalindrome_1.0'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
-open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:09 . Memory (MB): peak = 1001.504 ; gain = 0.000
+open_project: Time (s): cpu = 00:00:25 ; elapsed = 00:00:10 . Memory (MB): peak = 1000.113 ; gain = 0.000
 update_compile_order -fileset sources_1
 open_bd_design {C:/Users/Raquel/Desktop/Project_CR/projeto2/Palindrome/Palindrome.srcs/sources_1/bd/mb_design/mb_design.bd}
 Reading block design file <C:/Users/Raquel/Desktop/Project_CR/projeto2/Palindrome/Palindrome.srcs/sources_1/bd/mb_design/mb_design.bd>...
@@ -42,11 +42,6 @@ Adding component instance block -- xilinx.com:ip:axi_timer:2.0 - axi_timer_0
 Adding component instance block -- xilinx.com:ip:fit_timer:2.0 - fit_timer_0
 Adding component instance block -- xilinx.com:user:CheckCountPalindrome:1.0 - CheckCountPalindrome_0
 Successfully read diagram <mb_design> from block design file <C:/Users/Raquel/Desktop/Project_CR/projeto2/Palindrome/Palindrome.srcs/sources_1/bd/mb_design/mb_design.bd>
-open_bd_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:16 . Memory (MB): peak = 1001.504 ; gain = 0.000
-regenerate_bd_layout
-undo
-INFO: [Common 17-17] undo 'regenerate_bd_layout'
-write_bd_layout -format pdf -orientation portrait C:/Users/Raquel/Desktop/Project_CR/projeto2/CheckCounterPalindrome.pdf
-C:/Users/Raquel/Desktop/Project_CR/projeto2/CheckCounterPalindrome.pdf
+open_bd_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:15 . Memory (MB): peak = 1000.113 ; gain = 0.000
 exit
-INFO: [Common 17-206] Exiting Vivado at Sun Jun 19 16:32:55 2022...
+INFO: [Common 17-206] Exiting Vivado at Mon Jun 20 12:18:54 2022...

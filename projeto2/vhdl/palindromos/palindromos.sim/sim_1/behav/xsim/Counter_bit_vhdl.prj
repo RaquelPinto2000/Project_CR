@@ -1,6 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../palindromos.srcs/sources_1/new/Counter_bit.vhd" \
-
-# Do not sort compile order
-nosort

@@ -1,0 +1,66 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Jun 12 11:37:31 2022
+# Process ID: 9264
+# Current directory: C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3804 C:\Academico\UA\4ano\2semestre\CR\Pratica\Projeto\palindromos\palindromos.xpr
+# Log file: C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/vivado.log
+# Journal file: C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Academico/UA/4ano/2semestre/CR/Pratica/Projeto/palindromos/palindromos.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source TopPalindromo.tcl
+run 500 us
+run 500 ns
+run 500 ns
+close_sim
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_simulation
+source TopPalindromo.tcl
+current_wave_config {Untitled 2}
+report_drivers {/TopPalindromo/clk}
+relaunch_sim
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Counter_bit [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_simulation
+source Counter_bit.tcl
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top counter5bits [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_simulation
+source Counter_bit.tcl
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top TopPalindromo [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
